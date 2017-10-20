@@ -11,7 +11,7 @@ Facebook::Messenger::Subscriptions.subscribe(access_token: ENV["ACCESS_TOKEN"])
 # API_URL = 'https://maps.googleapis.com/maps/api/geocode/json?address='
  
 Bot.on :message do |message|
-    message.reply(text: "Received '#{message.inspect}' from #{message.sender}"
+    message.reply(text: "Received '#{message.inspect}' from #{message.sender}")
 end
 
 # Bot.on :message do |message|
