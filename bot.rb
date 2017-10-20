@@ -1,3 +1,4 @@
+require 'dotenv/load'
 require 'json'
 require 'httparty'
 require 'facebook/messenger'
