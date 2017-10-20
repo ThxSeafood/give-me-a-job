@@ -1,13 +1,10 @@
 require 'sinatra'
-require 'yaml'
-
-config = YAML.safe_load(File.read('config/secrets.yml'))
 
 # NOTE: ENV variables should be set directly in terminal for testing on localhost
 
 # Talk to Facebook
 get '/webhook' do
-  params['hub.challenge'] if config['VERIFY_TOKEN'] == params['hub.verify_token']
+  params['hub.challenge'] if ENV["VERIFY_TOKEN"] == params['hub.verify_token']
 end
 
 get "/" do
