@@ -17,7 +17,7 @@ API_URL = 'https://maps.googleapis.com/maps/api/geocode/json?address='
 Bot.on :message do |message|
     puts "Received '#{message.inspect}' from #{message.sender}" # debug purposes
     parsed_response = get_parsed_response(API_URL, message.text) # talk to Google API
-    # message.type # trick user into thinking we type something with our fingers, HA HA HA
+    message.typing_on # trick user into thinking we type something with our fingers, HA HA HA
     coord = extract_coordinates(parsed_response) # we have a separate method for that
     message.reply(text: "Latitude: #{coord['lat']}, Longitude: #{coord['lng']}")
 end
