@@ -1,3 +1,4 @@
-config/*
+config/
 ngrok
 .DS_Store
+coverage/
