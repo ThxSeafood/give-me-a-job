@@ -4,7 +4,7 @@ require_relative 'spec_helper.rb'
 
 describe 'Tests ThxSeafood library' do
   API_VER = 'api/v0.1'.freeze
-  CASSETTE_FILE = 'thxseafood_api'.freeze
+  CASSETTE_FILE = 'thxseafood_api'.freeze # 不知道為何，用rake執行spec時就不會產生cassette，只會產生job_spec的，但如果不用rake，直接用ruby執行spec/api_spec就可
 
   before do
     VCR.insert_cassette CASSETTE_FILE,

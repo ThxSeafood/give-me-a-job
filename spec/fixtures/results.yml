@@ -1,6 +1,63 @@
 ---
-size: '61'
+size: '63'
 contents:
+- JOB: Internet 程式設計師
+  LINK: http://www.ytsys.com
+  NAME: 元太數位科技有限公司
+- JOB: NVR Internet (Sr.) Engineer
+  LINK: http://www.asustor.com/
+  NAME: ASUSTOR_華芸科技股份有限公司
+- JOB: '日文營業/顧問人員 【大手日商Internet廣告公司的Marketing/業務及顧問！】(日商) #499'
+  LINK: http://www.inte.com.tw/
+  NAME: 台灣英創管理顧問股份有限公司
+- JOB: "【高薪聘請】Internet程式設計師"
+  LINK: ''
+  NAME: 博發科技有限公司
+- JOB: 網站/網頁/Internet 工程師 - 兼職/工讀/實習 -
+  LINK: http://www.alvosenet.com
+  NAME: 同記科技有限公司
+- JOB: 網站/網頁/Internet 工程師
+  LINK: http://www.alvosenet.com
+  NAME: 同記科技有限公司
+- JOB: Internet 工程師
+  LINK: http://www.smarttaxi.com.tw
+  NAME: 叫車通資訊股份有限公司
+- JOB: "【總公司】Internet程式設計師1"
+  LINK: http://www.eyecenter.com.tw
+  NAME: 大學光學科技股份有限公司_眼鏡/眼科/醫美
+- JOB: Internet程式設計師
+  LINK: http://www.masterlink.com.tw
+  NAME: 元富證券股份有限公司
+- JOB: Internet程式設計師、軟體設計工程師
+  LINK: http://www.itpac.org  www.8899.vn
+  NAME: 社團法人中華民國網路拓展貿易協會
+- JOB: Internet Marketing assistant Manager
+  LINK: www.orbsoar.com
+  NAME: 日昇昌環球貿易股份有限公司
+- JOB: Internet 網頁設計師
+  LINK: www.qsf.tw
+  NAME: 全勝發網路資訊股份有限公司
+- JOB: 資訊部-Internet程式設計師
+  LINK: www.startravel.com.tw
+  NAME: 燦星國際旅行社股份有限公司
+- JOB: Internet程式設計師
+  LINK: www.rtc.com.tw
+  NAME: 潤弘精密工程事業股份有限公司
+- JOB: Internet前端工程師
+  LINK: http://www.arplanet.com.tw
+  NAME: 宇萌數位科技股份有限公司
+- JOB: 107年度研發替代役-Internet 網路工程師
+  LINK: www.Ruten.com.tw
+  NAME: 露天市集國際資訊股份有限公司
+- JOB: Internet程式設計師 (GCS-2)
+  LINK: http://www.supergeotek.com/
+  NAME: 崧旭資訊股份有限公司
+- JOB: Internet程式設計師
+  LINK: ''
+  NAME: 伊賀本數位資訊股份有限公司
+- JOB: Internet程式設計師 .NET (台北)
+  LINK: http://www.inwellcom.com
+  NAME: 英威康科技股份有限公司
 - JOB: Internet程式設計師
   LINK: www.top-sales.com.tw
   NAME: 業務人資訊有限公司
@@ -22,9 +79,6 @@ contents:
 - JOB: I148 電子商務-Internet開發工程師
   LINK: http://www.taiwanmobile.com/index.html
   NAME: 台灣大哥大股份有限公司
-- JOB: Internet程式設計師
-  LINK: www.e-traveler.com.tw
-  NAME: TRAVELER_旅行者股份有限公司
 - JOB: Internet/Mobile Front-End 程式設計師
   LINK: http://www.alliance.tw
   NAME: 香港商一聯系統有限公司
@@ -58,12 +112,6 @@ contents:
 - JOB: General Manager (Internet Industry) 202 WH
   LINK: www.manpower.com.tw
   NAME: 萬寶華企業管理顧問股份有限公司
-- JOB: Internet Reputation PR Specialist
-  LINK: ''
-  NAME: 貝里斯商鵬達管理顧問有限公司台灣分公司
-- JOB: "【總公司】Internet程式設計師-2"
-  LINK: http://www.eyecenter.com.tw
-  NAME: 大學光學科技股份有限公司_眼鏡/眼科/醫美
 - JOB: Internet/App 網頁工程師
   LINK: http://www.tvgame.com.tw
   NAME: 智焰有限公司
@@ -100,54 +148,21 @@ contents:
 - JOB: S-Internet程式設計師(資訊處)-證券(亞洲)
   LINK: http://www.sinopac.com
   NAME: 永豐金融控股股份有限公司 (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)
-- JOB: "【高薪聘請】Internet程式設計師"
-  LINK: ''
-  NAME: 博發科技有限公司
-- JOB: Internet 程式設計師
-  LINK: http://www.ytsys.com
-  NAME: 元太數位科技有限公司
-- JOB: 107年度研發替代役-Internet 網路工程師
-  LINK: www.Ruten.com.tw
-  NAME: 露天市集國際資訊股份有限公司
 - JOB: 網站(Internet)程式設計師
   LINK: www.e21mm.com
   NAME: 摩奇創意股份有限公司
-- JOB: NVR Internet (Sr.) Engineer
-  LINK: http://www.asustor.com/
-  NAME: ASUSTOR_華芸科技股份有限公司
-- JOB: Internet 工程師
-  LINK: http://www.smarttaxi.com.tw
-  NAME: 叫車通資訊股份有限公司
-- JOB: Internet程式設計師 (GCS-2)
-  LINK: http://www.supergeotek.com/
-  NAME: 崧旭資訊股份有限公司
 - JOB: Internet程式設計師(近中山國中捷運站)-台北市
   LINK: www.panbor.com.tw
   NAME: 潘柏家具股份有限公司
-- JOB: Internet前端工程師
-  LINK: http://www.arplanet.com.tw
-  NAME: 宇萌數位科技股份有限公司
-- JOB: Internet 網頁設計師
-  LINK: www.qsf.tw
-  NAME: 全勝發網路資訊股份有限公司
 - JOB: PD2412 Internet 程式設計師 Software Engineer For NVR
   LINK: https://www.acti.com/corpweb/JoinUs/ACTiCareer.aspx
   NAME: 建騰創達科技股份有限公司
-- JOB: Internet程式設計師
-  LINK: www.rtc.com.tw
-  NAME: 潤弘精密工程事業股份有限公司
-- JOB: 資訊部-Internet程式設計師
-  LINK: www.startravel.com.tw
-  NAME: 燦星國際旅行社股份有限公司
 - JOB: Internet程式設計師
   LINK: http://www.jrsys.com.tw/
   NAME: 捷而思股份有限公司
 - JOB: Internet程式設計師
   LINK: www.ready-market.com
   NAME: 環球暢貨行銷股份有限公司
-- JOB: Internet程式設計師
-  LINK: http://www.masterlink.com.tw
-  NAME: 元富證券股份有限公司
 - JOB: Internet軟體工程師(電子商務部 徵才)
   LINK: www.bankpro.com.tw
   NAME: 金財通商務科技服務股份有限公司
@@ -157,18 +172,9 @@ contents:
 - JOB: Internet軟體工程師(C#.Net)(企業事業群-流通事業部)
   LINK: www.bankpro.com.tw
   NAME: 金財通商務科技服務股份有限公司
-- JOB: Internet程式設計師、軟體設計工程師
-  LINK: http://www.itpac.org  www.8899.vn
-  NAME: 社團法人中華民國網路拓展貿易協會
-- JOB: Internet Marketing assistant Manager
-  LINK: www.orbsoar.com
-  NAME: 日昇昌環球貿易股份有限公司
 - JOB: Internet程式工程師
   LINK: www.foodchina.com.tw
   NAME: 中華食物網_中華全球食物股份有限公司
-- JOB: '日文營業/顧問人員 【大手日商Internet廣告公司的Marketing/業務及顧問！】(日商) #499'
-  LINK: http://www.inte.com.tw/
-  NAME: 台灣英創管理顧問股份有限公司
 - JOB: Internet軟體工程師(C#)(企業處-物流部)
   LINK: www.bankpro.com.tw
   NAME: 金財通商務科技服務股份有限公司
