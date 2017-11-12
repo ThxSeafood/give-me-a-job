@@ -16,7 +16,7 @@ describe 'Tests ThxSeafood library' do
     VCR.eject_cassette
   end
 
-  describe 'Jobs information' do
+  describe 'Job information' do
     it 'HAPPY: should provide correct jobs attributes' do
       get "#{API_VER}/#{KEYWORDS}"
       _(last_response.status).must_equal 200

@@ -23,8 +23,8 @@ describe 'Tests Praise library' do
 
     describe 'Job information' do
         before do
-            api = ThxSeafood::104::Api.new
-            job_mapper = ThxSeafood::104::JobMapper.new(api)
+            api = ThxSeafood::A104::Api.new
+            job_mapper = ThxSeafood::A104::JobMapper.new(api)
             @jobs = job_mapper.load_several(KEYWORDS)
         end
 

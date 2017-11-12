@@ -3,7 +3,7 @@
 require 'http'
 
 module ThxSeafood
-  module 104
+  module A104
   # Gateway class to talk to 104 API
     class Api
       module Errors
@@ -32,17 +32,17 @@ module ThxSeafood
         end
       end
 
-      def initialize(cache: {})
-        @cache = cache
+      def initialize()
+        
       end
   
       def jobs_data(keywords)
-        url = Api.self_query_path(keywords)
+        url = Api.query_path(keywords)
         jobs_datas = JSON.parse(call_104_url(url).body)['data']
         # jobs_datas.map { |job_data| Jobs.new(job_data) }
       end
 
-      def self_query_path(keywords)
+      def self.query_path(keywords)
           'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords + '&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000'
       end
 
@@ -52,8 +52,8 @@ module ThxSeafood
         # result = @cache.fetch(url) do
         result = HTTP.get(url)
         # end
-        Response.new(response).response_or_error
+        Response.new(result).response_or_error
       end
-
+    end  
   end
 end

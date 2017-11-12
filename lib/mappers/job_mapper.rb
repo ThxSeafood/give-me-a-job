@@ -2,7 +2,7 @@
 
 module ThxSeafood
   # Provides access to job data
-  module 104
+  module A104
     # Data Mapper for 104 jobs
     class JobMapper
       def initialize(gateway)

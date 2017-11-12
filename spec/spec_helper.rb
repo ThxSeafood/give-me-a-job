@@ -15,7 +15,7 @@ require 'webmock'
 require_relative 'test_load_all'
 
 
-KEYWORDS = 'Internet程式設計師'.freeze
+KEYWORDS = 'Internet'.freeze
 
 # RESPONSE = YAML.load(File.read('spec/fixtures/response.yml'))
 
