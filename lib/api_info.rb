@@ -2,7 +2,7 @@ require 'http'
 require 'yaml'
 require 'json'
 
-config = YAML.safe_load(File.read('config/secrets.yml'))
+# config = YAML.safe_load(File.read('config/secrets.yml'))
 
 def api_path(keywords)
   'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords + '&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000'
