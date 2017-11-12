@@ -38,11 +38,17 @@ module ThxSeafood
 
       routing.on 'api' do
         # /api/v0.1 branch
+        routing.is do
+          {api: "api"}
+        end
+        routing.get "v0.1" do
+          {version: "v0.1"}
+        end
         routing.on 'v0.1' do
           # /api/v0.1/:keywords branch
           routing.on 'jobs', String do |keywords|
-            A104_api = A104::Api.new
-            job_mapper = A104::JobMapper.new(A104_api)
+            api = A104::Api.new
+            job_mapper = A104::JobMapper.new(api)
             begin
               jobs = job_mapper.load_several(keywords)
             rescue StandardError
@@ -51,7 +57,7 @@ module ThxSeafood
 
             # GET /api/v0.1/:keywords request
             routing.is do
-              { jobs: jobs.map{:to_h} }
+              { jobs: jobs.map{|job| job.to_h}}
             end
           end
         end

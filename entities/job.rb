@@ -10,9 +10,10 @@ module ThxSeafood
       attribute :link, Types::Strict::String
       attribute :company, Types::Strict::String
 
-      def initialize(job_data)
-        @job = job_data
-      end
+      # 這段如果寫了還沒加super，就會把Dry::Struct的初始化給蓋掉，會寫不進去東西
+      # def initialize(job_data)
+      #   @job = job_data
+      # end
   
       # def name
       #   @job['JOB']

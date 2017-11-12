@@ -14,7 +14,7 @@ require 'webmock'
 
 require_relative 'test_load_all'
 
-
+# 注意，rack-test的URI只能輸入ASCII瑪，也就是說不能在裡面放中文字，所以KEYWORDS這裡只能寫英文
 KEYWORDS = 'Internet'.freeze
 
 # RESPONSE = YAML.load(File.read('spec/fixtures/response.yml'))

@@ -18,7 +18,7 @@ describe 'Tests ThxSeafood library' do
 
   describe 'Job information' do
     it 'HAPPY: should provide correct jobs attributes' do
-      get "#{API_VER}/#{KEYWORDS}"
+      get "#{API_VER}/jobs/#{KEYWORDS}"
       _(last_response.status).must_equal 200
       jobs_data = JSON.parse last_response.body
       _(jobs_data.size).must_be :>, 0
