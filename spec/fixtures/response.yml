@@ -1,6 +1,5 @@
 ---
-? http://www.104.com.tw/i/apis/jobsearch.cfm?kws=Internet程式設計師&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000
-: !ruby/object:HTTP::Response
+http://www.104.com.tw/i/apis/jobsearch.cfm?kws=Internet&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000: !ruby/object:HTTP::Response
   version: '1.1'
   uri: !ruby/object:HTTP::URI
     uri: !ruby/object:Addressable::URI
@@ -8,9 +7,9 @@
       scheme: http
       host: www.104.com.tw
       path: "/i/apis/jobsearch.cfm"
-      query: kws=Internet程式設計師&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000
+      query: kws=Internet&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000
       authority: www.104.com.tw
-      uri_string: http://www.104.com.tw/i/apis/jobsearch.cfm?kws=Internet程式設計師&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000
+      uri_string: http://www.104.com.tw/i/apis/jobsearch.cfm?kws=Internet&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000
       password: 
       user: 
       port: 
@@ -22,11 +21,11 @@
   headers: !ruby/object:HTTP::Headers
     pile:
     - - Date
-      - Sun, 12 Nov 2017 07:58:06 GMT
+      - Sun, 12 Nov 2017 10:33:42 GMT
     - - Content-Type
       - text/html;charset=UTF-8
     - - Content-Length
-      - '7885'
+      - '8010'
     - - Connection
       - close
     - - Vary
@@ -58,7 +57,8 @@
       keep_alive: false
     connection: *1
     streaming: false
-    contents: '{"RECORDCOUNT":"61","PAGECOUNT":"61","PAGE":"1","TOTALPAGE":"1","data":[{"JOB":"Internet程式設計師","LINK":"www.top-sales.com.tw","NAME":"業務人資訊有限公司"},{"JOB":"Internet程式設計師","LINK":"http://www.hsin-yi.org.tw","NAME":"財團法人信誼基金會"},{"JOB":"Internet程式設計師
+    contents: '{"RECORDCOUNT":"62","PAGECOUNT":"62","PAGE":"1","TOTALPAGE":"1","data":[{"JOB":"Internet程式設計師
+      .NET (台北)","LINK":"http://www.inwellcom.com","NAME":"英威康科技股份有限公司"},{"JOB":"Internet程式設計師","LINK":"www.top-sales.com.tw","NAME":"業務人資訊有限公司"},{"JOB":"Internet程式設計師","LINK":"http://www.hsin-yi.org.tw","NAME":"財團法人信誼基金會"},{"JOB":"Internet程式設計師
       (GCS-1)","LINK":"http://www.supergeotek.com/","NAME":"崧旭資訊股份有限公司"},{"JOB":"Internet程式設計師/軟體設計工程師","LINK":"http://www.airspace.com.tw","NAME":"AIR
       SPACE_新地國際精品行"},{"JOB":"數位科技部-Internet程式設計師(數位業務系統科)","LINK":"http://www.fubon.com/life/home","NAME":"富邦人壽保險股份有限公司(總公司)"},{"JOB":"數位科技部-Internet程式設計師(行動業務系統科)","LINK":"http://www.fubon.com/life/home","NAME":"富邦人壽保險股份有限公司(總公司)"},{"JOB":"I148
       電子商務-Internet開發工程師","LINK":"http://www.taiwanmobile.com/index.html","NAME":"台灣大哥大股份有限公司"},{"JOB":"Internet程式設計師","LINK":"www.e-traveler.com.tw","NAME":"TRAVELER_旅行者股份有限公司"},{"JOB":"Internet/Mobile

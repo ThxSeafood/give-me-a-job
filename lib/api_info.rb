@@ -15,7 +15,7 @@ end
 response = {}
 results = {}
 
-url = api_path('Internet程式設計師')
+url = api_path('Internet')
 response[url] = call_104_url(url)
 
 results['size'] = response[url]["RECORDCOUNT"]
