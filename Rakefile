@@ -6,6 +6,11 @@ task :default do
   puts `rake -T`
 end
 
+desc 'update search results'
+task :update do
+  sh 'ruby spec/fixtures/api_info.rb'
+end
+
 desc 'run tests'
 Rake::TestTask.new(:spec) do |t|
   t.pattern = 'spec/*_spec.rb'
