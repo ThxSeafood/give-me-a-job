@@ -17,10 +17,10 @@ describe 'Tests ThxSeafood library' do
   end
 
   describe 'Job information' do
-    before do
-      # DatabaseCleaner.clean
-      Rake::Task['db:reset'].invoke
-    end
+    # before do
+    #   # DatabaseCleaner.clean
+    #   Rake::Task['db:reset'].invoke
+    # end
 
     describe "POSTting to create entities from 104" do
       it 'HAPPY: should retrieve and store jobs' do
