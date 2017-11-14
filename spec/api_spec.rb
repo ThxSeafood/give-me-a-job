@@ -17,11 +17,42 @@ describe 'Tests ThxSeafood library' do
   end
 
   describe 'Job information' do
-    it 'HAPPY: should provide correct jobs attributes' do
-      get "#{API_VER}/jobs/#{KEYWORDS}"
-      _(last_response.status).must_equal 200
-      jobs_data = JSON.parse last_response.body
-      _(jobs_data.size).must_be :>, 0
+    before do
+      # DatabaseCleaner.clean
+      Rake::Task['db:reset'].invoke
+    end
+
+    describe "POSTting to create entities from 104" do
+      it 'HAPPY: should retrieve and store jobs' do
+        post "#{API_VER}/jobs/#{KEYWORDS}"
+        _(last_response.status).must_equal 201
+        _(last_response.header['Location'].size).must_be :>, 0
+        jobs_data = JSON.parse last_response.body
+        _(jobs_data.size).must_be :>, 0
+      end
+
+      it 'SAD: should report error if no result found' do
+        post "#{API_VER}/jobs/error_name"
+        _(last_response.status).must_equal 404
+      end
+    end
+
+    describe "GETing database entities" do
+      before do
+        post "#{API_VER}/jobs/#{KEYWORDS}"
+      end
+
+      it 'HAPPY: should find stored repo and collaborators' do
+        get "#{API_VER}/jobs/#{KEYWORDS}"
+        _(last_response.status).must_equal 200
+        jobs_data = JSON.parse last_response.body
+        _(jobs_data.size).must_be :>, 0
+      end
+
+      it 'SAD: should report error if no database job entity found' do
+        get "#{API_VER}/jobs/error_name"
+        _(last_response.status).must_equal 404
+      end
     end
   end
 end

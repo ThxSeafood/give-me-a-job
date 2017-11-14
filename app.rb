@@ -15,18 +15,12 @@
 
 require 'roda'
 require 'econfig'
-require_relative 'lib/init.rb'
 
 module ThxSeafood
   # Web API
   class Api < Roda
-    plugin :environments
     plugin :json
     plugin :halt
-
-    extend Econfig::Shortcut
-    Econfig.env = environment.to_s
-    Econfig.root = '.'
 
     route do |routing|
       app = Api
@@ -38,26 +32,42 @@ module ThxSeafood
 
       routing.on 'api' do
         # /api/v0.1 branch
+
         routing.is do
           {api: "api"}
         end
         routing.get "v0.1" do
           {version: "v0.1"}
         end
+
         routing.on 'v0.1' do
-          # /api/v0.1/:keywords branch
-          routing.on 'jobs', String do |keywords|
-            api = A104::Api.new
-            job_mapper = A104::JobMapper.new(api)
-            begin
-              jobs = job_mapper.load_several(keywords)
-            rescue StandardError
-              routing.halt(404, error: 'No results')
+          # /api/v0.1/job branch
+          routing.on 'job', String do |jobname|
+
+            # 這邊得改成回傳jobname裡包含keywords的job entity array (得改寫Jobs，也許要加個方法)
+            # GET /api/v0.1/jobs/:keywords request
+            routing.get do
+              job = Repository::For[Entity::Job]
+                     .find_jobname(jobname)
+
+              routing.halt(404, error: 'Job not found') unless job
+              job.to_h
             end
 
-            # GET /api/v0.1/:keywords request
-            routing.is do
-              { jobs: jobs.map{|job| job.to_h}}
+            # POST /api/v0.1/jobs/:jobname
+            routing.post do
+              api = A104::Api.new
+              job_mapper = A104::JobMapper.new(api)
+              begin                
+                jobs = job_mapper.load_several(jobname)
+              rescue StandardError
+                routing.halt(404, error: "No result")
+              end
+
+              stored_jobs = jobs.map{ |job| Repository::For[Entity::Job].find_or_create(job) }
+              response.status = 201
+              response['Location'] = "/api/v0.1/jobs/#{jobname}"
+              stored_jobs.map{ |job| job.to_h }
             end
           end
         end

@@ -4,7 +4,7 @@ require 'dry-struct'
 
 module ThxSeafood
   module Entity
-    # Domain entity object for git contributors
+    # Domain entity object for 104 job
     class Job < Dry::Struct
       attribute :name, Types::Strict::String
       attribute :link, Types::Strict::String

@@ -1,4 +1,5 @@
-config/
+config/secrets.yml
 ngrok
 .DS_Store
 coverage/
+*.db
