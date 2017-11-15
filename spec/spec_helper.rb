@@ -14,8 +14,8 @@ require 'webmock'
 
 require_relative 'test_load_all'
 
-# load 'Rakefile'
-# Rake::Task['db:reset'].invoke
+load 'Rakefile'
+Rake::Task['db:reset'].invoke
 
 # 注意，rack-test的URI只能輸入ASCII瑪，也就是說不能在裡面放中文字，所以KEYWORDS這裡只能寫英文
 KEYWORDS = 'Internet'.freeze

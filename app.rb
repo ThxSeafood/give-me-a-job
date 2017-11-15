@@ -42,16 +42,16 @@ module ThxSeafood
 
         routing.on 'v0.1' do
           # /api/v0.1/job branch
-          routing.on 'job', String do |jobname|
+          routing.on 'jobs', String do |jobname|
 
             # 這邊得改成回傳jobname裡包含keywords的job entity array (得改寫Jobs，也許要加個方法)
             # GET /api/v0.1/jobs/:keywords request
             routing.get do
-              job = Repository::For[Entity::Job]
-                     .find_jobname(jobname)
+              jobs = Repository::For[Entity::Job]
+                     .find_jobs_by_blank_link()
 
-              routing.halt(404, error: 'Job not found') unless job
-              job.to_h
+              routing.halt(404, error: 'Job not found') unless jobs
+              jobs.map{ |job| job.to_h }
             end
 
             # POST /api/v0.1/jobs/:jobname
@@ -64,7 +64,7 @@ module ThxSeafood
                 routing.halt(404, error: "No result")
               end
 
-              stored_jobs = jobs.map{ |job| Repository::For[Entity::Job].find_or_create(job) }
+              stored_jobs = jobs.map{ |job| Repository::For[job.class].find_or_create(job) }
               response.status = 201
               response['Location'] = "/api/v0.1/jobs/#{jobname}"
               stored_jobs.map{ |job| job.to_h }

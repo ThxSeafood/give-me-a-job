@@ -1,6 +1,21 @@
 ---
-size: '63'
+size: '61'
 contents:
+- JOB: Internet程式設計師
+  LINK: ''
+  NAME: 台灣旅圖資訊股份有限公司
+- JOB: 研發部-Internet 程式設計師
+  LINK: http://www.cayennetech.com.tw/
+  NAME: 紅心辣椒娛樂科技股份有限公司
+- JOB: Internet 工程師
+  LINK: www.habook.com.tw
+  NAME: 網奕資訊科技股份有限公司
+- JOB: 系統部 PHP網站資深工程師/工程師 (Sr. Internet Engineer / Internet Engineer)
+  LINK: http://www.charmingmall.com.tw/
+  NAME: 俏美魔國際行銷有限公司
+- JOB: Backend Engineer Internet PHP HTML CSS  JAVASCRIPT 程式設計師 後端工程師
+  LINK: http://www.ritocoinc.com
+  NAME: 力拓移動國際有限公司
 - JOB: Internet 程式設計師
   LINK: http://www.ytsys.com
   NAME: 元太數位科技有限公司
@@ -13,12 +28,6 @@ contents:
 - JOB: "【高薪聘請】Internet程式設計師"
   LINK: ''
   NAME: 博發科技有限公司
-- JOB: 網站/網頁/Internet 工程師 - 兼職/工讀/實習 -
-  LINK: http://www.alvosenet.com
-  NAME: 同記科技有限公司
-- JOB: 網站/網頁/Internet 工程師
-  LINK: http://www.alvosenet.com
-  NAME: 同記科技有限公司
 - JOB: Internet 工程師
   LINK: http://www.smarttaxi.com.tw
   NAME: 叫車通資訊股份有限公司
@@ -115,30 +124,15 @@ contents:
 - JOB: Internet/App 網頁工程師
   LINK: http://www.tvgame.com.tw
   NAME: 智焰有限公司
-- JOB: Backend Engineer Internet PHP HTML CSS  JAVASCRIPT 程式設計師 後端工程師
-  LINK: http://www.ritocoinc.com
-  NAME: 力拓移動國際有限公司
 - JOB: Internet程式設計師
   LINK: http://www.u-car.com.tw
   NAME: 旭傳媒科技股份有限公司
-- JOB: 系統部 PHP網站資深工程師/工程師 (Sr. Internet Engineer / Internet Engineer)
-  LINK: http://www.charmingmall.com.tw/
-  NAME: 俏美魔國際行銷有限公司
 - JOB: Internet Reputation PR Specialist
   LINK: ''
   NAME: 慶真國際有限公司
-- JOB: Internet 工程師
-  LINK: www.habook.com.tw
-  NAME: 網奕資訊科技股份有限公司
-- JOB: 研發部-Internet 程式設計師
-  LINK: http://www.cayennetech.com.tw/
-  NAME: 紅心辣椒娛樂科技股份有限公司
 - JOB: "(Senior) Internet Engineer"
   LINK: http://www.futuredial.com/
   NAME: 美商世紀新訊股份有限公司台灣分公司
-- JOB: Internet程式設計師
-  LINK: ''
-  NAME: 台灣旅圖資訊股份有限公司
 - JOB: Internet程式工程師
   LINK: http://blog.iprefer.com.tw
   NAME: 奇禾互動行銷有限公司
