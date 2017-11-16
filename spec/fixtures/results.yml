@@ -1,6 +1,54 @@
 ---
-size: '61'
+size: '62'
 contents:
+- JOB: Internet Java 程式設計師
+  LINK: http://www.brix.com.tw
+  NAME: 英科資訊科技有限公司
+- JOB: Internet程式設計師(每週五可提早下班/需具備基礎網站架設經驗)
+  LINK: funday.asia
+  NAME: 智擎數位科技股份有限公司
+- JOB: Internet程式設計師
+  LINK: http://www.jrsys.com.tw/
+  NAME: 捷而思股份有限公司
+- JOB: D0125  解決方案行銷專員IoMT (Internet of Medical Things)
+  LINK: www.compal.com
+  NAME: 仁寶電腦工業股份有限公司
+- JOB: Internet程式工程師
+  LINK: http://blog.iprefer.com.tw
+  NAME: 奇禾互動行銷有限公司
+- JOB: D0124 醫療業務開發IoMT (Internet of Medical Things)
+  LINK: www.compal.com
+  NAME: 仁寶電腦工業股份有限公司
+- JOB: "(Senior) Internet Engineer"
+  LINK: http://www.futuredial.com/
+  NAME: 美商世紀新訊股份有限公司台灣分公司
+- JOB: Internet程式設計師
+  LINK: www.edom.com.tw
+  NAME: 益登科技股份有限公司
+- JOB: 網站(Internet)程式設計師
+  LINK: www.e21mm.com
+  NAME: 摩奇創意股份有限公司
+- JOB: General Manager (Internet Industry) 202 WH
+  LINK: www.manpower.com.tw
+  NAME: 萬寶華企業管理顧問股份有限公司
+- JOB: Java Internet工程師
+  LINK: http://www.frog-jump.com/
+  NAME: 德義資訊股份有限公司
+- JOB: Sr. Java Internet工程師
+  LINK: http://www.frog-jump.com/
+  NAME: 德義資訊股份有限公司
+- JOB: Sr. Asp.Net Internet工程師
+  LINK: http://www.frog-jump.com/
+  NAME: 德義資訊股份有限公司
+- JOB: Asp.Net Internet工程師
+  LINK: http://www.frog-jump.com/
+  NAME: 德義資訊股份有限公司
+- JOB: "(Taipei) Asp.Net Internet工程師"
+  LINK: http://www.frog-jump.com/
+  NAME: 德義資訊股份有限公司
+- JOB: "【總公司】Internet程式設計師-2"
+  LINK: http://www.eyecenter.com.tw
+  NAME: 大學光學科技股份有限公司_眼鏡/眼科/醫美
 - JOB: Internet程式設計師
   LINK: ''
   NAME: 台灣旅圖資訊股份有限公司
@@ -31,15 +79,9 @@ contents:
 - JOB: Internet 工程師
   LINK: http://www.smarttaxi.com.tw
   NAME: 叫車通資訊股份有限公司
-- JOB: "【總公司】Internet程式設計師1"
-  LINK: http://www.eyecenter.com.tw
-  NAME: 大學光學科技股份有限公司_眼鏡/眼科/醫美
 - JOB: Internet程式設計師
   LINK: http://www.masterlink.com.tw
   NAME: 元富證券股份有限公司
-- JOB: Internet程式設計師、軟體設計工程師
-  LINK: http://www.itpac.org  www.8899.vn
-  NAME: 社團法人中華民國網路拓展貿易協會
 - JOB: Internet Marketing assistant Manager
   LINK: www.orbsoar.com
   NAME: 日昇昌環球貿易股份有限公司
@@ -91,69 +133,30 @@ contents:
 - JOB: Internet/Mobile Front-End 程式設計師
   LINK: http://www.alliance.tw
   NAME: 香港商一聯系統有限公司
-- JOB: Internet程式設計師
-  LINK: www.edom.com.tw
-  NAME: 益登科技股份有限公司
 - JOB: Senior HRBP (Internet Industry)
   LINK: http://www.pplesearch.com/
   NAME: 新加坡商艾得克有限公司台灣分公司
 - JOB: Internet 工程師
   LINK: www.newsoft.com.tw
   NAME: 力新國際科技股份有限公司
-- JOB: Internet Java 程式設計師
-  LINK: http://www.brix.com.tw
-  NAME: 英科資訊科技有限公司
-- JOB: Java Internet工程師
-  LINK: http://www.frog-jump.com/
-  NAME: 德義資訊股份有限公司
-- JOB: Sr. Java Internet工程師
-  LINK: http://www.frog-jump.com/
-  NAME: 德義資訊股份有限公司
-- JOB: Sr. Asp.Net Internet工程師
-  LINK: http://www.frog-jump.com/
-  NAME: 德義資訊股份有限公司
-- JOB: Asp.Net Internet工程師
-  LINK: http://www.frog-jump.com/
-  NAME: 德義資訊股份有限公司
-- JOB: "(Taipei) Asp.Net Internet工程師"
-  LINK: http://www.frog-jump.com/
-  NAME: 德義資訊股份有限公司
-- JOB: General Manager (Internet Industry) 202 WH
-  LINK: www.manpower.com.tw
-  NAME: 萬寶華企業管理顧問股份有限公司
 - JOB: Internet/App 網頁工程師
   LINK: http://www.tvgame.com.tw
   NAME: 智焰有限公司
 - JOB: Internet程式設計師
   LINK: http://www.u-car.com.tw
   NAME: 旭傳媒科技股份有限公司
-- JOB: Internet Reputation PR Specialist
-  LINK: ''
-  NAME: 慶真國際有限公司
-- JOB: "(Senior) Internet Engineer"
-  LINK: http://www.futuredial.com/
-  NAME: 美商世紀新訊股份有限公司台灣分公司
-- JOB: Internet程式工程師
-  LINK: http://blog.iprefer.com.tw
-  NAME: 奇禾互動行銷有限公司
 - JOB: S-Internet程式設計師(資訊處)
   LINK: http://www.sinopac.com
   NAME: 永豐金融控股股份有限公司 (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)
 - JOB: S-Internet程式設計師(資訊處)-證券(亞洲)
   LINK: http://www.sinopac.com
   NAME: 永豐金融控股股份有限公司 (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)
-- JOB: 網站(Internet)程式設計師
-  LINK: www.e21mm.com
-  NAME: 摩奇創意股份有限公司
 - JOB: Internet程式設計師(近中山國中捷運站)-台北市
   LINK: www.panbor.com.tw
   NAME: 潘柏家具股份有限公司
 - JOB: PD2412 Internet 程式設計師 Software Engineer For NVR
   LINK: https://www.acti.com/corpweb/JoinUs/ACTiCareer.aspx
   NAME: 建騰創達科技股份有限公司
-- JOB: Internet程式設計師
-  LINK: http://www.jrsys.com.tw/
-  NAME: 捷而思股份有限公司
 - JOB: Internet程式設計師
   LINK: www.ready-market.com
   NAME: 環球暢貨行銷股份有限公司

@@ -20,6 +20,7 @@ module ThxSeafood
   # Web API
   class Api < Roda
     plugin :halt
+    # plugin :json
 
     route do |routing|
       app = Api
@@ -51,16 +52,12 @@ module ThxSeafood
               http_response = HttpResponseRepresenter.new(find_result.value)
               response.status = http_response.http_code
               if find_result.success?
-                JobsRepresenter.new(find_result.value.message).to_json
+                # find_result.value.message.map{ |job| job.to_h }  # OK
+                # find_result.value.message.map{ |job| JobRepresenter.new(job).to_json }
+                JobRepresenter.new(find_result.value.message.first).to_json
               else
                 http_response.to_json
               end
-
-              # jobs = Repository::For[Entity::Job]
-              #        .find_jobs_by_blank_link()
-
-              # routing.halt(404, error: 'Job not found') unless jobs
-              # jobs.map{ |job| job.to_h }
             end
 
             # POST /api/v0.1/jobs/:jobname
@@ -73,23 +70,12 @@ module ThxSeafood
               response.status = http_response.http_code
               if service_result.success?
                 response['Location'] = "/api/v0.1/jobs/#{jobname}"
-                JobsRepresenter.new(service_result.value.message).to_json
+                # service_result.value.message.map{ |job| job.to_h }  # OK
+                # service_result.value.message.map{ |job| JobRepresenter.new(job).to_json }
+                JobRepresenter.new(service_result.value.message.first).to_json
               else
                 http_response.to_json
               end
-              
-              # api = A104::Api.new
-              # job_mapper = A104::JobMapper.new(api)
-              # begin                
-              #   jobs = job_mapper.load_several(jobname)
-              # rescue StandardError
-              #   routing.halt(404, error: "No result")
-              # end
-
-              # stored_jobs = jobs.map{ |job| Repository::For[job.class].find_or_create(job) }
-              # response.status = 201
-              # response['Location'] = "/api/v0.1/jobs/#{jobname}"
-              # stored_jobs.map{ |job| job.to_h }
             end
           end
         end

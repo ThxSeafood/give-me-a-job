@@ -14,7 +14,7 @@ module ThxSeafood
       # 這邊得改成回傳jobname裡包含keywords的job entity array (得改寫Jobs，也許要加個方法)
       jobs = Repository::For[Entity::Job]
              .find_jobs_by_blank_link()
-      if repo
+      if jobs
         Right(Result.new(:ok, jobs))
       else
         Left(Result.new(:not_found, 'Could not find stored jobs'))

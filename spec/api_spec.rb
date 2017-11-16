@@ -18,8 +18,7 @@ describe 'Tests ThxSeafood library' do
 
   describe 'Job information' do
     before do
-      # DatabaseCleaner.clean
-      Rake::Task['db:reset'].invoke
+      app.DB[:jobs].delete
     end
 
     describe "POSTting to create entities from 104" do
