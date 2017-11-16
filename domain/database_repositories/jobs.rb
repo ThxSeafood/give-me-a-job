@@ -8,6 +8,10 @@ module ThxSeafood
         #   db_record = Database::JobOrm.first(id: id)
         #   rebuild_entity(db_record)
         # end
+        
+        # def self.find(entity)
+        #   find_jobname(entity.name)
+        # end
   
         def self.find_jobs_by_blank_link()
           # 這邊使用了regex，傳回欄位中有包含keyword的所有job，而不是完全match
@@ -26,10 +30,10 @@ module ThxSeafood
         end
   
         def self.find_or_create(entity)
-          find_jobname(entity.name) || create_from(entity)
+          find_jobname(entity.name) || create(entity)
         end
   
-        def self.create_from(entity)
+        def self.create(entity)
           # 這邊的create動作會真的把資料存進DB裡面
           db_job = Database::JobOrm.create(
             name: entity.name,

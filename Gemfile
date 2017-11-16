@@ -21,6 +21,14 @@ gem 'sequel'
 gem 'dry-struct'
 gem 'dry-types'
 
+# Representers
+gem 'roar'
+gem 'multi_json'
+
+# Services
+gem 'dry-monads'
+gem 'dry-transaction'
+
 group :test do
   gem 'minitest'
   gem 'minitest-rg'
