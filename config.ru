@@ -5,7 +5,7 @@
 # require 'facebook/messenger'
 # # include Facebook::Messenger
 
-# # run both Sinatra and facebook-messenger on /webhook
+# run both Sinatra and facebook-messenger on /webhook
 # map("/webhook") do
 #   run Sinatra::Application
 #   run Facebook::Messenger::Server
@@ -15,4 +15,14 @@
 # run Sinatra::Application
 
 require_relative './init.rb'
+require_relative 'bot'
+require 'facebook/messenger'
+
+# run both Sinatra and facebook-messenger on /webhook
+map("/webhook") do
+  run ThxSeafood::Api.freeze.app
+  run Facebook::Messenger::Server
+end
+
+# run regular sinatra for other paths (in case you ever need it)
 run ThxSeafood::Api.freeze.app

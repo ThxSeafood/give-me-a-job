@@ -3,3 +3,4 @@ ngrok
 .DS_Store
 coverage/
 *.db
+.bundle/

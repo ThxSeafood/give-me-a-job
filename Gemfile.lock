@@ -100,6 +100,7 @@ GEM
     parser (2.4.0.0)
       ast (~> 2.2)
     path_expander (1.0.2)
+    pg (0.21.0)
     powerpack (0.1.1)
     pry (0.11.2)
       coderay (~> 1.1.0)
@@ -193,6 +194,7 @@ DEPENDENCIES
   minitest
   minitest-rg
   multi_json
+  pg
   pry
   puma
   rack-test
@@ -208,6 +210,9 @@ DEPENDENCIES
   sqlite3
   vcr
   webmock
+
+RUBY VERSION
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.16.0
