@@ -12,6 +12,13 @@ module ThxSeafood
         # def self.find(entity)
         #   find_jobname(entity.name)
         # end
+
+        def self.find_jobs_by_using_regexp(keyword)
+          # 這邊使用了regex，傳回欄位中有包含keyword的所有job，而不是完全match
+          # 靠北，SQLite不支援regex，Sequel文件說可能只有PostgreSQL跟MySQL能用= =
+          db_records = Database::JobOrm.where(name: /.*#{keyword}.*/).all
+          db_records.map{ |db_record| rebuild_entity(db_record) }
+        end
   
         def self.find_jobs_by_blank_link()
           # 這邊使用了regex，傳回欄位中有包含keyword的所有job，而不是完全match
