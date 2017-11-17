@@ -29,12 +29,12 @@ module ThxSeafood
         { 'message' => "ThxSeafood API v0.1 up in #{app.environment}" }
       end
 
-      # Talk to Facebook
-      routing.on '/webhook' do
-        routing.get do
-          params['hub.challenge'] if ENV["VERIFY_TOKEN"] == params['hub.verify_token']
-        end
-      end
+      # # Talk to Facebook
+      # routing.on '/webhook' do
+      #   routing.get do
+      #     params['hub.challenge'] if ENV["VERIFY_TOKEN"] == params['hub.verify_token']
+      #   end
+      # end
 
       routing.on 'api' do
         # /api/v0.1 branch
