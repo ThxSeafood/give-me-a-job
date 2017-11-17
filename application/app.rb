@@ -26,7 +26,7 @@ module ThxSeafood
 
       # GET / request
       routing.root do
-        { 'message' => "ThxSeafood API v0.1 up in #{app.environment}" }
+        { 'message' => "ThxSeafood API v0.1 up in #{app.environment}" }.to_s
       end
 
       # Talk to Facebook
@@ -40,10 +40,10 @@ module ThxSeafood
         # /api/v0.1 branch
 
         routing.is do
-          {api: "api"}
+          {api: "api"}.to_s
         end
         routing.get "v0.1" do
-          {version: "v0.1"}
+          {version: "v0.1"}.to_s
         end
 
         routing.on 'v0.1' do
