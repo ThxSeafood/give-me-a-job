@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 16 Nov 2017 22:50:26 GMT
+      - Fri, 17 Nov 2017 14:50:43 GMT
       Content-Type:
       - text/html;charset=UTF-8
       Content-Length:
@@ -34,7 +34,13 @@ http_interactions:
       - 'on'
     body:
       encoding: UTF-8
-      string: '{"RECORDCOUNT":"62","PAGECOUNT":"62","PAGE":"1","TOTALPAGE":"1","data":[{"JOB":"Internet
+      string: '{"RECORDCOUNT":"62","PAGECOUNT":"62","PAGE":"1","TOTALPAGE":"1","data":[{"JOB":"Internet程式設計師","LINK":"http://www.hsin-yi.org.tw","NAME":"財團法人信誼基金會"},{"JOB":"Internet程式設計師/軟體設計工程師","LINK":"http://www.airspace.com.tw","NAME":"AIR
+        SPACE_新地國際精品行"},{"JOB":"數位科技部-Internet程式設計師(數位業務系統科)","LINK":"http://www.fubon.com/life/home","NAME":"富邦人壽保險股份有限公司(總公司)"},{"JOB":"數位科技部-Internet程式設計師(行動業務系統科)","LINK":"http://www.fubon.com/life/home","NAME":"富邦人壽保險股份有限公司(總公司)"},{"JOB":"Internet/App
+        網頁工程師","LINK":"http://www.tvgame.com.tw","NAME":"智焰有限公司"},{"JOB":"Internet
+        工程師","LINK":"www.newsoft.com.tw","NAME":"力新國際科技股份有限公司"},{"JOB":"Internet程式設計師
+        (GCS-1)","LINK":"http://www.supergeotek.com/","NAME":"崧旭資訊股份有限公司"},{"JOB":"I148
+        電子商務-Internet開發工程師","LINK":"http://www.taiwanmobile.com/index.html","NAME":"台灣大哥大股份有限公司"},{"JOB":"Internet/Mobile
+        Front-End 程式設計師","LINK":"http://www.alliance.tw","NAME":"香港商一聯系統有限公司"},{"JOB":"Internet
         Java 程式設計師","LINK":"http://www.brix.com.tw","NAME":"英科資訊科技有限公司"},{"JOB":"Internet程式設計師(每週五可提早下班/需具備基礎網站架設經驗)","LINK":"funday.asia","NAME":"智擎數位科技股份有限公司"},{"JOB":"Internet程式設計師","LINK":"http://www.jrsys.com.tw/","NAME":"捷而思股份有限公司"},{"JOB":"D0125  解決方案行銷專員IoMT
         (Internet of Medical Things)","LINK":"www.compal.com","NAME":"仁寶電腦工業股份有限公司"},{"JOB":"Internet程式工程師","LINK":"http://blog.iprefer.com.tw","NAME":"奇禾互動行銷有限公司"},{"JOB":"D0124
         醫療業務開發IoMT (Internet of Medical Things)","LINK":"www.compal.com","NAME":"仁寶電腦工業股份有限公司"},{"JOB":"(Senior)
@@ -57,19 +63,13 @@ http_interactions:
         網頁設計師","LINK":"www.qsf.tw","NAME":"全勝發網路資訊股份有限公司"},{"JOB":"資訊部-Internet程式設計師","LINK":"www.startravel.com.tw","NAME":"燦星國際旅行社股份有限公司"},{"JOB":"Internet程式設計師","LINK":"www.rtc.com.tw","NAME":"潤弘精密工程事業股份有限公司"},{"JOB":"Internet前端工程師","LINK":"http://www.arplanet.com.tw","NAME":"宇萌數位科技股份有限公司"},{"JOB":"107年度研發替代役-Internet
         網路工程師","LINK":"www.Ruten.com.tw","NAME":"露天市集國際資訊股份有限公司"},{"JOB":"Internet程式設計師
         (GCS-2)","LINK":"http://www.supergeotek.com/","NAME":"崧旭資訊股份有限公司"},{"JOB":"Internet程式設計師","LINK":"","NAME":"伊賀本數位資訊股份有限公司"},{"JOB":"Internet程式設計師
-        .NET (台北)","LINK":"http://www.inwellcom.com","NAME":"英威康科技股份有限公司"},{"JOB":"Internet程式設計師","LINK":"www.top-sales.com.tw","NAME":"業務人資訊有限公司"},{"JOB":"Internet程式設計師","LINK":"http://www.hsin-yi.org.tw","NAME":"財團法人信誼基金會"},{"JOB":"Internet程式設計師
-        (GCS-1)","LINK":"http://www.supergeotek.com/","NAME":"崧旭資訊股份有限公司"},{"JOB":"Internet程式設計師/軟體設計工程師","LINK":"http://www.airspace.com.tw","NAME":"AIR
-        SPACE_新地國際精品行"},{"JOB":"數位科技部-Internet程式設計師(數位業務系統科)","LINK":"http://www.fubon.com/life/home","NAME":"富邦人壽保險股份有限公司(總公司)"},{"JOB":"數位科技部-Internet程式設計師(行動業務系統科)","LINK":"http://www.fubon.com/life/home","NAME":"富邦人壽保險股份有限公司(總公司)"},{"JOB":"I148
-        電子商務-Internet開發工程師","LINK":"http://www.taiwanmobile.com/index.html","NAME":"台灣大哥大股份有限公司"},{"JOB":"Internet/Mobile
-        Front-End 程式設計師","LINK":"http://www.alliance.tw","NAME":"香港商一聯系統有限公司"},{"JOB":"Senior
-        HRBP (Internet Industry)","LINK":"http://www.pplesearch.com/","NAME":"新加坡商艾得克有限公司台灣分公司"},{"JOB":"Internet
-        工程師","LINK":"www.newsoft.com.tw","NAME":"力新國際科技股份有限公司"},{"JOB":"Internet/App
-        網頁工程師","LINK":"http://www.tvgame.com.tw","NAME":"智焰有限公司"},{"JOB":"Internet程式設計師","LINK":"http://www.u-car.com.tw","NAME":"旭傳媒科技股份有限公司"},{"JOB":"S-Internet程式設計師(資訊處)","LINK":"http://www.sinopac.com","NAME":"永豐金融控股股份有限公司
+        .NET (台北)","LINK":"http://www.inwellcom.com","NAME":"英威康科技股份有限公司"},{"JOB":"Internet程式設計師","LINK":"www.top-sales.com.tw","NAME":"業務人資訊有限公司"},{"JOB":"Senior
+        HRBP (Internet Industry)","LINK":"http://www.pplesearch.com/","NAME":"新加坡商艾得克有限公司台灣分公司"},{"JOB":"Internet程式設計師","LINK":"http://www.u-car.com.tw","NAME":"旭傳媒科技股份有限公司"},{"JOB":"S-Internet程式設計師(資訊處)","LINK":"http://www.sinopac.com","NAME":"永豐金融控股股份有限公司
         (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)"},{"JOB":"S-Internet程式設計師(資訊處)-證券(亞洲)","LINK":"http://www.sinopac.com","NAME":"永豐金融控股股份有限公司
         (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)"},{"JOB":"Internet程式設計師(近中山國中捷運站)-台北市","LINK":"www.panbor.com.tw","NAME":"潘柏家具股份有限公司"},{"JOB":"PD2412
         Internet 程式設計師 Software Engineer For NVR","LINK":"https://www.acti.com/corpweb/JoinUs/ACTiCareer.aspx","NAME":"建騰創達科技股份有限公司"},{"JOB":"Internet程式設計師","LINK":"www.ready-market.com","NAME":"環球暢貨行銷股份有限公司"},{"JOB":"Internet軟體工程師(電子商務部
         徵才)","LINK":"www.bankpro.com.tw","NAME":"金財通商務科技服務股份有限公司"},{"JOB":"Internet
         軟體工程師","LINK":"www.taaze.tw","NAME":"學思行數位行銷股份有限公司"},{"JOB":"Internet軟體工程師(C#.Net)(企業事業群-流通事業部)","LINK":"www.bankpro.com.tw","NAME":"金財通商務科技服務股份有限公司"},{"JOB":"Internet程式工程師","LINK":"www.foodchina.com.tw","NAME":"中華食物網_中華全球食物股份有限公司"},{"JOB":"Internet軟體工程師(C#)(企業處-物流部)","LINK":"www.bankpro.com.tw","NAME":"金財通商務科技服務股份有限公司"},{"JOB":"Internet程式設計師","LINK":"https://www.gnjoy.com.tw/","NAME":"韓商格雷維蒂股份有限公司台灣分公司"},{"JOB":"Internet程式設計師","LINK":"http://www.entrust.com.tw/","NAME":"華南永昌綜合證券股份有限公司"},{"JOB":"BEAUTY美人誌網站-Internet工程師","LINK":"http://www.beauty321.com/","NAME":"BEAUTY美人誌雜誌_千晶文化事業股份有限公司"},{"JOB":"Internet軟體工程師(企業處-物流部)","LINK":"www.bankpro.com.tw","NAME":"金財通商務科技服務股份有限公司"}]}'
     http_version: 
-  recorded_at: Thu, 16 Nov 2017 22:50:26 GMT
+  recorded_at: Fri, 17 Nov 2017 14:50:43 GMT
 recorded_with: VCR 3.0.3

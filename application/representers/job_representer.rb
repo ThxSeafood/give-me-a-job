@@ -13,8 +13,4 @@ module ThxSeafood
     property :company
   end
 
-  def to_json
-    @represented.to_json
-  end
-
 end

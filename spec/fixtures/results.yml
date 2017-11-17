@@ -1,6 +1,33 @@
 ---
 size: '62'
 contents:
+- JOB: Internet程式設計師
+  LINK: http://www.hsin-yi.org.tw
+  NAME: 財團法人信誼基金會
+- JOB: Internet程式設計師/軟體設計工程師
+  LINK: http://www.airspace.com.tw
+  NAME: AIR SPACE_新地國際精品行
+- JOB: 數位科技部-Internet程式設計師(數位業務系統科)
+  LINK: http://www.fubon.com/life/home
+  NAME: 富邦人壽保險股份有限公司(總公司)
+- JOB: 數位科技部-Internet程式設計師(行動業務系統科)
+  LINK: http://www.fubon.com/life/home
+  NAME: 富邦人壽保險股份有限公司(總公司)
+- JOB: Internet/App 網頁工程師
+  LINK: http://www.tvgame.com.tw
+  NAME: 智焰有限公司
+- JOB: Internet 工程師
+  LINK: www.newsoft.com.tw
+  NAME: 力新國際科技股份有限公司
+- JOB: Internet程式設計師 (GCS-1)
+  LINK: http://www.supergeotek.com/
+  NAME: 崧旭資訊股份有限公司
+- JOB: I148 電子商務-Internet開發工程師
+  LINK: http://www.taiwanmobile.com/index.html
+  NAME: 台灣大哥大股份有限公司
+- JOB: Internet/Mobile Front-End 程式設計師
+  LINK: http://www.alliance.tw
+  NAME: 香港商一聯系統有限公司
 - JOB: Internet Java 程式設計師
   LINK: http://www.brix.com.tw
   NAME: 英科資訊科技有限公司
@@ -112,36 +139,9 @@ contents:
 - JOB: Internet程式設計師
   LINK: www.top-sales.com.tw
   NAME: 業務人資訊有限公司
-- JOB: Internet程式設計師
-  LINK: http://www.hsin-yi.org.tw
-  NAME: 財團法人信誼基金會
-- JOB: Internet程式設計師 (GCS-1)
-  LINK: http://www.supergeotek.com/
-  NAME: 崧旭資訊股份有限公司
-- JOB: Internet程式設計師/軟體設計工程師
-  LINK: http://www.airspace.com.tw
-  NAME: AIR SPACE_新地國際精品行
-- JOB: 數位科技部-Internet程式設計師(數位業務系統科)
-  LINK: http://www.fubon.com/life/home
-  NAME: 富邦人壽保險股份有限公司(總公司)
-- JOB: 數位科技部-Internet程式設計師(行動業務系統科)
-  LINK: http://www.fubon.com/life/home
-  NAME: 富邦人壽保險股份有限公司(總公司)
-- JOB: I148 電子商務-Internet開發工程師
-  LINK: http://www.taiwanmobile.com/index.html
-  NAME: 台灣大哥大股份有限公司
-- JOB: Internet/Mobile Front-End 程式設計師
-  LINK: http://www.alliance.tw
-  NAME: 香港商一聯系統有限公司
 - JOB: Senior HRBP (Internet Industry)
   LINK: http://www.pplesearch.com/
   NAME: 新加坡商艾得克有限公司台灣分公司
-- JOB: Internet 工程師
-  LINK: www.newsoft.com.tw
-  NAME: 力新國際科技股份有限公司
-- JOB: Internet/App 網頁工程師
-  LINK: http://www.tvgame.com.tw
-  NAME: 智焰有限公司
 - JOB: Internet程式設計師
   LINK: http://www.u-car.com.tw
   NAME: 旭傳媒科技股份有限公司

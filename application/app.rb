@@ -20,8 +20,7 @@ module ThxSeafood
   # Web API
   class Api < Roda
     plugin :halt
-    # plugin :json
-
+    
     route do |routing|
       app = Api
 
@@ -52,9 +51,7 @@ module ThxSeafood
               http_response = HttpResponseRepresenter.new(find_result.value)
               response.status = http_response.http_code
               if find_result.success?
-                # find_result.value.message.map{ |job| job.to_h }  # OK
-                # find_result.value.message.map{ |job| JobRepresenter.new(job).to_json }
-                JobRepresenter.new(find_result.value.message.first).to_json
+                JobsRepresenter.new(JobsResult.new(find_result.value.message)).to_json
               else
                 http_response.to_json
               end
@@ -70,9 +67,7 @@ module ThxSeafood
               response.status = http_response.http_code
               if service_result.success?
                 response['Location'] = "/api/v0.1/jobs/#{jobname}"
-                # service_result.value.message.map{ |job| job.to_h }  # OK
-                # service_result.value.message.map{ |job| JobRepresenter.new(job).to_json }
-                JobRepresenter.new(service_result.value.message.first).to_json
+                JobsRepresenter.new(JobsResult.new(service_result.value.message)).to_json
               else
                 http_response.to_json
               end
