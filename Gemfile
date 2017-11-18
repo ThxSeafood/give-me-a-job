@@ -1,11 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
 
-# FB chatbot gems
-gem 'sinatra'
-gem 'facebook-messenger'
-gem 'httparty'
-
 # Networking gems
 gem 'http'
 
@@ -55,4 +50,8 @@ end
 
 group :production do
   gem 'pg'
+  # FB chatbot gems
+  # gem 'sinatra'
+  gem 'facebook-messenger'
+  gem 'httparty'
 end

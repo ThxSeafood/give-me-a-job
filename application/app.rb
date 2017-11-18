@@ -51,7 +51,7 @@ module ThxSeafood
           end
 
           # /api/v0.1/job branch
-          routing.on 'jobs', String do
+          routing.on 'jobs' do
 
             # GET /api/v0.1/job request
             routing.is do

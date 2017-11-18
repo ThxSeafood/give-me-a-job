@@ -42,6 +42,13 @@ describe 'Tests ThxSeafood library' do
         post "#{API_VER}/jobs/#{KEYWORDS}"
       end
 
+      it 'HAPPY: should find all jobs' do
+        get "#{API_VER}/jobs"
+        _(last_response.status).must_equal 200
+        jobs_data = JSON.parse last_response.body
+        _(jobs_data.size).must_be :>, 0
+      end
+
       it 'HAPPY: should find stored job' do
         get "#{API_VER}/jobs/#{KEYWORDS}"
         _(last_response.status).must_equal 200
