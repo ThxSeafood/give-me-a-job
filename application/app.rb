@@ -37,20 +37,37 @@ module ThxSeafood
       end
 
       routing.on 'api' do
-        # /api/v0.1 branch
+        # /api branch
 
         routing.is do
           {api: "api"}.to_s
         end
-        routing.get "v0.1" do
-          {version: "v0.1"}.to_s
-        end
 
         routing.on 'v0.1' do
+          
+          # /api/v0.1 branch
+          routing.is do
+            {version: "v0.1"}.to_s
+          end
+
           # /api/v0.1/job branch
-          routing.on 'jobs', String do |jobname|
+          routing.on 'jobs', String do
+
+            # GET /api/v0.1/job request
+            routing.is do
+              all_result = FindDatabaseAllJobs.call
+              
+              http_response = HttpResponseRepresenter.new(all_result.value)
+              response.status = http_response.http_code
+              if all_result.success?
+                JobsRepresenter.new(JobsResult.new(all_result.value.message)).to_json
+              else
+                http_response.to_json
+              end
+            end
+
             # GET /api/v0.1/jobs/:keywords request
-            routing.get do
+            routing.get String do |jobname|
               find_result = FindDatabaseJobs.call(
                 jobname: jobname
               )
@@ -65,7 +82,7 @@ module ThxSeafood
             end
 
             # POST /api/v0.1/jobs/:jobname
-            routing.post do
+            routing.post String do |jobname|
               service_result = LoadFrom104.new.call(
                 jobname: jobname
               )
