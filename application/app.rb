@@ -20,6 +20,10 @@ module ThxSeafood
   # Web API
   class Api < Roda
     plugin :halt
+
+    def set_access
+      response.headers["Access-Control-Allow-Origin"] = "*"
+    end
     
     route do |routing|
       app = Api
