@@ -20,6 +20,7 @@ module ThxSeafood
   # Web API
   class Api < Roda
     plugin :halt
+    plugin :all_verbs
     
     route do |routing|
       app = Api
@@ -53,17 +54,34 @@ module ThxSeafood
           # /api/v0.1/job branch
           routing.on 'jobs' do
 
-            # GET /api/v0.1/job request
+            
             routing.is do
-              all_result = FindDatabaseAllJobs.call
-              
-              http_response = HttpResponseRepresenter.new(all_result.value)
-              response.status = http_response.http_code
-              if all_result.success?
-                JobsRepresenter.new(JobsResult.new(all_result.value.message)).to_json
-              else
-                http_response.to_json
+              # GET /api/v0.1/jobs request
+              routing.get do
+                all_result = FindDatabaseAllJobs.call
+                
+                http_response = HttpResponseRepresenter.new(all_result.value)
+                response.status = http_response.http_code
+                if all_result.success?
+                  JobsRepresenter.new(JobsResult.new(all_result.value.message)).to_json
+                else
+                  http_response.to_json
+                end
               end
+
+              # DELETE /api/v0.1/jobs request
+              Api.configure :development, :test do
+                routing.delete do
+                  %i[jobs].each do |table|
+                    Api.DB[table].delete
+                  end
+                  http_response = HttpResponseRepresenter
+                                  .new(Result.new(:ok, 'deleted tables'))
+                  response.status = http_response.http_code
+                  http_response.to_json
+                end
+              end
+
             end
 
             # GET /api/v0.1/jobs/:keywords request
