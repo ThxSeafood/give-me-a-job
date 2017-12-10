@@ -21,6 +21,7 @@ module ThxSeafood
   class Api < Roda
     plugin :halt
     plugin :all_verbs
+    # plugin :multi_route
     
     route do |routing|
       app = Api
@@ -52,10 +53,9 @@ module ThxSeafood
           end
 
           # /api/v0.1/job branch
-          routing.on 'jobs' do
-
-            
+          routing.on 'jobs' do            
             routing.is do
+
               # GET /api/v0.1/jobs request
               routing.get do
                 all_result = FindDatabaseAllJobs.call
@@ -84,7 +84,7 @@ module ThxSeafood
 
             end
 
-            # GET /api/v0.1/jobs/:keywords request
+            # GET /api/v0.1/jobs/:jobname request
             routing.get String do |jobname|
               find_result = FindDatabaseJobs.call(
                 jobname: jobname
