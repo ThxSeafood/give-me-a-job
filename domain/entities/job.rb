@@ -10,6 +10,12 @@ module ThxSeafood
       attribute :name, Types::Strict::String
       attribute :link, Types::Strict::String
       attribute :company, Types::Strict::String
+      attribute :lon, Types::Strict::String
+      attribute :lat, Types::Strict::String
+      attribute :address, Types::Strict::String
+      attribute :addr_no_descript, Types::Strict::String
+      attribute :description, Types::Strict::String
+
 
       # 這段如果寫了還沒加super，就會把Dry::Struct的初始化給蓋掉，會寫不進去東西
       # def initialize(job_data)

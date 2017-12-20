@@ -49,7 +49,12 @@ module ThxSeafood
           db_job = Database::JobOrm.create(
             name: entity.name,
             link: entity.link,
-            company: entity.company
+            company: entity.company,
+            lon: entity.lon,
+            lat: entity.lat,
+            address: entity.address,
+            addr_no_descript: entity.addr_no_descript,
+            description: entity.description   
           )
           
           # rebuild的目的只是傳Entity回去比起傳Dataset回去還好看而已
@@ -63,7 +68,12 @@ module ThxSeafood
             # id: db_record.id,
             name: db_record.name,
             link: db_record.link,
-            company: db_record.company
+            company: db_record.company,
+            lon: db_record.lon,
+            lat: db_record.lat,
+            address: db_record.address,
+            addr_no_descript: db_record.addr_no_descript,
+            description: db_record.description
           )
         end
       end

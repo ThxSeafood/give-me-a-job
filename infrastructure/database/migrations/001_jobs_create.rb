@@ -10,6 +10,11 @@ Sequel.migration do
       String      :name
       String      :link
       String      :company
+      String      :lon
+      String      :lat
+      String      :address
+      String      :addr_no_descript
+      String      :description
 
       DateTime :created_at
       DateTime :updated_at

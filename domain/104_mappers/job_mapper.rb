@@ -30,7 +30,12 @@ module ThxSeafood
           Entity::Job.new(
             name: name,
             link: link,
-            company: company
+            company: company,
+            lon: lon,
+            lat: lat,
+            address: address,
+            addr_no_descript: addr_no_descript,
+            description: description            
           )
         end
 
@@ -46,6 +51,26 @@ module ThxSeafood
     
         def company
           @job['NAME']
+        end
+
+        def lon
+          @job['LON']
+        end
+        
+        def lat
+          @job['LAT']
+        end
+
+        def address
+          @job['ADDRESS']
+        end
+
+        def addr_no_descript
+          @job['ADDR_NO_DESCRIPT']
+        end
+
+        def description
+          @job['DESCRIPTION']
         end
 
       end

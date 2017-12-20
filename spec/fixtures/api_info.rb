@@ -5,7 +5,7 @@ require 'json'
 # config = YAML.safe_load(File.read('config/secrets.yml'))
 
 def api_path(keywords)
-  'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords + '&area=6001001000&order=2&fmt=8&cols=JOB%2CNAME%2Clink&pgsz=2000'
+  'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=8'+'&pgsz=200'+'&page=1'+'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS%2CDESCRIPTION'
 end
 
 def call_104_url(url)
@@ -18,10 +18,10 @@ results = {}
 url = api_path('Internet')
 response[url] = call_104_url(url)
 
-results['size'] = response[url]["RECORDCOUNT"]
+# results['size'] = response[url]["RECORDCOUNT"]
 contents = JSON.parse(response[url].body)
 
-results['size'] = contents['RECORDCOUNT']
+results['size'] = contents['PAGECOUNT']
 results['contents'] = contents['data']
 
 File.write('spec/fixtures/response.yml', response.to_yaml)
