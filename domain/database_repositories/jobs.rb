@@ -35,6 +35,11 @@ module ThxSeafood
           db_records.map{ |db_record| rebuild_entity(db_record) }
         end
 
+        def self.find_jobs_by_user_query(user_query)
+          db_records = Database::JobOrm.where(user_query: user_query).all
+          db_records.map{ |db_record| rebuild_entity(db_record) }
+        end
+
         def self.find_jobname(jobname)
           db_record = Database::JobOrm.first(name: jobname)
           rebuild_entity(db_record)
@@ -54,7 +59,8 @@ module ThxSeafood
             lat: entity.lat,
             address: entity.address,
             addr_no_descript: entity.addr_no_descript,
-            description: entity.description   
+            description: entity.description,  
+            user_query: entity.user_query 
           )
           
           # rebuild的目的只是傳Entity回去比起傳Dataset回去還好看而已
@@ -73,7 +79,8 @@ module ThxSeafood
             lat: db_record.lat,
             address: db_record.address,
             addr_no_descript: db_record.addr_no_descript,
-            description: db_record.description
+            description: db_record.description,
+            user_query: db_record.user_query 
           )
         end
       end

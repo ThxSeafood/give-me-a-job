@@ -16,6 +16,7 @@ module ThxSeafood
     property :address
     property :addr_no_descript
     property :description
+    property :user_query
   end
 
 end

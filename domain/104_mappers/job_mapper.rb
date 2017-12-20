@@ -12,18 +12,19 @@ module ThxSeafood
       def load_several(keywords)
         jobs_data = @gateway.jobs_data(keywords)
         jobs_data.map do |job_data|
-          JobMapper.build_entity(job_data)
+          JobMapper.build_entity(job_data, keywords)
         end
       end
 
-      def self.build_entity(job_data)
-        DataMapper.new(job_data).build_entity
+      def self.build_entity(job_data, user_query)
+        DataMapper.new(job_data, user_query).build_entity
       end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(job_data)
+        def initialize(job_data, user_query)
           @job = job_data
+          @user_query = user_query
         end
 
         def build_entity
@@ -35,7 +36,8 @@ module ThxSeafood
             lat: lat,
             address: address,
             addr_no_descript: addr_no_descript,
-            description: description            
+            description: description,    
+            user_query: query
           )
         end
 
@@ -71,6 +73,10 @@ module ThxSeafood
 
         def description
           @job['DESCRIPTION']
+        end
+
+        def query
+          @user_query
         end
 
       end

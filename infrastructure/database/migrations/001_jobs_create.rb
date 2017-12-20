@@ -15,6 +15,7 @@ Sequel.migration do
       String      :address
       String      :addr_no_descript
       String      :description
+      String      :user_query
 
       DateTime :created_at
       DateTime :updated_at

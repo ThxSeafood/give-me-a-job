@@ -15,6 +15,7 @@ module ThxSeafood
       attribute :address, Types::Strict::String
       attribute :addr_no_descript, Types::Strict::String
       attribute :description, Types::Strict::String
+      attribute :user_query, Types::Strict::String
 
 
       # 這段如果寫了還沒加super，就會把Dry::Struct的初始化給蓋掉，會寫不進去東西
