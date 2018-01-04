@@ -32,7 +32,7 @@ module ThxSeafood
             name: name,
             link: link,
             company: company,
-            lon: lon,
+            lng: lng,
             lat: lat,
             address: address,
             addr_no_descript: addr_no_descript,
@@ -55,7 +55,7 @@ module ThxSeafood
           @job['NAME']
         end
 
-        def lon
+        def lng
           @job['LON']
         end
         
