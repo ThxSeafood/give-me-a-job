@@ -36,14 +36,24 @@ module ThxSeafood
         
       end
   
+      def get_total_page_num(keywords)
+        url = Api.get_total_record_num_path(keywords)
+        total_record_num = JSON.parse(call_104_url(url).body)
+        total_page_num = (total_record_num + 19) / 20
+      end
+
       def jobs_data(keywords)
         url = Api.query_path(keywords)
         jobs_datas = JSON.parse(call_104_url(url).body)['data']
         # jobs_datas.map { |job_data| Jobs.new(job_data) }
       end
 
-      def self.query_path(keywords)
-          'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=8'+'&pgsz=200'+'&page=1'+'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS%2CDESCRIPTION'
+      def self.get_total_record_num_path(keywords)
+        'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=2'+'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS%2CDESCRIPTION'
+      end
+
+      def self.query_path(keywords, page)
+        'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=8'+'&page='+ page +'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS%2CDESCRIPTION'
       end
 
       private

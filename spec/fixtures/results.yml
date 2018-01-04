@@ -1,4 +1,6 @@
 ---
+RECORDCOUNT: 4839
+PAGECOUNT: 242
 size: '200'
 contents:
 - ADDRESS: 復興北路50號4樓之1
@@ -71,16 +73,6 @@ contents:
   LINK: http://www.ils.com.tw
   LON: '120.6185631'
   NAME: 豐聯資訊股份有限公司
-- ADDRESS: 復興三路500號(林口華亞科技園區)
-  ADDR_NO_DESCRIPT: 桃園市龜山區
-  DESCRIPTION: |-
-    1.開發與維護Easyflow電子表單系統。
-    2.開發與維護Web based Java Application(eSupplier portal、eIQC)。
-  JOB: "(IT)Internet程式設計師"
-  LAT: '25.0430289'
-  LINK: http://www.senao.com/English/
-  LON: '121.369965'
-  NAME: 神準科技股份有限公司
 - ADDRESS: 英才路501號6樓之2
   ADDR_NO_DESCRIPT: 台中市西區
   DESCRIPTION: |-
@@ -346,42 +338,14 @@ contents:
   LINK: funday.asia
   LON: '121.532819'
   NAME: 智擎數位科技股份有限公司
-- ADDRESS: 八德路4段760號10F-1
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: |-
-    ‧U-CAR 是目前台灣最大的汽車專業網站，有別於一般論壇或部落格型式網站，U-CAR 發展自有的內容管理系統，以求滿足各種內容呈現的需求。
-
-    ‧在 U-CAR 站內，除了提供圖文整合的新聞式內容與資料庫式內容外，尚有討論區、分類廣告等網站服務，在這些網站服務的底層，分別自行發展了 Content Engine、Spec Engine、Forum Engine 以及 Classified Engine 等系統平台。在這些平台的基礎上，我們陸續發展出 U-CAR、U-AUDIO、U-FASHION 以及 U-3C 等網站。
-
-    ‧隨著流量的持續成長，當每日造訪人次達到10萬人以上時，網站系統的架構設計則已經面臨另一種挑戰。如何佈局U-CAR的運算架構，將是未來系統發展的重點。U-CAR 不喜歡迷信高檔伺服器，U-CAR 比較相信工程師的智慧，可以在蓬勃、日新月異且便宜的 IT 產業基礎下，佈局 U-CAR 的運算能量，建構出快速、好用的網站服務。
-
-    ‧如果你對網路系統發展感到興趣，並願意加入U-CAR團隊一起面對挑戰，累積技術經驗，歡迎加入U-CAR系統開發團隊。
-
-    職務說明：
-    1.系統需求分析、設計。
-    2.程式撰寫。
-    2.網站之開發、測試、維護。
-    3.資料庫設計、分析與維護。
+- ADDRESS: 中正路1071號11樓之5
+  ADDR_NO_DESCRIPT: 桃園市桃園區
+  DESCRIPTION: asp /php 網頁程式、前後台資料庫ms sQl/my sQl網站建置、server設定維護
   JOB: Internet程式設計師
-  LAT: '25.0501013'
-  LINK: http://www.u-car.com.tw
-  LON: '121.5793154'
-  NAME: 旭傳媒科技股份有限公司
-- ADDRESS: 文化路一段266號10樓
-  ADDR_NO_DESCRIPT: 新北市板橋區
-  DESCRIPTION: |-
-    1. 有獨立分析、設計、開發Web應用程式之能力。
-    2.須熟悉 ASP.NET (C#) 、JavaScript、AJAX、CSS、MS SQL Server 及 IIS 架設 。
-    3. 積極主動、樂觀、能溝通、樂於助人及習慣團隊合作。
-    4. 具獨立發現問題解決問題能力。
-    5. 邏輯能力強，能快速學習並運用新技術。
-    6. 對撰寫優秀的程式碼有高度熱情
-    7. 想學習並創造優異的程式改善世界。
-  JOB: Internet程式設計師
-  LAT: '25.0207487'
-  LINK: http://www.cmoney.tw/jobs/
-  LON: '121.4671248'
-  NAME: 全曜財經資訊股份有限公司
+  LAT: '25.0155558'
+  LINK: www.digimagic.com.tw
+  LON: '121.2987039'
+  NAME: 魔數電腦多媒體股份有限公司
 - ADDRESS: 東興路45號9樓
   ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
@@ -394,59 +358,6 @@ contents:
   LINK: http://blog.iprefer.com.tw
   LON: '121.5662139'
   NAME: 奇禾互動行銷有限公司
-- ADDRESS: 實踐路32巷1號9樓
-  ADDR_NO_DESCRIPT: 新北市板橋區
-  DESCRIPTION: |-
-    1.資訊相關科系畢業，修過軟體工程/資料結構/演算法相關課程
-    3.熟悉資料庫觀念(MySQL)
-    4.熟悉PHP或.Net程式設計可獨立作業
-    5.來信請附作品
-  JOB: internet程式設計師
-  LAT: '25.006944'
-  LINK: www.bluesign.com.tw
-  LON: '121.463226'
-  NAME: 藍訊科技股份有限公司
-- ADDRESS: 民生東路四段54號4樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: ''
-  JOB: Internet程式設計師
-  LAT: '25.060064'
-  LINK: http://www.entrust.com.tw/
-  LON: '121.559306'
-  NAME: 華南永昌綜合證券股份有限公司
-- ADDRESS: 市政北二路236號35樓之1
-  ADDR_NO_DESCRIPT: 台中市西屯區
-  DESCRIPTION: |-
-    此職務內容主要是遊戲平台系統的設計、開發與維護，使用的主要語言是PHP、Javascript，使用的Framework 是Symfony，後端伺服器端使用的是Linux、Apache、node.js與XMPP Server。
-
-    如果你符合下列特質，歡迎你加入我們的行列。
-    - 對網頁技術熟悉者
-    （雖然此職務主要使用PHP開發，但仍歡迎會使用其他語言的人員）。
-    - 喜歡接觸並使用新技術、新事務，能不斷自我提昇者
-    （Web技術日新月異，追求新技術來解決問題是我們每天的工作）。
-    - 對解決問題有興趣者（Web技術日新月異，遭遇到的問題也日新月異，
-    使用新的技術解決新的問題是我們的工作也是我們的樂趣）。
-    - 負責任並有良好溝通能力與團隊合作能力。
-  JOB: Internet程式設計師(A組)
-  LAT: '24.1643244'
-  LINK: http://www.chungyo.net/
-  LON: '120.6357482'
-  NAME: 凡谷興業有限公司
-- ADDRESS: 三重路19之11號3樓
-  ADDR_NO_DESCRIPT: 台北市南港區
-  DESCRIPTION: |-
-    工作內容 :
-    RWD網頁設計(PC & mobile)
-    Ajax應用開發(熟悉XML, JSON資料結構)
-    基本條件 :
-    熟悉HTML(5), CSS(3), Javascript
-    優先錄取 :
-    熟悉jQuery,AngularJS,Bootstrap框架
-  JOB: Internet前端工程師
-  LAT: '25.05786'
-  LINK: http://www.arplanet.com.tw
-  LON: '121.613999'
-  NAME: 宇萌數位科技股份有限公司
 - ADDRESS: 基隆路一段143號3樓之1
   ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
@@ -502,6 +413,96 @@ contents:
   LINK: www.yam.com
   LON: '121.548913'
   NAME: 天空傳媒股份有限公司
+- ADDRESS: 八德路4段760號10F-1
+  ADDR_NO_DESCRIPT: 台北市松山區
+  DESCRIPTION: |-
+    ‧U-CAR 是目前台灣最大的汽車專業網站，有別於一般論壇或部落格型式網站，U-CAR 發展自有的內容管理系統，以求滿足各種內容呈現的需求。
+
+    ‧在 U-CAR 站內，除了提供圖文整合的新聞式內容與資料庫式內容外，尚有討論區、分類廣告等網站服務，在這些網站服務的底層，分別自行發展了 Content Engine、Spec Engine、Forum Engine 以及 Classified Engine 等系統平台。在這些平台的基礎上，我們陸續發展出 U-CAR、U-AUDIO、U-FASHION 以及 U-3C 等網站。
+
+    ‧隨著流量的持續成長，當每日造訪人次達到10萬人以上時，網站系統的架構設計則已經面臨另一種挑戰。如何佈局U-CAR的運算架構，將是未來系統發展的重點。U-CAR 不喜歡迷信高檔伺服器，U-CAR 比較相信工程師的智慧，可以在蓬勃、日新月異且便宜的 IT 產業基礎下，佈局 U-CAR 的運算能量，建構出快速、好用的網站服務。
+
+    ‧如果你對網路系統發展感到興趣，並願意加入U-CAR團隊一起面對挑戰，累積技術經驗，歡迎加入U-CAR系統開發團隊。
+
+    職務說明：
+    1.系統需求分析、設計。
+    2.程式撰寫。
+    2.網站之開發、測試、維護。
+    3.資料庫設計、分析與維護。
+  JOB: Internet程式設計師
+  LAT: '25.0501013'
+  LINK: http://www.u-car.com.tw
+  LON: '121.5793154'
+  NAME: 旭傳媒科技股份有限公司
+- ADDRESS: 文化路一段266號10樓
+  ADDR_NO_DESCRIPT: 新北市板橋區
+  DESCRIPTION: |-
+    1. 有獨立分析、設計、開發Web應用程式之能力。
+    2.須熟悉 ASP.NET (C#) 、JavaScript、AJAX、CSS、MS SQL Server 及 IIS 架設 。
+    3. 積極主動、樂觀、能溝通、樂於助人及習慣團隊合作。
+    4. 具獨立發現問題解決問題能力。
+    5. 邏輯能力強，能快速學習並運用新技術。
+    6. 對撰寫優秀的程式碼有高度熱情
+    7. 想學習並創造優異的程式改善世界。
+  JOB: Internet程式設計師
+  LAT: '25.0207487'
+  LINK: http://www.cmoney.tw/jobs/
+  LON: '121.4671248'
+  NAME: 全曜財經資訊股份有限公司
+- ADDRESS: 民生東路四段54號4樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  DESCRIPTION: ''
+  JOB: Internet程式設計師
+  LAT: '25.060064'
+  LINK: http://www.entrust.com.tw/
+  LON: '121.559306'
+  NAME: 華南永昌綜合證券股份有限公司
+- ADDRESS: 基隆路一段432號14樓之7
+  ADDR_NO_DESCRIPT: 台北市信義區
+  DESCRIPTION: |-
+    1. 參予使用者需求分析與設計。
+    2. 進行網路架構、程式需求分析。
+    3. 開發以網路為基礎的應用程式及界面（Web-based application）。
+    4. 研究、設計、開發新的網路技術及元件。
+    5. 模擬、測試、修正現有網路系統程式。
+  JOB: Internet 程式設計師
+  LAT: '25.033703'
+  LINK: http://www.ytsys.com
+  LON: '121.559678'
+  NAME: 元太數位科技有限公司
+- ADDRESS: 三重路19之11號3樓
+  ADDR_NO_DESCRIPT: 台北市南港區
+  DESCRIPTION: |-
+    工作內容 :
+    RWD網頁設計(PC & mobile)
+    Ajax應用開發(熟悉XML, JSON資料結構)
+    基本條件 :
+    熟悉HTML(5), CSS(3), Javascript
+    優先錄取 :
+    熟悉jQuery,AngularJS,Bootstrap框架
+  JOB: Internet前端工程師
+  LAT: '25.05786'
+  LINK: http://www.arplanet.com.tw
+  LON: '121.613999'
+  NAME: 宇萌數位科技股份有限公司
+- ADDRESS: 市政北二路236號35樓之1
+  ADDR_NO_DESCRIPT: 台中市西屯區
+  DESCRIPTION: |-
+    此職務內容主要是遊戲平台系統的設計、開發與維護，使用的主要語言是PHP、Javascript，使用的Framework 是Symfony，後端伺服器端使用的是Linux、Apache、node.js與XMPP Server。
+
+    如果你符合下列特質，歡迎你加入我們的行列。
+    - 對網頁技術熟悉者
+    （雖然此職務主要使用PHP開發，但仍歡迎會使用其他語言的人員）。
+    - 喜歡接觸並使用新技術、新事務，能不斷自我提昇者
+    （Web技術日新月異，追求新技術來解決問題是我們每天的工作）。
+    - 對解決問題有興趣者（Web技術日新月異，遭遇到的問題也日新月異，
+    使用新的技術解決新的問題是我們的工作也是我們的樂趣）。
+    - 負責任並有良好溝通能力與團隊合作能力。
+  JOB: Internet程式設計師(A組)
+  LAT: '24.1643244'
+  LINK: http://www.chungyo.net/
+  LON: '120.6357482'
+  NAME: 凡谷興業有限公司
 - ADDRESS: 林森南路4之2號7樓
   ADDR_NO_DESCRIPT: 台北市中正區
   DESCRIPTION: "1. 熟 Java SE/ Java EE 程式設計與開發 \n2. 熟 Java、JSP、Servlets\n3. 熟 OOAD,
@@ -557,6 +558,17 @@ contents:
   LINK: http://www.frog-jump.com/
   LON: '121.522949'
   NAME: 德義資訊股份有限公司
+- ADDRESS: 港墘路208號4樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    • Responsible for developing web, mobile and apps with better UX
+    • Ensure the usability, accessibility and consistency across different platforms
+    • Work closely with a team of developers, designer and project manager
+  JOB: Internet/Mobile Front-End工程師
+  LAT: '25.0754949'
+  LINK: http://www.alliance.tw
+  LON: '121.5740227'
+  NAME: 香港商一聯系統有限公司
 - ADDRESS: 中山北路三段29號10樓之2
   ADDR_NO_DESCRIPT: 台北市中山區
   DESCRIPTION: |-
@@ -581,30 +593,6 @@ contents:
   LINK: http://www.canlead.com.tw/
   LON: '120.6739732'
   NAME: 肯驛國際股份有限公司
-- ADDRESS: 港墘路208號4樓
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: |-
-    • Responsible for developing web, mobile and apps with better UX
-    • Ensure the usability, accessibility and consistency across different platforms
-    • Work closely with a team of developers, designer and project manager
-  JOB: Internet/Mobile Front-End工程師
-  LAT: '25.0754949'
-  LINK: http://www.alliance.tw
-  LON: '121.5740227'
-  NAME: 香港商一聯系統有限公司
-- ADDRESS: 英才路501號6樓之2
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.資訊軟體相關科系畢業或有使用PHP開發網站程式經驗者。
-    2.熟悉HTML/CSS/JavaScript佳。
-    3.熟悉MySQL。
-    4.有撰寫及介接API及Web Service相關經驗。
-    5.具團隊合作精神、熱愛程式寫作、對新技術有研究精神，勇於表達、樂於分享。
-  JOB: Internet 程式設計師
-  LAT: '24.1769764'
-  LINK: http://www.dongyu-net.com/zh-tw/index.html
-  LON: '120.6424333'
-  NAME: 東宇數位網路有限公司
 - ADDRESS: 台元街32號8樓之2
   ADDR_NO_DESCRIPT: 新竹縣竹北市
   DESCRIPTION: |-
@@ -621,7 +609,7 @@ contents:
   DESCRIPTION: |-
     1. ASP.NET , Web-based 開發經驗
     2.程式開發工作有興趣
-    3.需要有經驗和較無經驗各一名
+    3.需要有經驗一名
   JOB: Internet 程式設計師
   LAT: '25.0683593'
   LINK: www.samwells.com
@@ -640,6 +628,16 @@ contents:
   LINK: www.santek.com.tw
   LON: '121.545792'
   NAME: 正泓電腦股份有限公司
+- ADDRESS: 仁愛路2段2號7樓
+  ADDR_NO_DESCRIPT: 台北市中正區
+  DESCRIPTION: |-
+    1. APl程式開發
+    2. 維護現有音樂網站前後台系統
+  JOB: Internet程式設計師
+  LAT: '25.0380869'
+  LINK: https://info.omusic.com.tw/
+  LON: '121.5253392'
+  NAME: 全音樂股份有限公司_friDay音樂_(遠傳電信子公司)
 - ADDRESS: 建一路186號11樓之4
   ADDR_NO_DESCRIPT: 新北市中和區
   DESCRIPTION: |-
@@ -704,15 +702,18 @@ contents:
   LINK: http://www.masterlink.com.tw
   LON: '121.549271'
   NAME: 元富證券股份有限公司
-- ADDRESS: 縣民大道2段7號25樓
-  ADDR_NO_DESCRIPT: 新北市板橋區
-  DESCRIPTION: "負責本公司之網站軟體產品開發與維護 \n1. 網站資料庫相關程式設計與維護管理。 \n2. 網頁資料呈現程式設計。 \n3. 各種程式API整合。
-    \n4. 其他公司內部程式開發與維護。"
-  JOB: Internet程式設計師
-  LAT: '25.0143985'
-  LINK: www.cellopoint.com
-  LON: '121.4634922'
-  NAME: 基點資訊股份有限公司
+- ADDRESS: 信義路三段41號12樓之1
+  ADDR_NO_DESCRIPT: 台北市大安區
+  DESCRIPTION: |-
+    1. 網站系統開發
+    2. WEB & Mobile 網頁設計與製作
+    3. 頁面設計切版&排版
+    4. HTML、CSS、jQuery應用
+  JOB: Internet 網頁設計師
+  LAT: '25.0523383'
+  LINK: www.qsf.tw
+  LON: '121.5904515'
+  NAME: 全勝發網路資訊股份有限公司
 - ADDRESS: 敦化南路2段105號10、13樓
   ADDR_NO_DESCRIPT: 台北市大安區
   DESCRIPTION: "1. Your Employer:\nOur client is a multinational O2O service provider
@@ -735,6 +736,28 @@ contents:
   LINK: www.manpower.com.tw
   LON: '121.5427093'
   NAME: 萬寶華企業管理顧問股份有限公司
+- ADDRESS: 中正路928號7樓
+  ADDR_NO_DESCRIPT: 新北市中和區
+  DESCRIPTION: |-
+    1. 建置、管理與維護公司電子商務及內部系統。
+    2. 負責電子商務網站之分析、設計以及程式撰寫。
+    3. 企業內部系統需求之分析、設計及程式撰寫。
+    4. 開發以網路為基礎的應用程式（Web-based application）。
+    5. 導入MVC系統架構。
+  JOB: Internet 軟體工程師
+  LAT: '25.0080587'
+  LINK: www.esunergy.com
+  LON: '121.483241'
+  NAME: 碩昱科技股份有限公司
+- ADDRESS: 縣民大道2段7號25樓
+  ADDR_NO_DESCRIPT: 新北市板橋區
+  DESCRIPTION: "負責本公司之網站軟體產品開發與維護 \n1. 網站資料庫相關程式設計與維護管理。 \n2. 網頁資料呈現程式設計。 \n3. 各種程式API整合。
+    \n4. 其他公司內部程式開發與維護。"
+  JOB: Internet程式設計師
+  LAT: '25.0143985'
+  LINK: www.cellopoint.com
+  LON: '121.4634922'
+  NAME: 基點資訊股份有限公司
 - ADDRESS: 基湖路10巷50號8樓
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -747,18 +770,6 @@ contents:
   LINK: www.edom.com.tw
   LON: '121.563481'
   NAME: 益登科技股份有限公司
-- ADDRESS: 信義路三段41號12樓之1
-  ADDR_NO_DESCRIPT: 台北市大安區
-  DESCRIPTION: |-
-    1. 網站系統開發
-    2. WEB & Mobile 網頁設計與製作
-    3. 頁面設計切版&排版
-    4. HTML、CSS、jQuery應用
-  JOB: Internet 網頁設計師
-  LAT: '25.0523383'
-  LINK: www.qsf.tw
-  LON: '121.5904515'
-  NAME: 全勝發網路資訊股份有限公司
 - ADDRESS: 瑞湖街
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: "1.熟網頁程式開發(asp.Net為主)、(MSSQL)\n2.熟悉ASP.net等網頁開發相關技術。  \n3.具網頁程式開發或架構規劃之經驗者佳
@@ -768,6 +779,23 @@ contents:
   LINK: https://www.gnjoy.com.tw/
   LON: '121.5764092'
   NAME: 韓商格雷維蒂股份有限公司台灣分公司
+- ADDRESS: 園區街3-1號G棟11樓之一
+  ADDR_NO_DESCRIPT: 台北市南港區
+  DESCRIPTION: |-
+    工作內容
+    從事網路程式設計、架站，網路安全維護等工作。
+
+    工作任務
+    設計、開發新的網路程式及界面。
+    模擬、修正現有網路系統程式。
+    負責整體網路架構之維護管理與監控、流量控制、安全規劃及問題協調追蹤與排除。
+    進行網路程式的需求分析。
+    開發以網路為基礎的應用程式（Web-based application）。
+  JOB: Internet程式設計師
+  LAT: '25.0584861'
+  LINK: ''
+  LON: '121.6118825'
+  NAME: 伊賀本數位資訊股份有限公司
 - ADDRESS: 遠東路1號11樓(台北遠東通訊園區)
   ADDR_NO_DESCRIPT: 新北市板橋區
   DESCRIPTION: "We are looking for an IoT TESTING ENGINEER who will properly deliver
@@ -787,23 +815,6 @@ contents:
   LINK: http://www.ericsson.com
   LON: '121.4571133'
   NAME: 台灣愛立信股份有限公司
-- ADDRESS: 園區街3-1號G棟11樓之一
-  ADDR_NO_DESCRIPT: 台北市南港區
-  DESCRIPTION: |-
-    工作內容
-    從事網路程式設計、架站，網路安全維護等工作。
-
-    工作任務
-    設計、開發新的網路程式及界面。
-    模擬、修正現有網路系統程式。
-    負責整體網路架構之維護管理與監控、流量控制、安全規劃及問題協調追蹤與排除。
-    進行網路程式的需求分析。
-    開發以網路為基礎的應用程式（Web-based application）。
-  JOB: Internet程式設計師
-  LAT: '25.0584861'
-  LINK: ''
-  LON: '121.6118825'
-  NAME: 伊賀本數位資訊股份有限公司
 - ADDRESS: 台元街26號4樓之1
   ADDR_NO_DESCRIPT: 新竹縣竹北市
   DESCRIPTION: |-
@@ -827,6 +838,18 @@ contents:
   LINK: ''
   LON: '121.486167'
   NAME: 香港商康祥環球有限公司
+- ADDRESS: 新泰路31號6樓
+  ADDR_NO_DESCRIPT: 新竹縣竹北市
+  DESCRIPTION: |-
+    開發Cloud Application。
+     1.撰寫雲端程式Web Service。
+    2.讀寫Cloud Database。
+    3.分析Cloud Database。
+  JOB: Internet 軟體工程師
+  LAT: '24.8287095'
+  LINK: http://www.pcbased.com.tw
+  LON: '121.0169462'
+  NAME: 捷準科技股份有限公司
 - ADDRESS: 中華路二段207號5樓
   ADDR_NO_DESCRIPT: 新北市土城區
   DESCRIPTION: |-
@@ -841,35 +864,15 @@ contents:
   LINK: www.dmg.tv
   LON: '121.4380168'
   NAME: 大豐有線電視股份有限公司
-- ADDRESS: 新北園路20號
-  ADDR_NO_DESCRIPT: 桃園市中壢區
-  DESCRIPTION: |-
-    具有物件導向概念
-     JAVA Web程式開發
-     Java SE/Java EE程式設計與開發
-     熟JSP/Servlets/Spring/Hibernate或Mybatis
-     熟HTML5/CSS3/Javascript/JQuery
-     Oracle/MySQL/Postgresql或其它資料庫操作
-     JBoss/Tomcat或其它Server操作
-     JSON/AJAX/Eclipsel相關觀念
-     有Spring/JPA/Maven/Hibernate 實際使用經驗
-  JOB: Internet程式設計師
-  LAT: '24.989948'
-  LINK: www.tohatsu.com.tw
-  LON: '121.241873'
-  NAME: 伍全企業股份有限公司
-- ADDRESS: 新泰路31號6樓
-  ADDR_NO_DESCRIPT: 新竹縣竹北市
-  DESCRIPTION: |-
-    開發Cloud Application。
-     1.撰寫雲端程式Web Service。
-    2.讀寫Cloud Database。
-    3.分析Cloud Database。
-  JOB: Internet 軟體工程師
-  LAT: '24.8287095'
-  LINK: http://www.pcbased.com.tw
-  LON: '121.0169462'
-  NAME: 捷準科技股份有限公司
+- ADDRESS: 台灣大道二段360號8樓之一
+  ADDR_NO_DESCRIPT: 台中市北區
+  DESCRIPTION: "1.資訊軟體相關科系畢業或有使用PHP開發網站程式經驗者。 \n2.熟悉HTML/CSS/JavaScript佳。 \n3.熟悉MySQL。
+    \n4.有撰寫及介接API及Web Service相關經驗。"
+  JOB: Internet 程式設計師
+  LAT: '24.1583917'
+  LINK: ''
+  LON: '120.6576722'
+  NAME: 阿卡迪亞資訊有限公司
 - ADDRESS: 重慶南路二段75號4樓
   ADDR_NO_DESCRIPT: 台北市中正區
   DESCRIPTION: |-
@@ -902,28 +905,56 @@ contents:
   LINK: www.coordiwise.com
   LON: '121.026075'
   NAME: 圓揚科技股份有限公司
-- ADDRESS: 吉林路109號2樓
-  ADDR_NO_DESCRIPT: 台北市中山區
-  DESCRIPTION: "1.程式設計開發，PHP 或是 ASP.NET C#程式，\n2.資料庫會MYSQL、MSSQL熟悉者佳，\n3.另 熟 jQuery及
-    CSS 者佳，\n＠有良好的物件導向概念。 \n＠有開發過軟體專案經驗或是作品。 \n＠有My SQL 相關經驗。 \n＠熟悉Html , JavaScript。
-    \n＠有ＰＨＰ網站前後台開發經驗或是作品。\n請先上本公司網站了解營業項目：http://www.104portal.com.tw"
-  JOB: 台北-Internet程式工程師
-  LAT: '25.056567'
-  LINK: http://www.104portal.com.tw
-  LON: '121.530306'
-  NAME: 網動廣告科技股份有限公司
-- ADDRESS: 南京東路五段234號2樓之2
-  ADDR_NO_DESCRIPT: 台北市松山區
+- ADDRESS: 信義路三段
+  ADDR_NO_DESCRIPT: 台北市大安區
   DESCRIPTION: |-
-    1.負責軟體之設計以及程式撰寫。
-    2.規劃執行軟體架構及模組之設計，並控管軟體設計進度。
-    3.進行軟體之測試與修改。
-    4.協助研發軟體新技術與新工具。
-  JOB: Internet程式設計師-台中
-  LAT: '24.142068'
-  LINK: http://www.drcooper.com.tw/
-  LON: '120.639486'
-  NAME: 北昕資訊股份有限公司
+    - Key job is to develop "Digital Marketing Solution Proposals" for Sales/Account Management Team to communicate with the advertisers to fulfill client's digital marketing demand and is able to further propose our suggested Marketing Solution Portfolio to help clients grow their business with us.
+      - A successful candidate must be like A Good Story-Teller with an innovative and analytical thinking framework to plan the Story Board & Script in form of the Powerpoint & Word formats by incorporating Company's Digital Marketing Solutions to help achieve client's (advertiser's) digital marketing objectives. Well know how to pitch the clients with our key selling points packed into a good story for cutting sharply into the angles clients feel interested is the most fundamental and essential skill for this job.
+      - "Sales Kits & Business Development Kits Developer" in the Company. To help Business Operation Teams prepare for "Sales Kits & Business Development Kits" in order to approach, to pitch, and to convince the clients/publishers to cooperate with us.
+      - To grasp some critical large clients or leading publishers, it's highly required to prepare "Customized Marketing Solution Proposal" for Sales & Business Development teams.
+      - Responsible for media buy, traffic partnership development and inventory portfolio management to assure the ad inventory able to fulfill our media proposal and client's demands.
+      - Frequently use Powerpoint (sometimes Word) to develop Sales/BD Kits & Customized Marketing Solution Proposal to achieve Company's Business Strategic Objectives.
+    - A Good Team-player also a Quick Learner to co-work with internal teams of "Sales/Account Management/Technical & Data/Product Development" to consolidate, to digest, to harmonize tons of our product & technology information into a polished and a simplified story to be presented in "Powerpoint".
+      - You must have the overall knowledge of digital marketing and programmatic marketing in order to cooperate with internal key stakeholders to quickly digest the product & technology information for Sales/Accountment Management teams.
+    - To closely communicate with Product & Technology and Business Development teams to keep yourself most-updated to our latest solutions and traffic offer is highly needed in order to support Sales Team achieving revenue goal
+    - You would need to visit our key clients/publishers with our Sales & Business Development Teams in order to know their expectation and demand much well. While needed, you may also help present your proposals to the clients/publishers. In addition, you would even help and support on advising the allocation of media spending and the most appropriate types of digital marketing solutions from your perspective & observation standing on the balance of Client & Company interest.
+      - Undertaking research and analyzing data to identify the right strategy, right audiences in order to make a successful "Sales/BD Kits" and "Marketing Solution Proposals".
+      - Would also need to co-work Marketing Team to synchronize our messages whatever at client/publisher/media sides and to cooperate with Art Design team to request the creative design support on your proposal.
+  JOB: Senior Media Planner for Digital Marketing
+  LAT: '25.0334888'
+  LINK: http:// momagic.in/v4/
+  LON: '121.543517'
+  NAME: 睿捷大數據科技有限公司(籌備處)
+- ADDRESS: 堤頂大道2段89號5樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "Position Description: \n•Lead Taiwan eCommerce business as a business
+    owner owning full P&L and the execution of the business growth strategies.  Lead
+    planning and execution of sales and marketing activities for Taiwan Lenovo.com
+    eCommerce business. Run eCommerce sales and marketing operations (product offering
+    and supply management, pricing planning and execution, campaign planning and execution,
+    page content planning and execution, demand generation planning and execution)\n•Accountable
+    for the business performance and requires executive communication with eCommerce
+    and Regional Central AP / Taiwan leadership \n•Potentially expand the role to
+    other countries in Asia Pacific as business expands\n\nPosition Requirements:
+    \n- Above 5 years or experience in eCommerce or internet related business \n-
+    Sales target ownership (preferably P&L)\n- Fluent English communication skills
+    (discussion, writing, presentation)\n- Logical and strategic thinking\n- Quick
+    action / result oriented mindset\n- Quantitative analyses"
+  JOB: TW eCommerce Lead
+  LAT: '25.0759118'
+  LINK: www.lenovo.com
+  LON: '121.5718383'
+  NAME: 荷蘭商聯想股份有限公司
+- ADDRESS: 建國北路二段135號13樓
+  ADDR_NO_DESCRIPT: 台北市中山區
+  DESCRIPTION: |-
+    1.網站系統開發
+    2.網路活動程式撰寫設計
+  JOB: 網站(Internet)程式設計師
+  LAT: '25.060439'
+  LINK: www.e21mm.com
+  LON: '121.537547'
+  NAME: 摩奇創意股份有限公司
 - ADDRESS: 堤頂大道一段333號4樓
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -938,16 +969,18 @@ contents:
   LINK: www.startravel.com.tw
   LON: '121.573044'
   NAME: 燦星國際旅行社股份有限公司
-- ADDRESS: 建國北路二段135號13樓
-  ADDR_NO_DESCRIPT: 台北市中山區
+- ADDRESS: 南京東路五段234號2樓之2
+  ADDR_NO_DESCRIPT: 台北市松山區
   DESCRIPTION: |-
-    1.網站系統開發
-    2.網路活動程式撰寫設計
-  JOB: 網站(Internet)程式設計師
-  LAT: '25.060439'
-  LINK: www.e21mm.com
-  LON: '121.537547'
-  NAME: 摩奇創意股份有限公司
+    1.負責軟體之設計以及程式撰寫。
+    2.規劃執行軟體架構及模組之設計，並控管軟體設計進度。
+    3.進行軟體之測試與修改。
+    4.協助研發軟體新技術與新工具。
+  JOB: Internet程式設計師-台中
+  LAT: '24.142068'
+  LINK: http://www.drcooper.com.tw/
+  LON: '120.639486'
+  NAME: 北昕資訊股份有限公司
 - ADDRESS: 堤頂大道二段407巷20弄1號7樓
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: "Check the link about ACTi software product.\nhttp://www.acti.com/products/software-nvr\n自行開發自有的
@@ -965,6 +998,14 @@ contents:
   LINK: https://www.acti.com/corpweb/JoinUs/ACTiCareer.aspx
   LON: '121.563604722'
   NAME: 建騰創達科技股份有限公司
+- ADDRESS: 八德路二段306號10樓(八德路、復興北路口)
+  ADDR_NO_DESCRIPT: 台北市中山區
+  DESCRIPTION: 網頁.Net C# /asp.Net程式設計及系統維運(asp),資料庫以MS-SQL為主
+  JOB: S-Internet程式設計師(資訊處)
+  LAT: '25.046891'
+  LINK: http://www.sinopac.com
+  LON: '121.513108'
+  NAME: 永豐金融控股股份有限公司 (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)
 - ADDRESS: 市政北二路236號35樓之1
   ADDR_NO_DESCRIPT: 台中市西屯區
   DESCRIPTION: |-
@@ -983,43 +1024,6 @@ contents:
   LINK: http://www.chungyo.net/
   LON: '120.6357482'
   NAME: 凡谷興業有限公司
-- ADDRESS: 八德路二段306號10樓(八德路、復興北路口)
-  ADDR_NO_DESCRIPT: 台北市中山區
-  DESCRIPTION: 網頁.Net C# /asp.Net程式設計及系統維運(asp),資料庫以MS-SQL為主
-  JOB: S-Internet程式設計師(資訊處)
-  LAT: '25.046891'
-  LINK: http://www.sinopac.com
-  LON: '121.513108'
-  NAME: 永豐金融控股股份有限公司 (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)
-- ADDRESS: 新竹科學工業園區創新二路6號
-  ADDR_NO_DESCRIPT: 新竹市
-  DESCRIPTION: |-
-    1. 負責e-flow表單開發與維護
-    2. 熟悉Oracle資料庫、SQL
-  JOB: MSTC_U_II_Internet程式設計師
-  LAT: '24.779613'
-  LINK: http://www.mitrastar.com/
-  LON: '120.995486'
-  NAME: 盟創科技股份有限公司(合勤企業集團)
-- ADDRESS: 行善路111巷35號6樓
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: "1. 熟悉 LAMP[Linux+Apache+Mysql+PHP] 開發 \n2. 熟悉 HTML5 CSS Javascript
-    等 網頁語言\n3. UI/UX設計開發\n4. 串接 api\n5. 系統分析設計、資料庫規劃"
-  JOB: Internet 資深工程師/主管
-  LAT: '25.056894'
-  LINK: ''
-  LON: '121.5764369'
-  NAME: 卡星魁網路股份有限公司
-- ADDRESS: 新竹科學工業園區創新二路6號
-  ADDR_NO_DESCRIPT: 新竹市
-  DESCRIPTION: |-
-    1. eFlow 系統維運, 專案系統分析開發
-    2. Java 應用系統分析開發
-  JOB: MSTC_U_III_Internet程式設計師
-  LAT: '24.7732416'
-  LINK: http://www.mitrastar.com/
-  LON: '121.0084919'
-  NAME: 盟創科技股份有限公司(合勤企業集團)
 - ADDRESS: 三重路19之8號5樓
   ADDR_NO_DESCRIPT: 台北市南港區
   DESCRIPTION: 負責執行.Net專案程式開發、測試及完成相關文件
@@ -1030,35 +1034,44 @@ contents:
   NAME: 東捷資訊服務股份有限公司
 - ADDRESS: 園區街3-1號G棟4樓(南港軟體園區)
   ADDR_NO_DESCRIPT: 台北市南港區
-  DESCRIPTION: "1.具備.NET開發能力\n2.需熟APS.Net C#（使用MVC架構、懂WEB API） \n3.熟HTML、JavaScript前端基本語法\n4.熟資料庫
-    MS SQL 語法（懂Entity Framework者佳）\n5.熟微軟開發工具visual studio 2008以上\n6.版本控制GIT或SVN"
-  JOB: "【總公司】Internet程式設計師-1"
-  LAT: '25.0584861'
+  DESCRIPTION: "1. 具備C#、Asp.Net後端\n2. HTML、Web相關技術。\n3. 具備MS SQL 的能力 \n4. 對資訊科技知識有熱誠且願意持續學習\n5.
+    有責任感、善於與團隊合作和溝通"
+  JOB: "【總公司】Internet程式設計師-2"
+  LAT: '25.05868'
   LINK: http://www.eyecenter.com.tw
-  LON: '121.6118825'
+  LON: '121.612086'
   NAME: 大學光學科技股份有限公司_眼鏡/眼科/醫美
-- ADDRESS: 瑞光路583巷31號3樓
-  ADDR_NO_DESCRIPT: 台北市內湖區
+- ADDRESS: 龍明街32號
+  ADDR_NO_DESCRIPT: 桃園市中壢區
   DESCRIPTION: |-
-    1. 協助遊戲上市前程式介接。
-    2. 遊戲線上活動程式撰寫。
-  JOB: 研發部-Internet 程式設計師
-  LAT: '25.0808233'
-  LINK: http://www.cayennetech.com.tw/
-  LON: '121.567932'
-  NAME: 紅心辣椒娛樂科技股份有限公司
-- ADDRESS: 南京東路四段152號9樓
-  ADDR_NO_DESCRIPT: 台北市松山區
+    1.ASP.NET with C# web系統開發
+    2.熟悉使用Visual Studio 開發介面，具備開發經驗者佳
+    3.熟悉MS SQL/T-SQL語法，具備開發經驗者佳
+  JOB: Internet程式設計師(新竹)
+  LAT: '24.7740919'
+  LINK: http://www.bestitmaster.com
+  LON: '121.0479329'
+  NAME: 元弘科技有限公司
+- ADDRESS: 新竹科學工業園區創新二路6號
+  ADDR_NO_DESCRIPT: 新竹市
   DESCRIPTION: |-
-    1.熟悉 C#
-    2.懂jquery、javascript 、css、html應用
-    3.專案網站程式開發及維運
-    相關科系畢業，或是參與過相關課程，歡迎應屆畢業生應徵
-  JOB: 助理Internet程式設計師
-  LAT: '25.0513763'
-  LINK: http://www.eternal9.com.tw/
-  LON: '121.5560703'
-  NAME: 久騰數位行銷有限公司
+    1. 負責e-flow表單開發與維護
+    2. 熟悉Oracle資料庫、SQL
+  JOB: MSTC_U_II_Internet程式設計師
+  LAT: '24.779613'
+  LINK: http://www.mitrastar.com/
+  LON: '120.995486'
+  NAME: 盟創科技股份有限公司(合勤企業集團)
+- ADDRESS: 新竹科學工業園區創新二路6號
+  ADDR_NO_DESCRIPT: 新竹市
+  DESCRIPTION: |-
+    1. eFlow 系統維運, 專案系統分析開發
+    2. Java 應用系統分析開發
+  JOB: MSTC_U_III_Internet程式設計師
+  LAT: '24.7732416'
+  LINK: http://www.mitrastar.com/
+  LON: '121.0084919'
+  NAME: 盟創科技股份有限公司(合勤企業集團)
 - ADDRESS: 洲子街71號5F
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -1076,6 +1089,16 @@ contents:
   LINK: http://www.supergeotek.com/
   LON: '120.64976'
   NAME: 崧旭資訊股份有限公司
+- ADDRESS: 瑞光路583巷31號3樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    1. 協助遊戲上市前程式介接。
+    2. 遊戲線上活動程式撰寫。
+  JOB: 研發部-Internet 程式設計師
+  LAT: '25.0808233'
+  LINK: http://www.cayennetech.com.tw/
+  LON: '121.567932'
+  NAME: 紅心辣椒娛樂科技股份有限公司
 - ADDRESS: 復興南路2段363號3樓
   ADDR_NO_DESCRIPT: 台北市大安區
   DESCRIPTION: |-
@@ -1086,6 +1109,18 @@ contents:
   LINK: www.softbi.com
   LON: '120.3034866'
   NAME: 商智資訊股份有限公司
+- ADDRESS: 南京東路四段152號9樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  DESCRIPTION: |-
+    1.熟悉 C#
+    2.懂jquery、javascript 、css、html應用
+    3.專案網站程式開發及維運
+    相關科系畢業，或是參與過相關課程，歡迎應屆畢業生應徵
+  JOB: 助理Internet程式設計師
+  LAT: '25.0513763'
+  LINK: http://www.eternal9.com.tw/
+  LON: '121.5560703'
+  NAME: 久騰數位行銷有限公司
 - ADDRESS: 松仁路7號3樓
   ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
@@ -1107,6 +1142,19 @@ contents:
   LINK: http://www.ibm.com.tw
   LON: '120.9674798'
   NAME: IBM_台灣國際商業機器股份有限公司
+- ADDRESS: 敦化南路2段71號八樓
+  ADDR_NO_DESCRIPT: 台北市大安區
+  DESCRIPTION: |-
+    1. 擅長PHP、ASP(classic asp)、MSSQL、javascript，具備css、 html5概念
+    2. 與專案團隊合作開發網站活動相關程式
+    3.維護(beauty美人圈網站)
+    4. 應屆畢業生可
+    5. 對程式開發有熱情，願意學習
+  JOB: BEAUTY美人誌網站-Internet工程師
+  LAT: '25.030589'
+  LINK: http://www.beauty321.com/
+  LON: '121.549228'
+  NAME: BEAUTY美人誌雜誌_千晶文化事業股份有限公司
 - ADDRESS: 建ㄧ路176號12樓之1(G棟)
   ADDR_NO_DESCRIPT: 新北市中和區
   DESCRIPTION: |-
@@ -1129,27 +1177,6 @@ contents:
   LINK: www.168books.com.tw
   LON: '121.418053'
   NAME: 幼福文化事業股份有限公司
-- ADDRESS: 敦化南路2段71號八樓
-  ADDR_NO_DESCRIPT: 台北市大安區
-  DESCRIPTION: |-
-    1. 擅長PHP、ASP(classic asp)、MSSQL、javascript，具備css、 html5概念
-    2. 與專案團隊合作開發網站活動相關程式
-    3.維護(beauty美人圈網站)
-    4. 應屆畢業生可
-    5. 對程式開發有熱情，願意學習
-  JOB: BEAUTY美人誌網站-Internet工程師
-  LAT: '25.030589'
-  LINK: http://www.beauty321.com/
-  LON: '121.549228'
-  NAME: BEAUTY美人誌雜誌_千晶文化事業股份有限公司
-- ADDRESS: 工業區自由街2號
-  ADDR_NO_DESCRIPT: 新北市土城區
-  DESCRIPTION: 網路通信系統規劃/管理/開發/維運
-  JOB: Internet工程師(土城/高雄)
-  LAT: '24.9661064'
-  LINK: http://recruit.foxconn.com/
-  LON: '121.421374'
-  NAME: 鴻海精密工業股份有限公司
 - ADDRESS: 洲子街71號5F
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -1178,17 +1205,14 @@ contents:
   LINK: http://www.supergeotek.com/
   LON: '121.5720233'
   NAME: 崧旭資訊股份有限公司
-- ADDRESS: 民權東路6段90巷6弄8號
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: |-
-    ．官網的架站及維護，後台資料庫及程式編寫。
-    .   UI及電子商務功能規劃，與合作團隊共同執行
-    ．負責網站前後台功能執行與維護、網站流量分析
-  JOB: Internet 網站程式設計師
-  LAT: '25.0684621'
-  LINK: http://www.ouiorganic.com/
-  LON: '121.5857415'
-  NAME: 艾莉美尚有限公司
+- ADDRESS: 工業區自由街2號
+  ADDR_NO_DESCRIPT: 新北市土城區
+  DESCRIPTION: 網路通信系統規劃/管理/開發/維運
+  JOB: Internet工程師(土城/高雄)
+  LAT: '24.9661064'
+  LINK: http://recruit.foxconn.com/
+  LON: '121.421374'
+  NAME: 鴻海精密工業股份有限公司
 - ADDRESS: 洲子街71號5F
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -1223,6 +1247,17 @@ contents:
   LINK: http://www.supergeotek.com/
   LON: '121.5720233'
   NAME: 崧旭資訊股份有限公司
+- ADDRESS: 民權東路6段90巷6弄8號
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    ．官網的架站及維護，後台資料庫及程式編寫。
+    .   UI及電子商務功能規劃，與合作團隊共同執行
+    ．負責網站前後台功能執行與維護、網站流量分析
+  JOB: Internet 網站程式設計師
+  LAT: '25.0684621'
+  LINK: http://www.ouiorganic.com/
+  LON: '121.5857415'
+  NAME: 艾莉美尚有限公司
 - ADDRESS: 大埔街25巷1號1樓
   ADDR_NO_DESCRIPT: 台北市中正區
   DESCRIPTION: |-
@@ -1251,36 +1286,34 @@ contents:
   LINK: www.leaderps.com.tw
   LON: '121.5558759'
   NAME: 立展企管顧問有限公司
-- ADDRESS: 基湖路1號8樓之1
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: "我們正在找你！如果你是個擁有多年 Web 開發經驗的工程師，喜歡研究各種新的網頁技術，RWD、Vue.js、HTML5 等等也只是你的基本技能之一，\n你想引用新一代的
-    Web 前後台技術做一些可規模化的平台架構，那麼這會是你要找的工作。\n\n\n1.主動關注及研究網站前端技術，行動應用及網路發展趨勢，並思考運用在實際商業作品上。
-    \n2.重視使用經驗細節與優化。 \n3.主動創新，每次作品都要與眾不同。 \n4.熱情、活潑、抗壓力高，獨立思考與作業。 \n5.負責任並有良好的溝通能力與團隊合作能力。"
-  JOB: "【高薪聘請】Internet程式設計師"
-  LAT: '25.081656'
-  LINK: ''
-  LON: '121.565513'
-  NAME: 博發科技有限公司
-- ADDRESS: 堤頂大道2段89號5樓
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: "Position Description: \n•Lead Taiwan eCommerce business as a business
-    owner owning full P&L and the execution of the business growth strategies.  Lead
-    planning and execution of sales and marketing activities for Taiwan Lenovo.com
-    eCommerce business. Run eCommerce sales and marketing operations (product offering
-    and supply management, pricing planning and execution, campaign planning and execution,
-    page content planning and execution, demand generation planning and execution)\n•Accountable
-    for the business performance and requires executive communication with eCommerce
-    and Regional Central AP / Taiwan leadership \n•Potentially expand the role to
-    other countries in Asia Pacific as business expands\n\nPosition Requirements:
-    \n- Above 5 years or experience in eCommerce or internet related business \n-
-    Sales target ownership (preferably P&L)\n- Fluent English communication skills
-    (discussion, writing, presentation)\n- Logical and strategic thinking\n- Quick
-    action / result oriented mindset\n- Quantitative analyses"
-  JOB: TW eCommerce Lead
-  LAT: '25.0759118'
-  LINK: www.lenovo.com
-  LON: '121.5718383'
-  NAME: 荷蘭商聯想股份有限公司
+- ADDRESS: 五青路１５０巷１２號
+  ADDR_NO_DESCRIPT: 桃園市大園區
+  DESCRIPTION: |-
+    【工作內容】
+    1. 負責專案之程式開發及維護 
+    2. 進行軟體測試、修改與維護 
+    3. 修正系統問題並提出解決方案
+    4. 熟悉PHP、HTML5、Javascript、 JQuery、CSS等Web相關技術。   
+    5. 熟悉 MySQL &amp; MSSQL
+
+    【同仁福利】
+    1.休假制度：大月休9天(九月休9天)，小月休8天，國定假日依法定發生月份另給假
+    2.享勞保、健保、團保及勞退金
+    3.年終獎金、分享獎金、介紹獎金
+    4.婚喪補助金、生育補助金、急難救助金及進修補助
+    5.正職人員每年享5000元同仁禮劵
+    6.同仁至店內消費九折優惠
+    7.供餐
+    8.同仁國內外旅遊、團康活動、健康檢查
+
+    Facebook饗賓招募粉絲頁：https://www.facebook.com/eatogether.hr/
+
+    *******饗賓餐飲集團誠摯邀請您的加入，成為最受期待的餐飲集團*******
+  JOB: 1-C2 Internet程式設計師
+  LAT: '25.0209659'
+  LINK: http://www.eatogether.com/
+  LON: '121.2364436'
+  NAME: 饗食天堂_饗賓餐旅事業股份有限公司
 - ADDRESS: 民權西路104號4樓
   ADDR_NO_DESCRIPT: 台北市大同區
   DESCRIPTION: "【工作內容】\n1. 使用 PHP+Mysql 開發網頁應用程式\n2. 熟悉 LAMP Bundle 架構\n3. 熟悉 JavaScript\n4.
@@ -1371,190 +1404,15 @@ contents:
   LINK: www.lenovo.com
   LON: '121.5718383'
   NAME: 荷蘭商聯想股份有限公司
-- ADDRESS: 南京東路三段261號七樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: |-
-    1.客戶端線上系統維運，如原有程式修改及資料庫維護等工作.( ASP.Net C#)
-    2.系統分析及設計工作，如新進專案或新需求的提升。
-    3.其它主管交辦事宜
-    負責系統:
-    1.系統維運及調整維護
-    2.新系統開發
-  JOB: Internet軟體工程師(企業處-物流部)
-  LAT: '25.052051'
-  LINK: www.bankpro.com.tw
-  LON: '121.5452066'
-  NAME: 金財通商務科技服務股份有限公司
-- ADDRESS: 新竹科學園區力行五路3號
-  ADDR_NO_DESCRIPT: 新竹市
-  DESCRIPTION: |-
-    1.網頁開發(ROR)
-    2.程式設計(VB.Net)
-    3.需求訪談，系統分析與設計
-    4.生產管理報表與分析系統設計與開發
-  JOB: JP3001-Internet 程式設計工程師-新竹區展業廠
-  LAT: '24.784621'
-  LINK: www.chipbond.com.tw
-  LON: '121.00293'
-  NAME: 頎邦科技股份有限公司
-- ADDRESS: 榮譽街172號
-  ADDR_NO_DESCRIPT: 台南市東區
-  DESCRIPTION: |-
-    1. 網站程式設計 (具備ASP、ASP.NET、PHP任一語法皆可)
-    2. 資料庫設計/管理能力 (具備MSSQL 、MySQL 任一語法皆可)
-    3. 具備單機程式開發設計能力尤佳 (具備VB、VB.NET、JAVA、C#任一語法皆可)
-    4. 具基礎系統分析概念
-    5. 提供具業界競爭力的薪資，另有績效獎金
-  JOB: Internet程式設計師(月薪4.5萬起)
-  LAT: '22.98133'
-  LINK: http://www.piece2ec.com.tw
-  LON: '120.222423'
-  NAME: 巨群資訊股份有限公司
-- ADDRESS: 南京東路三段261號七樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: |-
-    開發系統：產業鏈共享平台、人事差勤、金/商/物流平台、企業營運管理
-    使用語言與工具：ASP.NET/C#/WebAPI/SQL (MVC)
-  JOB: Internet軟體工程師(C#)(企業處-物流部)
-  LAT: '25.052102'
-  LINK: www.bankpro.com.tw
-  LON: '121.54524'
-  NAME: 金財通商務科技服務股份有限公司
-- ADDRESS: 敦化南路二段105號5樓
-  ADDR_NO_DESCRIPT: 台北市大安區
-  DESCRIPTION: |-
-    1. 將需求單位所提出的網站概念圖像與流程，分析其功能與需求，並轉化成具體的程式碼
-    2. 與產品規劃及前端工程等部門共同合作，進行溝通與產品開發
-    3. 行動體驗最佳化：打造對於行動應用友善的流程，開發為觸控最佳化的操作模式
-    4. 既有功能之維護與更新
-  JOB: 107年度研發替代役-Internet 網路工程師
-  LAT: '25.0284459'
-  LINK: www.Ruten.com.tw
-  LON: '121.549215'
-  NAME: 露天市集國際資訊股份有限公司
-- ADDRESS: 中正路700號13樓之8
-  ADDR_NO_DESCRIPT: 新北市中和區
-  DESCRIPTION: "1.能獨立完成入口型商務網站設計,如企業資訊入口網站! \n2.熟會html,css,Javacript應用等網站設計軟體。\n3.撰寫ASP.Net
-    C#\n4.熟悉SQL Server 2000或更高的版本. \n5.具備問題的解決及系統性能監視能力. \n6.良好報告能力，以及良好的團隊合作與溝通能力.\n7.學習能力強，願意承受工作壓力並具備快速分析和故障排除能力\n8.其他主管交辦事項."
-  JOB: MIS程式設計師、Internet程式設計師
-  LAT: '24.9967499'
-  LINK: www.eapus.com
-  LON: '121.485661'
-  NAME: 翰興科技股份有限公司
-- ADDRESS: 南京東路三段65號4F
-  ADDR_NO_DESCRIPT: 台北市中山區
-  DESCRIPTION: |-
-    1. 開發撰寫程式
-    2. 熟悉微軟開發工具與技術
-    3. 擅長工具: 熟悉
-    前端: HTML5/CSS3/JavaScript /jQuery/AngularJS
-    後端: C#, SQL
-    4. 主動積極、負責有效率、配合度高、重視團隊合作
-
-    **本職務隸屬 香港 Chain Global Limited 管理
-    Hecny Group (均輝集團旗下軟體公司)
-    http://www.hecny.com/
-    Chain Global Limited (IT company under Hecny Group)
-    http://www.chainglobal.com/
-  JOB: 軟體設計工程師、Internet程式設計師
-  LAT: '25.05223'
-  LINK: http://www.hecny.com
-  LON: '121.538476'
-  NAME: 均輝股份有限公司
-- ADDRESS: 承德路四段174號6樓
-  ADDR_NO_DESCRIPT: 台北市士林區
-  DESCRIPTION: |-
-    1. 前端網頁程式設計，整合後台DB, PHP 等
-    2. 設計介接金流與後臺系統規劃建置
-    2.具 JQuery, JavaScript, HTML5 經驗
-  JOB: Internet工程師/資深工程師/系統分析師
-  LAT: '25.086329'
-  LINK: www.vteamsystem.com
-  LON: '121.521762'
-  NAME: VTeam Financial Technology Service Corp._天逸財金科技服務股份有限公司
-- ADDRESS: 工業區自由街2號
-  ADDR_NO_DESCRIPT: 新北市土城區
-  DESCRIPTION: |-
-    1.負責建立與維護公司產品整體架構及系統開發標準
-    2.審查專案程式以確保品質，以及資訊安全和效能等要求
-    3.設計產品所需基礎建設架構、網路架構、開發環境制定
-    4.移動端產品與服務器端系統整體設計與整合規劃
-    5.帶領整個開發團隊，以及管理系統運營團隊
-    6.Open Source 雲端技術／產品規劃或導入
-    7. 其他主管交辦事項
-  JOB: "[Mobile Internet] 行動網路平台開發 主管 (大陸/成都)"
-  LAT: '30.710589'
-  LINK: http://recruit.foxconn.com/
-  LON: '104.088668'
-  NAME: 鴻海精密工業股份有限公司
-- ADDRESS: 新竹科學園區力行五路3號
-  ADDR_NO_DESCRIPT: 新竹市
-  DESCRIPTION: "1.網頁開發 \n2.程式開發 \n3.系統分析與設計 \n4.生產報表開發 \n5.生產系統開發"
-  JOB: KP3001-Internet 程式設計工程師-湖口區光復廠
-  LAT: '24.8709487'
-  LINK: www.chipbond.com.tw
-  LON: '121.0283663'
-  NAME: 頎邦科技股份有限公司
-- ADDRESS: 瑞光路581號(114)
+- ADDRESS: 瑞光路76巷37號5F
   ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: |-
-    .規劃醫療物聯網解決方案通路開發與推廣銷售
-    2. 建立產業Healthcare IoT Ecosystem，開發醫療院所, 醫藥通路, 醫療電子等資訊系統整合商
-    3.透過獨立銷售與外部經銷夥伴配合，完成指派區域的銷售目標
-  JOB: D0124 醫療業務開發IoMT (Internet of Medical Things)
-  LAT: '25.0799036'
-  LINK: www.compal.com
-  LON: '121.5680055'
-  NAME: 仁寶電腦工業股份有限公司
-- ADDRESS: 瑞光路581號(114)
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: |-
-    1. 負責醫療物聯網解決方案市場行銷工作
-    2. 結合公司醫療物聯網戰略目標，籌畫所負責解決方案之行銷推廣與產品文案
-    3. 策劃優質行銷活動與編制產品文案型錄，提升解決方案於醫療院所之知名度
-  JOB: D0125  解決方案行銷專員IoMT (Internet of Medical Things)
-  LAT: '25.0799036'
-  LINK: www.compal.com
-  LON: '121.5680055'
-  NAME: 仁寶電腦工業股份有限公司
-- ADDRESS: 市政路386號16樓之3
-  ADDR_NO_DESCRIPT: 台中市西屯區
-  DESCRIPTION: |-
-    1. 主要使用python 開發自動化流程
-    2. 規劃, 建置, 管理, 與優化網路架構
-    3. 資料庫系統, 使用MySQL 或 NoSQL
-  JOB: "【台中/台北】 Python Internet Application Engineer 網路應用工程師"
-  LAT: '24.1588966'
-  LINK: http://www.pacsoft.com.tw
-  LON: '120.6402886'
-  NAME: 兆洋資訊股份有限公司
-- ADDRESS: 建康路176號11F
-  ADDR_NO_DESCRIPT: 新北市中和區
-  DESCRIPTION: |-
-    1.O2O自建網站-系統需求訪談->程式開發->系統測試->系統調整->教育訓練->上線。
-    2.開發維護商品建檔優化系統、維護Web Api。
-    3.開發網站策略聯盟系統。
-    4.O2O感版設計規劃。
-    5.網站規劃、資料庫規格開立、系統開發、系統測試。
-    負責O2O電商網站系統需求之程式撰寫，維護系統最佳化之測試及修改，及新專案規畫執行。
-    6.熟悉Windows Server設定與效能調整。
-  JOB: 總公司_Internet程式設計工程師
-  LAT: '25.0000043'
-  LINK: http://car1.car1.com.tw
-  LON: '121.4903946'
-  NAME: 車麗屋汽車百貨股份有限公司
-- ADDRESS: 忠孝東路四段325號7樓
-  ADDR_NO_DESCRIPT: 台北市大安區
-  DESCRIPTION: |-
-    1.擔任公司資訊部門諮詢窗口，協助解決各單位資訊作業相關問題。
-    2.針對公司業務需求督導軟、硬體廠商替公司建置所需之系統、應用軟體等，及進行更新維護。
-    3.開發維護公司內部使用系統。
-    4.機房設備及個人電腦基本維護。
-  JOB: Internet程式設計師(工作地點於大陸蘇州)
-  LAT: '31.298974'
-  LINK: www.coamc.com.tw
-  LON: '120.585289'
-  NAME: 合作金庫資產管理股份有限公司
+  DESCRIPTION: "1. 推展IDC (Internet Data Center )機房委外服務\n2. 電話行銷潛在客戶需求\n3. 維護現有客戶關係
+    \n4. 報價與議價"
+  JOB: 業務人員
+  LAT: '25.070411'
+  LINK: http://www.dwins.com
+  LON: '121.581085'
+  NAME: 敦緯數位服務股份有限公司
 - ADDRESS: 環東路一段31巷28號
   ADDR_NO_DESCRIPT: 台南市新市區
   DESCRIPTION: 具英文能力，對於開發各種新世代寬頻通訊設備(Wireless, 3G/4G, M2M, Internet Appliances...)所需的硬體設計有興趣者。
@@ -1563,26 +1421,6 @@ contents:
   LINK: http://www.amit.com.tw
   LON: '120.28493'
   NAME: 永洋科技股份有限公司
-- ADDRESS: 新台五路一段81號7樓
-  ADDR_NO_DESCRIPT: 新北市汐止區
-  DESCRIPTION: "喜歡外出ㄆㄚˋㄆㄚˋ走，熱愛發掘在地餐廳與美食！ \n不怕辛苦、熱愛賺錢、熱愛挑戰、喜歡聊天、樂於分享！ \n個性積極主動，願意為團隊目標向前行！\n\n我們希望你:
-    \n1.發掘各類美食店家，帶給消費者美好的驚喜與體驗～ \n2.為店家提供建議，規劃適合的合作方案，讓消費者源源不絕～\n3.為店家提供服務，隨時掌握市場情報，給予專業的諮詢～"
-  JOB: "(台北) 餐廳開發顧問 Business Development Specialist"
-  LAT: '25.0610649'
-  LINK: https://www.flashtable.com.tw/
-  LON: '121.646158'
-  NAME: 白日夢文創股份有限公司
-- ADDRESS: 新台五路一段81號7樓
-  ADDR_NO_DESCRIPT: 新北市汐止區
-  DESCRIPTION: "1.     負責電話開發、約訪新客戶。 分析潛在客戶現況、需求與發展潛力，主動提案最佳合作方案，確保業績目標達成 。\n2.     透過電話或郵件方式，持續追蹤、經營並維護既有的客戶。
-    \n3.     建立、記錄並維護顧客資料（如：聯繫記錄、顧客反應、帳務及訂購記錄）。 \n4.     提供來電客戶諮詢服務、產品解說，並適時進行產品推廣及行銷。\n6.
-    \    協助提供合作客戶售後服務，加強售後客戶關係，引導最佳使用方式，進一步了解客戶潛在需求 \n7.     反應客戶需求統整與回報、建立客戶與 Flash
-    Table閃桌之間優質溝通橋樑"
-  JOB: 電話行銷專員 TeleMarketing Supervisor
-  LAT: '25.0610649'
-  LINK: https://www.flashtable.com.tw/
-  LON: '121.646158'
-  NAME: 白日夢文創股份有限公司
 - ADDRESS: 英才路530號14樓之6
   ADDR_NO_DESCRIPT: 台中市西區
   DESCRIPTION: |-
@@ -1629,6 +1467,201 @@ contents:
   LINK: http://www.harborfreight.com/
   LON: '120.6649802'
   NAME: 美商中央採購股份有限公司
+- ADDRESS: 新竹科學園區力行五路3號
+  ADDR_NO_DESCRIPT: 新竹市
+  DESCRIPTION: |-
+    1.網頁開發(ROR)
+    2.程式設計(VB.Net)
+    3.需求訪談，系統分析與設計
+    4.生產管理報表與分析系統設計與開發
+  JOB: JP3001-Internet 程式設計工程師-新竹區展業廠
+  LAT: '24.784621'
+  LINK: www.chipbond.com.tw
+  LON: '121.00293'
+  NAME: 頎邦科技股份有限公司
+- ADDRESS: 南京東路三段261號七樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  DESCRIPTION: |-
+    1.客戶端線上系統維運，如原有程式修改及資料庫維護等工作.( ASP.Net C#)
+    2.系統分析及設計工作，如新進專案或新需求的提升。
+    3.其它主管交辦事宜
+    負責系統:
+    1.系統維運及調整維護
+    2.新系統開發
+  JOB: Internet軟體工程師(企業處-物流部)
+  LAT: '25.052051'
+  LINK: www.bankpro.com.tw
+  LON: '121.5452066'
+  NAME: 金財通商務科技服務股份有限公司
+- ADDRESS: 榮譽街172號
+  ADDR_NO_DESCRIPT: 台南市東區
+  DESCRIPTION: |-
+    1. 網站程式設計 (具備ASP、ASP.NET、PHP任一語法皆可)
+    2. 資料庫設計/管理能力 (具備MSSQL 、MySQL 任一語法皆可)
+    3. 具備單機程式開發設計能力尤佳 (具備VB、VB.NET、JAVA、C#任一語法皆可)
+    4. 具基礎系統分析概念
+    5. 提供具業界競爭力的薪資，另有績效獎金
+  JOB: Internet程式設計師(月薪4.5萬起)
+  LAT: '22.98133'
+  LINK: http://www.piece2ec.com.tw
+  LON: '120.222423'
+  NAME: 巨群資訊股份有限公司
+- ADDRESS: 南京東路三段261號七樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  DESCRIPTION: |-
+    開發系統：產業鏈共享平台、人事差勤、金/商/物流平台、企業營運管理
+    使用語言與工具：ASP.NET/C#/WebAPI/SQL (MVC)
+  JOB: Internet軟體工程師(C#)(企業處-物流部)
+  LAT: '25.052102'
+  LINK: www.bankpro.com.tw
+  LON: '121.54524'
+  NAME: 金財通商務科技服務股份有限公司
+- ADDRESS: 敦化南路二段105號5樓
+  ADDR_NO_DESCRIPT: 台北市大安區
+  DESCRIPTION: |-
+    1. 將需求單位所提出的網站概念圖像與流程，分析其功能與需求，並轉化成具體的程式碼
+    2. 與產品規劃及前端工程等部門共同合作，進行溝通與產品開發
+    3. 行動體驗最佳化：打造對於行動應用友善的流程，開發為觸控最佳化的操作模式
+    4. 既有功能之維護與更新
+  JOB: 107年度研發替代役-Internet 網路工程師
+  LAT: '25.0284459'
+  LINK: www.Ruten.com.tw
+  LON: '121.549215'
+  NAME: 露天市集國際資訊股份有限公司
+- ADDRESS: 南京東路三段65號4F
+  ADDR_NO_DESCRIPT: 台北市中山區
+  DESCRIPTION: |-
+    1. 開發撰寫程式
+    2. 熟悉微軟開發工具與技術
+    3. 擅長工具: 熟悉
+    前端: HTML5/CSS3/JavaScript /jQuery/AngularJS
+    後端: C#, SQL
+    4. 主動積極、負責有效率、配合度高、重視團隊合作
+
+    **本職務隸屬 香港 Chain Global Limited 管理
+    Hecny Group (均輝集團旗下軟體公司)
+    http://www.hecny.com/
+    Chain Global Limited (IT company under Hecny Group)
+    http://www.chainglobal.com/
+  JOB: 軟體設計工程師、Internet程式設計師
+  LAT: '25.05223'
+  LINK: http://www.hecny.com
+  LON: '121.538476'
+  NAME: 均輝股份有限公司
+- ADDRESS: 承德路四段174號6樓
+  ADDR_NO_DESCRIPT: 台北市士林區
+  DESCRIPTION: |-
+    1. 前端網頁程式設計，整合後台DB, PHP 等
+    2. 設計介接金流與後臺系統規劃建置
+    3.具 css3, html5, javascript, jquery,php, Mysql經驗
+  JOB: Internet工程師/資深工程師/系統分析師
+  LAT: '25.0865759'
+  LINK: www.vteamsystem.com
+  LON: '121.5226402'
+  NAME: VTeam Financial Technology Service Corp._天逸財金科技服務股份有限公司
+- ADDRESS: 工業區自由街2號
+  ADDR_NO_DESCRIPT: 新北市土城區
+  DESCRIPTION: |-
+    1.負責建立與維護公司產品整體架構及系統開發標準
+    2.審查專案程式以確保品質，以及資訊安全和效能等要求
+    3.設計產品所需基礎建設架構、網路架構、開發環境制定
+    4.移動端產品與服務器端系統整體設計與整合規劃
+    5.帶領整個開發團隊，以及管理系統運營團隊
+    6.Open Source 雲端技術／產品規劃或導入
+    7. 其他主管交辦事項
+  JOB: "[Mobile Internet] 行動網路平台開發 主管 (大陸/成都)"
+  LAT: '30.710589'
+  LINK: http://recruit.foxconn.com/
+  LON: '104.088668'
+  NAME: 鴻海精密工業股份有限公司
+- ADDRESS: 新竹科學園區力行五路3號
+  ADDR_NO_DESCRIPT: 新竹市
+  DESCRIPTION: "1.網頁開發 \n2.程式開發 \n3.系統分析與設計 \n4.生產報表開發 \n5.生產系統開發"
+  JOB: KP3001-Internet 程式設計工程師-湖口區光復廠
+  LAT: '24.8709487'
+  LINK: www.chipbond.com.tw
+  LON: '121.0283663'
+  NAME: 頎邦科技股份有限公司
+- ADDRESS: 基湖路1號8樓之1
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "我們正在找你！如果你是個擁有多年 Web 開發經驗的工程師，喜歡研究各種新的網頁技術，RWD、Vue.js、HTML5 等等也只是你的基本技能之一，\n你想引用新一代的
+    Web 前後台技術做一些可規模化的平台架構，那麼這會是你要找的工作。\n\n\n1.主動關注及研究網站前端技術，行動應用及網路發展趨勢，並思考運用在實際商業作品上。
+    \n2.重視使用經驗細節與優化。 \n3.主動創新，每次作品都要與眾不同。 \n4.熱情、活潑、抗壓力高，獨立思考與作業。 \n5.負責任並有良好的溝通能力與團隊合作能力。"
+  JOB: "【薪優 福利佳】Internet程式設計師"
+  LAT: '25.081656'
+  LINK: ''
+  LON: '121.565513'
+  NAME: 博發科技有限公司
+- ADDRESS: 瑞光路581號(114)
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    .規劃醫療物聯網解決方案通路開發與推廣銷售
+    2. 建立產業Healthcare IoT Ecosystem，開發醫療院所, 醫藥通路, 醫療電子等資訊系統整合商
+    3.透過獨立銷售與外部經銷夥伴配合，完成指派區域的銷售目標
+  JOB: D0124 醫療業務開發IoMT (Internet of Medical Things)
+  LAT: '25.0799036'
+  LINK: www.compal.com
+  LON: '121.5680055'
+  NAME: 仁寶電腦工業股份有限公司
+- ADDRESS: 瑞光路581號(114)
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    1. 負責醫療物聯網解決方案市場行銷工作
+    2. 結合公司醫療物聯網戰略目標，籌畫所負責解決方案之行銷推廣與產品文案
+    3. 策劃優質行銷活動與編制產品文案型錄，提升解決方案於醫療院所之知名度
+  JOB: D0125  解決方案行銷專員IoMT (Internet of Medical Things)
+  LAT: '25.0799036'
+  LINK: www.compal.com
+  LON: '121.5680055'
+  NAME: 仁寶電腦工業股份有限公司
+- ADDRESS: 建康路176號11F
+  ADDR_NO_DESCRIPT: 新北市中和區
+  DESCRIPTION: |-
+    1.O2O自建網站-系統需求訪談->程式開發->系統測試->系統調整->教育訓練->上線。
+    2.開發維護商品建檔優化系統、維護Web Api。
+    3.開發網站策略聯盟系統。
+    4.O2O感版設計規劃。
+    5.網站規劃、資料庫規格開立、系統開發、系統測試。
+    負責O2O電商網站系統需求之程式撰寫，維護系統最佳化之測試及修改，及新專案規畫執行。
+    6.熟悉Windows Server設定與效能調整。
+  JOB: 總公司_Internet程式設計工程師
+  LAT: '25.0000043'
+  LINK: http://car1.car1.com.tw
+  LON: '121.4903946'
+  NAME: 車麗屋汽車百貨股份有限公司
+- ADDRESS: 大暖路55號
+  ADDR_NO_DESCRIPT: 新北市土城區
+  DESCRIPTION: "工作內容\n1.   開發網站、開發投資軟體工具、軟體測試\n2.   產品安裝與客服\n\n條件要求\n1. 熟悉ASP.NET、C#.NET、SQL資料庫
+    具備網站開發經驗  \n2. 對投資有興趣的你要來我們公司，我們公司開發股票、期貨、\n選擇權的投資工具，你可以樂在其中並且從中學到投資技巧\n3.   有寫過K線圖佳
+    \n4.   有責任感、細心、能獨當一面。\n5. 有程式交易經驗者加分"
+  JOB: 軟體工程師 & Internet程式設計師
+  LAT: '24.9774686'
+  LINK: ''
+  LON: '121.4421493'
+  NAME: 聰明贏資訊有限公司
+- ADDRESS: 市政路386號16樓之3
+  ADDR_NO_DESCRIPT: 台中市西屯區
+  DESCRIPTION: |-
+    1. 主要使用python 開發自動化流程
+    2. 規劃, 建置, 管理, 與優化網路架構
+    3. 資料庫系統, 使用MySQL 或 NoSQL
+  JOB: "【台中/台北】 Python Internet Application Engineer 網路應用工程師"
+  LAT: '24.1588966'
+  LINK: http://www.pacsoft.asia/
+  LON: '120.6402886'
+  NAME: 兆洋資訊股份有限公司
+- ADDRESS: 忠孝東路四段325號7樓
+  ADDR_NO_DESCRIPT: 台北市大安區
+  DESCRIPTION: |-
+    1.擔任公司資訊部門諮詢窗口，協助解決各單位資訊作業相關問題。
+    2.針對公司業務需求督導軟、硬體廠商替公司建置所需之系統、應用軟體等，及進行更新維護。
+    3.開發維護公司內部使用系統。
+    4.機房設備及個人電腦基本維護。
+  JOB: Internet程式設計師(工作地點於大陸蘇州)
+  LAT: '31.298974'
+  LINK: www.coamc.com.tw
+  LON: '120.585289'
+  NAME: 合作金庫資產管理股份有限公司
 - ADDRESS: 敦化南路一段108號3樓
   ADDR_NO_DESCRIPT: 台北市松山區
   DESCRIPTION: ASP/.NET(C#)網站與APP程式開發維護
@@ -1653,6 +1686,16 @@ contents:
   LINK: www.bankpro.com.tw
   LON: '121.54524'
   NAME: 金財通商務科技服務股份有限公司
+- ADDRESS: 大崗村樹人路160號
+  ADDR_NO_DESCRIPT: 桃園市龜山區
+  DESCRIPTION: "1. 網站介面與系統程式設計。\n2. 網站資料庫相關程式設計與維護管理。\n3. 網頁資料呈現程式設計(與網頁設計師配合)。\n4.
+    各種程式API整合。\n5. 其他公司內部程式與資料庫設計與維護管理。\n- 熟悉php語言，有架過Word press尤佳。\n- 具電子商務網站開發經驗。
+    \n- 能自行尋找問題解決方式。 \n- 喜新事物,新技術,負責並自我不斷提升技術水準。"
+  JOB: Internet程式設計師(近中山國中捷運站)-台北市
+  LAT: '25.061756'
+  LINK: www.panbor.com.tw
+  LON: '121.547273'
+  NAME: 潘柏家具股份有限公司
 - ADDRESS: 敦化南路一段66號
   ADDR_NO_DESCRIPT: 台北市松山區
   DESCRIPTION: |-
@@ -1673,24 +1716,6 @@ contents:
   LINK: www.yuanta.com
   LON: '121.5436647'
   NAME: 元大金融控股股份有限公司(元大金控) (元大證券) (元大銀行)
-- ADDRESS: 大崗村樹人路160號
-  ADDR_NO_DESCRIPT: 桃園市龜山區
-  DESCRIPTION: "1. 網站介面與系統程式設計。\n2. 網站資料庫相關程式設計與維護管理。\n3. 網頁資料呈現程式設計(與網頁設計師配合)。\n4.
-    各種程式API整合。\n5. 其他公司內部程式與資料庫設計與維護管理。\n- 熟悉php語言，有架過Word press尤佳。\n- 具電子商務網站開發經驗。
-    \n- 能自行尋找問題解決方式。 \n- 喜新事物,新技術,負責並自我不斷提升技術水準。"
-  JOB: Internet程式設計師(近中山國中捷運站)-台北市
-  LAT: '25.061756'
-  LINK: www.panbor.com.tw
-  LON: '121.547273'
-  NAME: 潘柏家具股份有限公司
-- ADDRESS: 敦化南路一段108號3樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: ASP/.NET(C#)網站與APP程式開發維護
-  JOB: 數位科技部-Internet程式設計師(行動業務系統科)
-  LAT: '25.0689422'
-  LINK: http://www.fubon.com/life/home
-  LON: '121.5909027'
-  NAME: 富邦人壽保險股份有限公司(總公司)
 - ADDRESS: 環東路一段31巷28號
   ADDR_NO_DESCRIPT: 台南市新市區
   DESCRIPTION: "具英文能力，熟悉TCP/IP, Embedded System,對於開發各種新世代\n 寬頻通訊設備(ADSL, Wireless,
@@ -1700,174 +1725,6 @@ contents:
   LINK: http://www.amit.com.tw
   LON: '120.28493'
   NAME: 永洋科技股份有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1. 數位電路之規劃、設計與開發、BOM建立、樣品電路設計製作事項
-     2. 熟悉ARM系統及單晶片程式設計(C語言)
-     3. PCB layout
-     4. 熟悉多種數位通訊協定
-     5. 熟悉計算機架構及原理
-     6. 基本電路設計及問題分析能力
-  JOB: 電子工程師
-  LAT: '24.1617009'
-  LINK: http://www.sambacode.com
-  LON: '120.6624109'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.熟悉Microsoft System Center, Azure
-    2.設定、檢修網路設備。
-    3.規劃網路管理機制。
-    4.控管、備份網路伺服器內的檔案，並設定用戶端權限，以確保檔案安全。
-    5.負責資訊安全的管制，監控系統運作，並建立危機處理的標準流程。
-    6.分析、解決用戶端通訊問題。
-    7.依照企業需求，規劃、架設及管理各種伺服器。
-    8.維護電腦/網路系統與備份。
-  JOB: IT MIS 工程師
-  LAT: '24.1617009'
-  LINK: http://www.sambacode.com
-  LON: '120.6624109'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.影像光學技術研發
-    2.精密量測, 機械手臂影像
-    3.OpenCV, Mathlab, LabVIEW, Halcon, CVB
-  JOB: 演算法開發工程師
-  LAT: '24.1617009'
-  LINK: http://www.sambacode.com
-  LON: '120.6624109'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.雲端平臺建置與開發。
-    2.企業e化系統開發設計。
-    3.網站建置與開發、資料庫建置與規劃。
-  JOB: ASP.NET(C#)程式設計師
-  LAT: '24.1617009'
-  LINK: http://www.sambacode.com
-  LON: '120.6624109'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: "UI/UX Designer 及 backend developer 協同開發 \nJQuery+HTML+CSS+Javascript的切版以及特殊效果轉換\nSPA(Single
-    Page Application)網站開發\n手機、平板裝置適用之動態行動網站開發\n使用前端技術與社群網路嵌合"
-  JOB: UI/UX Designer 網站前端工程師
-  LAT: '24.1617009'
-  LINK: http://www.sambacode.com
-  LON: '120.6624109'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.雲端平臺建置與開發。
-    2.企業e化系統開發設計。
-    3.網站建置與開發、資料庫建置與規劃。
-  JOB: ASP.NET(C#)程式設計師 兼職
-  LAT: '24.1617009'
-  LINK: http://www.sambacode.com
-  LON: '120.6624109'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    Must：
-    1. MCU 韌體開發，依據不同專案，我們會應用不同的微控器，像是ATMEL SAM系列（ARM M0+、M3）、STM32 L0系列 、Microchip PIC系列...etc。
-    2. IPCAM 開發（Hisilicon 351x series）
-    3. 希望你曾有硬體相關通訊介面元件的開發經驗，例如：SPI、I2C、UART、USB、CAN BUS...etc。
-    4. Datasheet閱讀能力。
-    5. 希望你曾有利用相關儀器除錯的經驗，例如：電錶、示波器、邏輯分析儀...etc。
-
-    Plus：
-    1. 獨自作業，尋找對應資源解決問題。
-    2. 對於OS原理有基本了解。
-    3. 曾在至少一種OS下開發過Driver的經驗(Windows、Linux、RTOS for MCU)。
-    4. 曾使用過至少一種原始碼版本控制系統：SVN、GIT...etc。
-    5. 曾有應用CMSIS的經驗。
-    6. 曾有RF IC開發或應用的經驗。
-    7. VS .NET的開發經驗(C#、VB)。
-    8. 曾依據需求，尋找對應的元件(IC)解決方案。
-    9. ASM language experience
-    10. 應用Filesystem經驗(FAT、NTFS)
-    11. FPGA。
-    12. 曾處理過室內定位系統（UWB、RFID、Wi-Fi、Bluetooth、ZigBee、IR）
-    13. 承12，並包含軟體端演算法開發
-
-    我們的工作環境裡，
-    會提供你至少I5等級CPU、8G記憶體、雙23吋LCD的工作平台
-    我們也會不定期的安排工作人員去參加講座、課程。
-  JOB: 軟韌體工程師
-  LAT: '24.1630671'
-  LINK: http://www.sambacode.com
-  LON: '120.6629464'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: "1.RF 理論\n2.手機基地台經驗, 雜訊隔離與性能優化\n3.TCP/IP 網路 規劃, 設計與問題排除\n4.評估相關零件模組特性\n5.整合、測試無線通訊模組。
-    \n6.裝配與調整各項電子產品或設備。\n7.檢測各類電子產品或設備。\n8.登上鐵塔或電線桿，進行電線電纜佈放和接續的作業。"
-  JOB: 通訊網路工程師
-  LAT: '24.1630671'
-  LINK: http://www.sambacode.com
-  LON: '120.6629464'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.進行PCB Layout設計
-    2.用Protel或altium designer 工具來layout pcb
-  JOB: PCB Layout設計(短期專案)(限台中-可在家接案)
-  LAT: '24.1630665'
-  LINK: http://www.sambacode.com
-  LON: '120.6629466'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    1.需要具有獨立思考能力
-    2.團隊合作
-    3.具備獨立DEBUG能力
-    4.MVC,UWP, Entity Framework
-  JOB: C# 程式工程師
-  LAT: '24.1630671'
-  LINK: http://www.sambacode.com
-  LON: '120.6629464'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 信義路五段7號73樓
-  ADDR_NO_DESCRIPT: 台北市信義區
-  DESCRIPTION: |-
-    Display Mechanical Engineer - Taipei
-    The area: Consumer Hardware
-    Google's mission is to organize the world's information and make it universally accessible and useful. Only one thing consistently stands in the way between our users and the world's information--hardware. Our Consumer Hardware team researches, designs, and develops new technologies and hardware to make our user's interaction with computing faster, more powerful, and seamless. Whether finding new ways to capture and sense the world around us, advancing form factors, or improving interaction methods, our Consumer Hardware team is making people's lives better through technology.
-    The role: Display Mechanical Engineer - Taipei
-    Our computational challenges are so big and unique we can't just buy our hardware, we've got to make it ourselves. Our Platforms Team designs and builds the hardware, software and networking technologies that power all of Google's services. As a Mechanical Engineer you design and evaluate our data center systems, identifying product requirements and contributing to research and project planning. From the chip to chiller, you are responsible for designing and optimizing an architecture that will scale with Google's continued growth.<br/><br/>With your technical expertise, you lead and manage projects, develop product and process improvements, provide consultation to others and help facilitate training and development.
-    Additional Role Description:
-    As a Display Mechanical Engineer, you will design, develop and integrate leading edge display technologies for Google hardware products. You have a mechanical design background and knowledge of product design for mobile products. You will define display mechanical outlines and specifications, oversee system product design and assembly, work cross-functionally with display electrical and optical design team, product design team, reliability team, supply chain management team, display suppliers, operation team, and work actively to solve all display mechanical issues at all build phases from initial concept to mass production.
-    Responsibilities:
-    - Investigate display technologies for product integration.
-    - Create display 3D models and drawings, and define mechanical specifications.
-    - Review 3D models and drawings from product designers, display suppliers and system assembly manufacturers.
-    - Define display module statistical process control dimensions and review measurement results from display suppliers and system assembly manufacturers.
-    - Review display module metrology design of display suppliers and system assembly manufacturers.
-    Minimum qualifications:
-    - BS degree in Mechanical Engineering or equivalent practical experience.
-    - 5 years of experience with mechanical design.
-    - 3 years of experience with 3D modeling: Creo, SolidWorks or NX.
-    - Ability to travel internationally.
-    Preferred qualifications:
-    - PhD or Master's degree in Mechanical Engineering or related fields.
-    - Experience in display mechanical design and supplier collaboration for mass production.
-    - Experience with tolerance analysis and CPK control.
-    - Familiarity with LCD and OLED display module mechanical structure.
-    - Knowledge of mechanics, materials, machining and plastic injection molding.
-  JOB: Display Mechanical Engineer - Taipei
-  LAT: ''
-  LINK: www.google.com
-  LON: ''
-  NAME: Google_美商科高國際有限公司
 - ADDRESS: 信義路五段7號73樓
   ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
@@ -1901,43 +1758,38 @@ contents:
   LINK: www.google.com
   LON: '121.5644722'
   NAME: Google_美商科高國際有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
+- ADDRESS: 信義路五段7號73樓
+  ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
-    1.負責行銷企劃案的撰寫、規劃，籌備、執行公司對外的行銷活動（如：展覽），並對其效益進行分析與建議，並負責相關文宣資料的規劃與製作。
-    2. 需能流暢的使用中文及英文撰寫產品文案及官方網站文案。
-    3..具備文案內容圖像化、圖表化能力及創意，邏輯分析能力。
-  JOB: 行銷文案企劃 (約聘)
-  LAT: '24.1630665'
-  LINK: http://www.sambacode.com
-  LON: '120.6629466'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    UI介面多尺寸製作、Socket通訊、加解密、Http通訊
-    最少有一種版本控制使用經驗。能夠使用Logcat除錯
-    了解Callback/Observer技巧。NDK經驗者、OpenGL經驗、Git原始碼管理經驗、使用Android Studio開發者佳
-    二進位檔案處理(NSData或UInt8等等)
-    至少懂得使用一種方式(例如：CocoaPods)來使用第三方工具
-    Objective-C或Swift皆可
-    OpenGL經驗、在iOS使用C/C++經驗者
-  JOB: 手機 APP 工程師
-  LAT: '24.1630665'
-  LINK: http://www.sambacode.com
-  LON: '120.6629466'
-  NAME: 森巴數碼有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    UI介面多尺寸製作(主要是iphone)、
-    Objective-C或Swift皆可。
-    OpenGL經驗、在iOS使用C/C++經驗者、Git原始碼管理經驗者佳。
-  JOB: iOS工程師
-  LAT: '24.1630665'
-  LINK: http://www.sambacode.com
-  LON: '120.6629466'
-  NAME: 森巴數碼有限公司
+    Display Mechanical Engineer - Taipei
+    The area: Consumer Hardware
+    Google's mission is to organize the world's information and make it universally accessible and useful. Only one thing consistently stands in the way between our users and the world's information--hardware. Our Consumer Hardware team researches, designs, and develops new technologies and hardware to make our user's interaction with computing faster, more powerful, and seamless. Whether finding new ways to capture and sense the world around us, advancing form factors, or improving interaction methods, our Consumer Hardware team is making people's lives better through technology.
+    The role: Display Mechanical Engineer - Taipei
+    Our computational challenges are so big and unique we can't just buy our hardware, we've got to make it ourselves. Our Platforms Team designs and builds the hardware, software and networking technologies that power all of Google's services. As a Mechanical Engineer you design and evaluate our data center systems, identifying product requirements and contributing to research and project planning. From the chip to chiller, you are responsible for designing and optimizing an architecture that will scale with Google's continued growth.<br/><br/>With your technical expertise, you lead and manage projects, develop product and process improvements, provide consultation to others and help facilitate training and development.
+    Additional Role Description:
+    As a Display Mechanical Engineer, you will design, develop and integrate leading edge display technologies for Google hardware products. You have a mechanical design background and knowledge of product design for mobile products. You will define display mechanical outlines and specifications, oversee system product design and assembly, work cross-functionally with display electrical and optical design team, product design team, reliability team, supply chain management team, display suppliers, operation team, and work actively to solve all display mechanical issues at all build phases from initial concept to mass production.
+    Responsibilities:
+    - Investigate display technologies for product integration.
+    - Create display 3D models and drawings, and define mechanical specifications.
+    - Review 3D models and drawings from product designers, display suppliers and system assembly manufacturers.
+    - Define display module statistical process control dimensions and review measurement results from display suppliers and system assembly manufacturers.
+    - Review display module metrology design of display suppliers and system assembly manufacturers.
+    Minimum qualifications:
+    - BS degree in Mechanical Engineering or equivalent practical experience.
+    - 5 years of experience with mechanical design.
+    - 3 years of experience with 3D modeling: Creo, SolidWorks or NX.
+    - Ability to travel internationally.
+    Preferred qualifications:
+    - PhD or Master's degree in Mechanical Engineering or related fields.
+    - Experience in display mechanical design and supplier collaboration for mass production.
+    - Experience with tolerance analysis and CPK control.
+    - Familiarity with LCD and OLED display module mechanical structure.
+    - Knowledge of mechanics, materials, machining and plastic injection molding.
+  JOB: Display Mechanical Engineer - Taipei
+  LAT: '25.0339639'
+  LINK: www.google.com
+  LON: '121.5644722'
+  NAME: Google_美商科高國際有限公司
 - ADDRESS: 信義路五段7號73樓
   ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
@@ -1964,17 +1816,6 @@ contents:
   LINK: www.google.com
   LON: '120.447285'
   NAME: Google_美商科高國際有限公司
-- ADDRESS: 華美西街一段232號8樓
-  ADDR_NO_DESCRIPT: 台中市西區
-  DESCRIPTION: |-
-    管理專案項目
-    資源整合
-    文件撰寫
-  JOB: 軟體專案經理
-  LAT: '24.1630665'
-  LINK: http://www.sambacode.com
-  LON: '120.6629466'
-  NAME: 森巴數碼有限公司
 - ADDRESS: 信義路五段7號73樓
   ADDR_NO_DESCRIPT: 台北市信義區
   DESCRIPTION: |-
@@ -2003,40 +1844,6 @@ contents:
   LINK: www.google.com
   LON: '121.5644722'
   NAME: Google_美商科高國際有限公司
-- ADDRESS: 基隆路一段396號13樓
-  ADDR_NO_DESCRIPT: 台北市信義區
-  DESCRIPTION: "We are looking for an experienced Android developers to join our talented
-    engineering team to help us build world-class powerfull apps for Android that
-    are used by tens of millions of end customers. You will be responsible for helping
-    create, maintain, and evolve cutting-edge Android apps using the latest tools
-    available. \n\nWho are we looking for?\n● We are looking for developers who enjoy
-    development of smartphone apps and who believe it has a great future.\n● We are
-    looking for people who want much more out of work than just sitting 8 hours and
-    collecting a paycheck.\n● We are looking for colleagues who are compatible with
-    us on a human level and who will teach us something new.\n● We are looking for
-    enthusiasts of smartphones, tablets, as well as other new and interesting technologies
-    (such as Google Glass, iBeacon, smartwatch, and Internet of Things in general).\n●
-    We are looking for talented developers who know (or would like to learn) development
-    for iOS, Android or Windows Phone.\n\nWhat we offer\n● You will be part of the
-    whole process of complex smartphone apps development. Beginning with analysis,
-    through interaction design and technical architecture, all the way to development,
-    release and updating.\n● You will be on a global team of great developers with
-    years of experience in smartphone apps development.\n● Your work will be used
-    by more than 50 million active users all around the world.\n● You will be able
-    to be yourself, not just a \"resource.\"\nWhat you'll get from us:\n● an unique
-    opportunity to make a huge personal impact on our products\n● a team full of motivated
-    people with years of experience in Android development (we learn from each other
-    and move forward together), often giving speeches at conferences or developers'
-    events\n● 15 days of paid holiday, language courses, trainings\n● 3 weeks long
-    initial training in Avast HQ in Prague, Czech Republic\n● fun at work (regular
-    hackathons, great team building ...)\n\nWho we are:\nWe are Avast. We provide
-    the best security and privacy solutions to people around the world. Learn more
-    about us at https://www.avast.com/."
-  JOB: Android Developer
-  LAT: '25.0344439'
-  LINK: www.avast.com
-  LON: '121.5601136'
-  NAME: AVAST Software (Asia) Limited_香港商愛維士有限公司台灣分公司
 - ADDRESS: 中山北路3段47號4樓
   ADDR_NO_DESCRIPT: 台北市中山區
   DESCRIPTION: |-
@@ -2066,10 +1873,10 @@ contents:
 - ADDRESS: 中山北路3段47號4樓
   ADDR_NO_DESCRIPT: 台北市中山區
   DESCRIPTION: |-
-    1.提供母語非華語人士實體面對面才藝教學服務(中文教學、外語輔助或全外語教學皆可)
-    2.配合華語教學部門進行才藝課程規劃，及教學內容設計
-    3.定期或不定期文化或教學活動參與，以及授課
-  JOB: 才藝授課教師 (台北市全區、桃園、新竹地區等)
+    a. 熟悉觀光產業如旅行社, 飯店, 航空等, 通路與業務
+    b. 可獨立作業, 建立通路或團隊
+    c. 至少熟悉 1 種外國語(英語 or 日語)
+  JOB: 觀光產業業務主管
   LAT: '25.066614'
   LINK: http://www.loremaster.com.tw/
   LON: '121.5227165'
@@ -2077,10 +1884,10 @@ contents:
 - ADDRESS: 中山北路3段47號4樓
   ADDR_NO_DESCRIPT: 台北市中山區
   DESCRIPTION: |-
-    a. 熟悉觀光產業如旅行社, 飯店, 航空等, 通路與業務
-    b. 可獨立作業, 建立通路或團隊
-    c. 至少熟悉 1 種外國語(英語 or 日語)
-  JOB: 觀光產業業務主管
+    1.提供母語非華語人士實體面對面才藝教學服務(中文教學、外語輔助或全外語教學皆可)
+    2.配合華語教學部門進行才藝課程規劃，及教學內容設計
+    3.定期或不定期文化或教學活動參與，以及授課
+  JOB: 才藝授課教師 (台北市全區、桃園、新竹地區等)
   LAT: '25.066614'
   LINK: http://www.loremaster.com.tw/
   LON: '121.5227165'
@@ -2153,6 +1960,40 @@ contents:
   LINK: http://www.loremaster.com.tw/
   LON: '121.5236607'
   NAME: 育學雲端股份有限公司
+- ADDRESS: 基隆路一段396號13樓
+  ADDR_NO_DESCRIPT: 台北市信義區
+  DESCRIPTION: "We are looking for an experienced Android developers to join our talented
+    engineering team to help us build world-class powerfull apps for Android that
+    are used by tens of millions of end customers. You will be responsible for helping
+    create, maintain, and evolve cutting-edge Android apps using the latest tools
+    available. \n\nWho are we looking for?\n● We are looking for developers who enjoy
+    development of smartphone apps and who believe it has a great future.\n● We are
+    looking for people who want much more out of work than just sitting 8 hours and
+    collecting a paycheck.\n● We are looking for colleagues who are compatible with
+    us on a human level and who will teach us something new.\n● We are looking for
+    enthusiasts of smartphones, tablets, as well as other new and interesting technologies
+    (such as Google Glass, iBeacon, smartwatch, and Internet of Things in general).\n●
+    We are looking for talented developers who know (or would like to learn) development
+    for iOS, Android or Windows Phone.\n\nWhat we offer\n● You will be part of the
+    whole process of complex smartphone apps development. Beginning with analysis,
+    through interaction design and technical architecture, all the way to development,
+    release and updating.\n● You will be on a global team of great developers with
+    years of experience in smartphone apps development.\n● Your work will be used
+    by more than 50 million active users all around the world.\n● You will be able
+    to be yourself, not just a \"resource.\"\nWhat you'll get from us:\n● an unique
+    opportunity to make a huge personal impact on our products\n● a team full of motivated
+    people with years of experience in Android development (we learn from each other
+    and move forward together), often giving speeches at conferences or developers'
+    events\n● 15 days of paid holiday, language courses, trainings\n● 3 weeks long
+    initial training in Avast HQ in Prague, Czech Republic\n● fun at work (regular
+    hackathons, great team building ...)\n\nWho we are:\nWe are Avast. We provide
+    the best security and privacy solutions to people around the world. Learn more
+    about us at https://www.avast.com/."
+  JOB: Android Developer
+  LAT: '25.0344439'
+  LINK: www.avast.com
+  LON: '121.5601136'
+  NAME: AVAST Software (Asia) Limited_香港商愛維士有限公司台灣分公司
 - ADDRESS: 復興北路57號14樓之1
   ADDR_NO_DESCRIPT: 台北市松山區
   DESCRIPTION: |-
@@ -2176,119 +2017,99 @@ contents:
   LINK: www.eandc.com.tw
   LON: '121.5989082'
   NAME: 益鼎工程股份有限公司
-- ADDRESS: 民權東路三段178號7樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: "你對開發新技術抱有熱誠嗎? 你對能改善別人生活的工作感到興奮嗎? 在先封科技, 我們的目標是將IoT(物聯網)生活化讓每個人都能輕易上手.
-    我們正在研究一套非常有趣的生態系統可使任何人都能輕鬆的開發自己想要連結的?物品?因此我們需要有相同願景及理念的人來協助我們.\n\n若是你曾想過:\n· 設計智能照明方案讓你的居家照明依照你所希望的方式呈現\n·
-    運用感應式偵測發信器與室內導航系統來規劃智能停車場\n· 設計你專屬的, 可以\"感覺到\"你醒來的家居系統, 讓系統替你準備好休閒舒適的環境, 泡好一杯暖暖的早晨咖啡等你喝\n·
-    創建一個裝置來追蹤你寵物的活動, 並可透過雲端分析資料\n· 在一個所有感應器及連結模組都有的環境,讓你可以發揮你的想像空間創造並設計出\"智能\"連結產品或其他還沒有人想到過的方案!\n\n那你將是我們在尋找的人!\n\n工作內容:\n-物聯網應用演算法開發\n-物聯網應用
-    APP端開發\n-物聯網新方案技術研究及設計\n\n技能需求:\n- 熟悉訊號處理, 能設計資料分析程式(Matlab, Python), 推導統計模型\n-
-    熟悉APP (iOS) 開發經驗\n- 熟練 C/C++ 程式開發\n- 對於簡單易用的應用設計的熱誠\n- 具當下設計趨勢知識 ,以及UI美工設計\n-
-    開放的思緒, 具有學習新知識及技術的渴望\n\n\n\nThe Internet of Things is here. \n\nAre you passionate
-    about shaping upcoming technologies? Are you excited to work on something that
-    will affect many people's lives? At MtM, we aim to make IoT (Internet of Things)
-    more accessible to everyone. We are working on an ambitious ecosystem to make
-    it easy for anyone to develop their own connected ?thing?, and we need people
-    who share the same vision to help us.\n\nIf you ever wanted to:\n‧ Design smart
-    lighting solutions so your home lighting will behave the way you want\n‧ Design
-    smart parking solutions based on beacon proximity sensing and indoor navigation
-    systems\n‧ Design your smart home system that ?feels? it when you wake up, and
-    prepares a relaxing environment for you with your morning espresso waiting for
-    you\n‧ Create a device to track your puppy's activities, and have that information
-    analyzed in the cloud\n‧ Have all the sensors and connectivity modules available
-    to you, so you can use your imagination and creativity to design a ?smart? connected
-    product or solution that no one has thought about! \n\nThen we want to hear from
-    you!\n\nWe are looking for:\n\nTitle\n- IoT Software/Firmware Engineer\nLocation\n-
-    Taipei, Taiwan\nJob Function\no IoT application development \no Research on IoT
-    technologies and develop new IoT solutions\n\nSkills needed\n- APP (iOS) development
-    experience\n- Good knowledge in C/C++\n- Passion in making things really easy
-    to use\n- Knowledge of current design trends, and an eye for beautiful UI\n- An
-    open mind, thirst for knowledge and eagerness to learn about new technologies\n\nGood
-    to have\n- Experience developing or customizing IDE software.\n- Familiarity in
-    software compilation process\n- Knowledge in data visualization techniques and
-    tools\n\nJoin us and take part in defining the future!"
-  JOB: 物聯網(IoT)軟體工程師
-  LAT: '25.061374'
-  LINK: https://www.mtmtech.com.tw
-  LON: '121.5494527'
-  NAME: 薩摩亞商先豐科技股份有限公司
-- ADDRESS: 一江街13號7樓
-  ADDR_NO_DESCRIPT: 台北市中山區
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
+  DESCRIPTION: "1.開發潛在客戶，拓展市場，以達成業績目標。 \n2.定期拜訪所屬客戶，維繫穩定客戶關係。"
+  JOB: 中區業務專員(保障底薪+業績獎金)
+  LAT: '24.169436'
+  LINK: http://www.ntcl.tw
+  LON: '120.656604'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
   DESCRIPTION: |-
-    1.參與設計及開發App軟體之分析、設計以及程式撰寫。
-    2.依產品規劃執行App軟體架構及模組之設計，與軟體架構分析。
-    3.協助研發或研究產品所需的技術
-    4.維護、執行與更新現有軟體
-  JOB: 軟體工程師 (App 開發)
-  LAT: '25.0513359'
-  LINK: www.miraclemobile.com.tw
-  LON: '121.5315218'
-  NAME: 奇蹟行動科技有限公司
-- ADDRESS: 一江街13號7樓
-  ADDR_NO_DESCRIPT: 台北市中山區
+    1. 至客戶端安裝設備及產品功能解說
+    2. 客戶端設備或系統問題障礙排除。
+    3. 配合公司推廣業務銷售商品予現有客戶。
+  JOB: 中區電信系統安裝客服工程師
+  LAT: '24.169436'
+  LINK: http://www.ntcl.tw
+  LON: '120.656604'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
   DESCRIPTION: |-
-    1. 根據產品的需求與整體風格與規範，提供視覺設計 (Visual Design)
-    2. 與產品與研發團隊密切合作，探索用戶需求、創意發想與用戶視覺體驗
-    3. 與開發與產品團隊充份溝通協調，確保最終設計目標與成果
-    4. 負責公司主要產品與品牌相關的設計工作 (App, Web, Desktop Software, Logo 等)
-    5. 熱情於學習相關的設計新知與工具，以因應產品不同的規畫
-
-    * 請附相關作品集
-  JOB: 視覺設計師
-  LAT: '25.0513359'
-  LINK: www.miraclemobile.com.tw
-  LON: '121.5315218'
-  NAME: 奇蹟行動科技有限公司
-- ADDRESS: 一江街13號7樓
-  ADDR_NO_DESCRIPT: 台北市中山區
+    1. 負責電話開發、約訪新客戶。
+    2. 負責公司電子商務網站商品銷售予客戶。
+  JOB: 北區電話行銷專員(保障底薪+業績獎金)
+  LAT: '25.061229'
+  LINK: http://www.ntcl.tw
+  LON: '121.6459354'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
   DESCRIPTION: |-
-    1. 發想產品需求，規格與時程開發
-    2. 與研發計設團隊的溝通協調
-    3. 對產品的管理、行銷規畫、市場分析與用戶數據分析
-    4. 閱讀與處理用戶回饋，社群互動
-    5. 抗壓能力強，能適應快速變化，對科技產品有熱情且善於溝通協調
-  JOB: 產品經理
-  LAT: '25.0513359'
-  LINK: www.miraclemobile.com.tw
-  LON: '121.5315218'
-  NAME: 奇蹟行動科技有限公司
-- ADDRESS: 一江街13號7樓
-  ADDR_NO_DESCRIPT: 台北市中山區
+    1.主動客服。
+    2.被動客服。
+    3.介紹公司新產品給客戶。
+  JOB: 中區客服專員
+  LAT: '24.169436'
+  LINK: http://www.ntcl.tw
+  LON: '120.656604'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
   DESCRIPTION: |-
-    1. 掌控產品的需求規格，時程與開發
-    2. 與研發計設團隊的溝通協調
-    3. 對產品的管理、行銷規畫、市場分析與用戶數據分析
-    4. 管理客戶的需求、溝通協調與期待管理
-    5. 抗壓能力強，能適應快速變化，對科技產品有熱情且善於溝通協調
-  JOB: 專案經理 (Project Manager)
-  LAT: '25.0513359'
-  LINK: www.miraclemobile.com.tw
-  LON: '121.5315218'
-  NAME: 奇蹟行動科技有限公司
-- ADDRESS: 一江街13號7樓
-  ADDR_NO_DESCRIPT: 台北市中山區
+    1.開發潛在客戶，拓展市場，以達成業績目標。
+    2.定期拜訪所屬客戶，維繫穩定客戶關係。
+  JOB: 北區業務專員(保障底薪+業績獎金)
+  LAT: '25.061229'
+  LINK: http://www.ntcl.tw
+  LON: '121.6459354'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
   DESCRIPTION: |-
-    1. 參與設計及開發 Backend 軟體之分析、設計以及程式撰寫。
-    2. 依產品規劃執行 Backend 軟體架構及模組之設計，與軟體架構分析。
-    3. 協助研發或研究產品所需的技術
-    4. 維護、執行與更新現有軟體
-  JOB: 軟體工程師 (Backend 開發)
-  LAT: '25.0513359'
-  LINK: www.miraclemobile.com.tw
-  LON: '121.5315218'
-  NAME: 奇蹟行動科技有限公司
-- ADDRESS: 一江街13號7樓
-  ADDR_NO_DESCRIPT: 台北市中山區
-  DESCRIPTION: "工作範圍 \n• 確保服務與伺服器的品質，提供7x24的上線品質。 能在第一時間發現問題，作即時的維護與修正，通知相關的團隊，並在期望的服務層級協議時間內解決問題。\n•
-    對於客戶所遇到的問題，能給予專業且即時的回應，並在期望的服務層級協議時間下，給予適當的解決方案與根本原因分析\n• 擅長制定有效率能解決問題的標準流程，並能百分百的遵守標準流程作維護與測試。\n•
-    工作本質上，會需要輪班包含假日與周末。 (可彈性排休)\n\n工作職責 \n• 負責產品維運，確保高品質的伺服器的上線服務，達到高等級的服務層級協議。\n•
-    能即時且專業的回應客戶的問題。\n• 當有上線問題發生，遵守標準流程來排除，更新與重開伺服器，並通知相關人員，並作詳盡的記錄\n• 撰寫完整的測試案例 (Test
-    Case)，並能執行所有相關的測試。\n• 根據測試案例，撰寫自動化程式測試，提高與增進測試效率。"
-  JOB: 網路開發維運工程師
-  LAT: '25.0513359'
-  LINK: www.miraclemobile.com.tw
-  LON: '121.5315218'
-  NAME: 奇蹟行動科技有限公司
+    1. 負責電話開發、約訪新客戶。
+    2. 負責公司電子商務網站商品銷售予客戶。
+  JOB: 中區電話行銷專員(保障底薪+業績獎金)
+  LAT: '24.169436'
+  LINK: http://www.ntcl.tw
+  LON: '120.656604'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
+  DESCRIPTION: |-
+    1. 至客戶端安裝設備及障礙排除
+    2. 介紹公司產品。
+  JOB: 北區安裝工程師
+  LAT: '25.0613278'
+  LINK: http://www.ntcl.tw
+  LON: '121.6458144'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
+  DESCRIPTION: |-
+    1.主動客服。
+    2.被動客服。
+    3.介紹客戶公司新產品。
+  JOB: 北區客服專員
+  LAT: '25.061229'
+  LINK: http://www.ntcl.tw
+  LON: '121.6459354'
+  NAME: 北台數網電訊股份有限公司
+- ADDRESS: 新台五路1段79號16樓之11
+  ADDR_NO_DESCRIPT: 新北市汐止區
+  DESCRIPTION: |-
+    1.負責一般文書資料處理及歸檔工作。
+    2.辦理核銷事宜。
+    3.協助處理庶務性行政工作（如：事務機器叫修維護、文具用品採買）。
+    4.收發公文並處理會簽文件。
+  JOB: 北區業務助理
+  LAT: '25.061229'
+  LINK: http://www.ntcl.tw
+  LON: '121.6459354'
+  NAME: 北台數網電訊股份有限公司
 - ADDRESS: 陽光街250號
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -2302,6 +2123,21 @@ contents:
   LINK: http://www.chief.com.tw
   LON: '121.5819401'
   NAME: 是方電訊股份有限公司(中華電信關係企業)
+- ADDRESS: 北新路三段221號8樓
+  ADDR_NO_DESCRIPT: 新北市新店區
+  DESCRIPTION: "Building large scale distributed systems aiming to provide high quality
+    services or good at frontend web/mobile development\n\n1. more experience in Internet
+    Industry. \n2. BS/ MS / PhD degree in Computer Science or related field. \n3.Good
+    at profiler and debugging tools\n4.Design and architect large scale distributed
+    system. \n5.Design and implement distributed algorithm and data structure. \n6.Familiar
+    with operation automation tool (such as Ansible). \n7.Familiar with continuous
+    integration / continuous deployment \n8.Familiar with monitoring and alert system\n9.Support,
+    maintain, and document software functionality"
+  JOB: 資深軟體工程師
+  LAT: '24.9844592'
+  LINK: ''
+  LON: '121.5410219'
+  NAME: 希格斯資訊科技有限公司
 - ADDRESS: 自強一路11號
   ADDR_NO_DESCRIPT: 桃園市中壢區
   DESCRIPTION: "- Analysis Design, development and performance evaluation of microwave/MMwave
@@ -2383,6 +2219,38 @@ contents:
   LINK: www.cabotcmp.com
   LON: '120.2609808'
   NAME: 荷蘭商嘉柏微電子材料有限公司台灣分公司_Cabot Microelectronics B.V., Taiwan Branch
+- ADDRESS: 羅斯福路一段32號5樓
+  ADDR_NO_DESCRIPT: 台北市中正區
+  DESCRIPTION: 具SCJP 證照, Internet基本知識, 熟悉 JSP, Servlet 等開發技術即可.
+  JOB: JSP 程式設計師
+  LAT: '25.030938'
+  LINK: www.thesys.com.tw
+  LON: '121.519217'
+  NAME: 新安資訊股份有限公司
+- ADDRESS: 松高路1號7樓之1
+  ADDR_NO_DESCRIPT: 台北市信義區
+  DESCRIPTION: "Ensure the smooth running of the office\n\nHR:\n• Coordinate recruitment
+    agencies, online job site and other suppliers.\n• Arrange the interview process\n•
+    Oversee / Plan / Execute events and internal activities \n• Proactively assist
+    with developing and updating office policies and procedures (security, fire prevention
+    plans, work rules, etc.) and ensure compliance with those policies\n• Oversee
+    / assist with project management for office projects as needed\n• Contact point
+    for HR / office related issues (coordinate with HQ, outsourced labor service,
+    law firm, insurance, etc.)\n\nFinance:\n• Vendor management including all payment
+    process, office rental fee, coffee machine, internet fee , etc. \n• Consolidate
+    weekly reimbursement report to accounting firm\n• Oversee all document related
+    with Finance dept.\n\nOffice equipment / IT:\n• Order / Manage the office related
+    facilities such as office supplies, name cards, etc.\n• purchase and manage all
+    office stationery\n\nReport:\n• Coordinate with the team to create and update
+    business reports.\n\nQualification : \n• Bachelor Degree\n• Fluent in English
+    and local language, both speaking and writing\n• Proactive, friendly, with a sense
+    of responsibility, and can work independently\n• Organization and team work skills\n•
+    Flexibility, accuracy and an eye for detail\n• Computer skill essential (MS office)"
+  JOB: Office coordinator
+  LAT: '25.0390828'
+  LINK: www.agoda.com
+  LON: '121.5668027'
+  NAME: Agoda_台灣雅高達國際有限公司
 - ADDRESS: 南京西路41號11樓之1
   ADDR_NO_DESCRIPT: 台北市大同區
   DESCRIPTION: "#本職缺為新創事業技術部門職缺，歡迎有興趣參與或喜歡挑戰新創的人才加入。\n\n主要工作範圍：\n1. 負責網站程式撰寫設計、網站系統開發與分析。\n2.
@@ -2420,6 +2288,15 @@ contents:
   NAME: 宏洲科技有限公司
 - ADDRESS: 南京西路41號11樓之1
   ADDR_NO_DESCRIPT: 台北市大同區
+  DESCRIPTION: "#本職缺為新創事業技術部門職缺，歡迎有興趣參與或喜歡挑戰新創的人才加入。\n\n1.Linux伺服器、MongoDB資料庫及網路設備的規劃、設定、管理、效能優化\n2.資訊安全管理、資料備援、系統維運、監控與障礙排除\n3.辦公室電腦軟硬體管理維護、軟硬體問題排除
+    \n4.網站系統技術支援，後台管理工具撰寫（PHP / Laravel Lumen）\n5.系統文件撰寫及其他主管交辦事項\n6.協助研發軟體新技術與新工具"
+  JOB: MIS網站管理研發工程師
+  LAT: '25.0529272'
+  LINK: www.secunet.com.tw
+  LON: '121.5198509'
+  NAME: 宏洲科技有限公司
+- ADDRESS: 南京西路41號11樓之1
+  ADDR_NO_DESCRIPT: 台北市大同區
   DESCRIPTION: "#本職缺為新創事業技術部門職缺，歡迎有興趣參與或喜歡挑戰新創的人才加入。\n\n主要工作範圍：\n1. 完成Web或APP的前端介面設計及UI元件互動效果控制。\n2.
     負責API串接、PHP平台後端系統之分析、設計以及程式撰寫。\n3. 進行網頁功能之相容測試與除錯修改。\n4. 協助研發網站新技術與新工具。\n5. 關注網站前後端技術，行動應用及網路發展趨勢
     \n\n需要工作技能：\n1. 精通前端網頁程式開發語言(HTML+CSS+JavaScript) \n2. 熟悉 Git 版本控制。 \n3. 熟悉前端AngularJs或ReactJS技術加分。\n4.
@@ -2429,26 +2306,48 @@ contents:
   LINK: www.secunet.com.tw
   LON: '121.5198509'
   NAME: 宏洲科技有限公司
-- ADDRESS: 南京西路41號11樓之1
-  ADDR_NO_DESCRIPT: 台北市大同區
-  DESCRIPTION: "#本職缺為新創事業技術部門職缺，歡迎有興趣參與或喜歡挑戰新創的人才加入。\n\n1.Linux伺服器、MongoDB資料庫及網路設備的規劃、設定、管理、效能優化\n2.資訊安全管理、資料備援、系統維運、監控與障礙排除\n3.辦公室電腦軟硬體管理維護、軟硬體問題排除
-    \n4.網站系統技術支援，後台管理工具撰寫（PHP / Laravel Lumen）\n5.系統文件撰寫及其他主管交辦事項\n6.協助研發軟體新技術與新工具"
-  JOB: MIS網站管理研發工程師
-  LAT: '25.0529272'
-  LINK: www.secunet.com.tw
-  LON: '121.5198509'
-  NAME: 宏洲科技有限公司
+- ADDRESS: 忠孝西路一段66號32樓
+  ADDR_NO_DESCRIPT: 台北市中正區
+  DESCRIPTION: |-
+    Purpose of the job
+    The purpose of this function is to research, assess and acquire any type of information for the creation and maintenance of the TomTom databases, to perform quality checks and to develop and maintain working relationships with existing and potential providers/partners. This position can include office based activities and field activities. It includes also local processing of sources, data or log-files with manual or automated actions and process developments.
+
+    Activity and output
+    1. Perform data collection tasks which require specialized and / or local knowledge on certain / all features based on full knowledge of specifications, processes & tools.
+    2. Provide output (in field/ in office) as requested by project instruction / description. Maintain freshness and quality overview of specific geographic area / topic.
+    3. Perform source preparation tasks in order to ingest data in support of completing data projects.
+    4. Produce quality evidence, deliver data in line with specifications, processes and tools. Assess the data completeness and correctness and process the data in order to comply with the required format.
+    5. Community and Partnership Development: Support the growth and involvement of the community by solving business critical anomalies and moderating proposed changes.
+    6. Support the Production Units by providing local knowledge to enable the Production Units to finalize data projects.
+    7. Provide a focus on quality by delivering data consistently to specification and to project/editing guidelines and keep current with changes as necessary.
+    8. Ensure a fast feedback loop for the resolution of queries from Production Units by providing unambiguous and consistent feedback.
+    9 .Innovate current processes - Attend and successfully complete all scheduled training sessions and participate in opportunities made available to enhance skills on the job.
+    10. Perform data collection tasks which require specialized knowledge on certain features or all features based on full knowledge about specs, processes & tools
+    11. Provide output (on field/ in office) as requested by project instruction / description. Maintain up-to-dateness and quality overview of specific geographic area / topic.
+    12. Research on the Internet and other private/public sources or contact/visit local authorities to gather geographic information in line with company's strategy and needs.
+    13. Support the growth and involvement of the community by solving business critical anomalies and moderating proposed changes into the database through the various initiatives in Content Operations.
+    14. Select potential new data providers among the community, Trusted partners and Sponsored Community within a specific geographic region or project as assigned by the line manager or project Manager.
+    15. Analysis and quality check of different types of data and eventual definition of the best process to conflate it into the database. Apply centrally provided tools and methods and adapt them to the local needs.
+    16. Data benchmarks and gap analysis to identify strengths and weaknesses points to be maintained and fulfilled respectively in line with assigned budget.
+  JOB: Associate Geographic Sourcing Analyst
+  LAT: '25.0461278'
+  LINK: www.tomtom.com
+  LON: '121.515325'
+  NAME: TomTom Asia_通騰科技股份有限公司
+- ADDRESS: 基隆路一段333號12樓1207A室
+  ADDR_NO_DESCRIPT: 台北市信義區
+  DESCRIPTION: "Job Description: \n1. 開發企業客戶，發展戰略與業務拓展\n2. 規劃結合線上與線下之行銷專案\n3. 執行企業整合服務專案\n4.
+    企業關係維護\n5. 企業整合服務產品開發\n\nRequired Experience & Skills： \n1. 具銀行相關工作經驗者佳\n2. 行銷專業人員，想挑戰業務拓展能力的最佳機會\n3.
+    服務客戶多為知名品牌與企業，具外商消費品相關工作經驗者佳\n4. 需具備對網路行銷工具之基本知識，及資料分析能力\n5. 個性積極，勇於挑戰目標"
+  JOB: "(B2B) 業務開發經理 Manager, Business Development"
+  LAT: '25.0219285'
+  LINK: www.eztable.com
+  LON: '121.5483373'
+  NAME: EZTABLE_香港商簡單桌有限公司台灣分公司
 - ADDRESS: 四川路二段16巷3號10樓
   ADDR_NO_DESCRIPT: 新北市板橋區
-  DESCRIPTION: |-
-    1.  通訊器材公司尋找Marcom 行銷企劃人才
-    2.  標準產品行銷資料準備與分析，有DM, 使用手冊, 說明書, 產品介紹PPT 經驗尤佳
-    3.  中文/英文 技術文件撰寫經驗優先考量
-    4.  自有品牌維護以及產品行銷計畫 (資料歸納分析能力)
-    5.  國際商展規劃 (2~3次/年)
-
-    長期經營自有品牌, 穩健成長30年企業, 走在科技的尖端, 尋找願意長期合作深耕市場夥伴
-  JOB: 行銷企劃人員
+  DESCRIPTION: ''
+  JOB: 業務助理-會 鼎新ERP
   LAT: '24.996526'
   LINK: www.hybrex.com
   LON: '121.455649'
@@ -2467,120 +2366,11 @@ contents:
 - ADDRESS: 四川路二段16巷3號10樓
   ADDR_NO_DESCRIPT: 新北市板橋區
   DESCRIPTION: 多層板 pcb layout
-  JOB: 資深Layout 工程師
+  JOB: Layout  工程師
   LAT: '24.996526'
   LINK: www.hybrex.com
   LON: '121.455649'
   NAME: 鼎翰通信股份有限公司
-- ADDRESS: 四川路二段16巷3號10樓
-  ADDR_NO_DESCRIPT: 新北市板橋區
-  DESCRIPTION: 多層板 pcb layout
-  JOB: Layout 工程師
-  LAT: '24.996526'
-  LINK: www.hybrex.com
-  LON: '121.455649'
-  NAME: 鼎翰通信股份有限公司
-- ADDRESS: 四川路二段16巷3號10樓
-  ADDR_NO_DESCRIPT: 新北市板橋區
-  DESCRIPTION: |-
-    1.  通訊器材公司尋找 行銷企劃培訓人才
-    2.  標準產品行銷資料準備與分析，有DM, 使用手冊, 說明書, 產品介紹PPT 經驗尤佳
-    3.  中文/英文 技術文件撰寫經驗優先考量
-
-    長期經營自有品牌, 穩健成長30年企業, 走在科技的尖端, 尋找願意長期合作深耕市場夥伴
-  JOB: 英文助理
-  LAT: '24.996526'
-  LINK: www.hybrex.com
-  LON: '121.455649'
-  NAME: 鼎翰通信股份有限公司
-- ADDRESS: 基隆路一段333號12樓1207A室
-  ADDR_NO_DESCRIPT: 台北市信義區
-  DESCRIPTION: |-
-    1. 消費者＆餐廳訂位、諮詢服務
-    2. 消費者＆餐廳信件與即時回覆處理
-    3. 解決消費者＆餐廳端疑難雜症
-    4. 訂位監控、評論回覆
-    5. 蒐集、彙整與回饋消費者反應
-    6. 有 Office 報表製作分析能力
-    7. 主管交辦其它事項及日常事務處理
-    8. 須配合假日輪班，工作時間8小時
-  JOB: 客服人員 Customer Success Analyst
-  LAT: '25.022136'
-  LINK: www.eztable.com
-  LON: '121.547977'
-  NAME: EZTABLE_香港商簡單桌有限公司台灣分公司
-- ADDRESS: 新台五路一段81號7樓
-  ADDR_NO_DESCRIPT: 新北市汐止區
-  DESCRIPTION: "1. 開發 Flash Table 新功能與維護上線版本。 \n2. 研究 Apple 釋出的新技術與框架。 \n3. 和PM/Designer討論新需求和App畫面。
-    \n4. 與後端工程師一同規劃與開發API。"
-  JOB: iOS APP軟體工程師 Senior Software Engineer
-  LAT: '25.0610649'
-  LINK: https://www.flashtable.com.tw/
-  LON: '121.646158'
-  NAME: 白日夢文創股份有限公司
-- ADDRESS: 基隆路一段333號12樓1207A室
-  ADDR_NO_DESCRIPT: 台北市信義區
-  DESCRIPTION: "Job Description: \n1. 開發企業客戶，發展戰略與業務拓展\n2. 規劃結合線上與線下之行銷專案\n3. 執行企業整合服務專案\n4.
-    企業關係維護\n5. 企業整合服務產品開發\n\nRequired Experience & Skills： \n1. 具銀行相關工作經驗者佳\n2. 行銷專業人員，想挑戰業務拓展能力的最佳機會\n3.
-    服務客戶多為知名品牌與企業，具外商消費品相關工作經驗者佳\n4. 需具備對網路行銷工具之基本知識，及資料分析能力\n5. 個性積極，勇於挑戰目標"
-  JOB: "(B2B) 業務開發經理 Manager, Business Development"
-  LAT: '25.0219285'
-  LINK: www.eztable.com
-  LON: '121.5483373'
-  NAME: EZTABLE_香港商簡單桌有限公司台灣分公司
-- ADDRESS: 大光街3號
-  ADDR_NO_DESCRIPT: 台中市南屯區
-  DESCRIPTION: |-
-    (1)資料庫架構概念；
-    (2)Internet程式設計；
-    (3)英文程度中等者，佳；
-  JOB: 軟體設計工程師
-  LAT: '24.1470018'
-  LINK: ''
-  LON: '120.6477479'
-  NAME: 英屬開曼群島商遠見國際有限公司台灣辦事處
-- ADDRESS: 市政路386號16樓之3
-  ADDR_NO_DESCRIPT: 台中市西屯區
-  DESCRIPTION: |-
-    1. Translate English Articles into Chinese Articles, and vice versa
-    2. Draft News Articles for Marketing Purpose
-    3. Internet Marketing
-    4. Website Content Management
-    5. Help with Administrative Tasks
-  JOB: "[台北內科]中英文翻譯新聞行銷員"
-  LAT: '25.0825526'
-  LINK: http://www.pacsoft.com.tw
-  LON: '121.5665841'
-  NAME: 兆洋資訊股份有限公司
-- ADDRESS: 東區東光路192號6樓之1
-  ADDR_NO_DESCRIPT: 新竹市
-  DESCRIPTION: This position is responsible of managing a group  of RF/analog  circuit
-    designers and leading projects of wireless transceiver and SOC such as for Internet
-    Of Thing application in 2.4 GHz and Sub GHz frequencies.
-  JOB: RF IC Design Manager
-  LAT: '24.8064857'
-  LINK: http://www.ubec.com.tw
-  LON: '120.9862527'
-  NAME: 達盛電子股份有限公司
-- ADDRESS: 文化一路71號(近林口長庚)
-  ADDR_NO_DESCRIPT: 桃園市龜山區
-  DESCRIPTION: |-
-    1. .Net 程式開發設計
-    2. Internet 程式開發設計
-    3. 系統維護
-  JOB: 系統軟體工程師
-  LAT: '25.0520626'
-  LINK: www.choicelogistics.com.tw
-  LON: '121.3796998'
-  NAME: 秋雨物流股份有限公司
-- ADDRESS: 瑞光路468號
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: "(1)Java 開發工程師 \n(2)具備 Internet OTT 服務 or 影音服務平台開發/運營經驗"
-  JOB: C3111 Java開發 資深工程師
-  LAT: '25.075439'
-  LINK: http://corporate.fetnet.net
-  LON: '121.5737649'
-  NAME: 遠傳電信股份有限公司
 - ADDRESS: 中正路736號13樓之5
   ADDR_NO_DESCRIPT: 新北市中和區
   DESCRIPTION: |-
@@ -2611,6 +2401,37 @@ contents:
   LINK: http://www.hawkeyetech.com.tw/
   LON: '121.0345498'
   NAME: 澔楷科技股份有限公司
+- ADDRESS: 弘農二街9號
+  ADDR_NO_DESCRIPT: 彰化縣溪湖鎮
+  DESCRIPTION: "自動控制專案經理工作內容：\n與主管確認專案執行策略及資源應用方式，並進行以下控管：\n1.專案工作包細部制定。\n2.專案預算評估及掌控。\n3.利害關係人經營與掌握。\n4.確保驗收及收款進度。\n5.專案成員組成、能力成長、績效評估。\n6.與Account業務搭配確認案件後續維護預算編列、延伸性專案置入及其它新專案佈局。\n\n專案經理共通工作：\n1.專案時程的規劃、執行與追蹤檢討。\n2.專案的範圍管理。\n3.進行跨部門溝通協調，資源調度以利專案之執行。\n4.規劃、管控各專案進度，確保各專案符合時程規劃。\n5.管控各專案的品質。\n6.風險、危機、議題預測與管理。\n7.專案管理制度辦法訂定、執行與追蹤檢討。\n8.專案資訊彙整、管理。
+    \n9.專案管理書面文件及e化資料建置。\n10.特別指派之工作任務的規劃、執行與追蹤。"
+  JOB: 自動化工程專案經理(5萬~10萬)
+  LAT: '23.9484431'
+  LINK: www.scada.com.tw
+  LON: '120.4841418'
+  NAME: 全控自動化有限公司
+- ADDRESS: 弘農二街9號
+  ADDR_NO_DESCRIPT: 彰化縣溪湖鎮
+  DESCRIPTION: |-
+    1.從事工業自動控制之圖控、PLC等程式設計、修改、安裝、測試及維護
+    2.規劃及督導自動控制系統與設備之設計、施工、裝置、運轉、維修、試車工作
+    3.專案支援，如客戶教育訓練、技術文件撰寫
+    附加:需備汽車駕照
+  JOB: 自動化工程專案副理(6萬~10萬)
+  LAT: '23.9484431'
+  LINK: www.scada.com.tw
+  LON: '120.4841418'
+  NAME: 全控自動化有限公司
+- ADDRESS: 弘農二街9號
+  ADDR_NO_DESCRIPT: 彰化縣溪湖鎮
+  DESCRIPTION: |-
+    1.從事工業自動控制之PLC、人機介面、HMI圖控等程式設計、修改、安裝、測試及維護
+    註:需備汽車駕照
+  JOB: 自動化工程師(5萬~10萬)
+  LAT: '23.9484431'
+  LINK: www.scada.com.tw
+  LON: '120.4841418'
+  NAME: 全控自動化有限公司
 - ADDRESS: 中正路736號13樓之5
   ADDR_NO_DESCRIPT: 新北市中和區
   DESCRIPTION: |-
@@ -2665,34 +2486,59 @@ contents:
   LINK: http://www.hawkeyetech.com.tw/
   LON: '121.4857448'
   NAME: 澔楷科技股份有限公司
-- ADDRESS: 介壽路一段388巷5號2樓
-  ADDR_NO_DESCRIPT: 新北市三峽區
-  DESCRIPTION: "Key Roles & Responsibilities:\n•        Responsible for planning,
-    developing and recruitment of oversea distribution channel and OEM/ODM customers.\n•
-    \       Ordering, shipping and international trading processes.\n•        Works
-    in conjunction with marketing team to develop individual regional marketing plans.\n•
-    \       Work with marketing team increasing brand awareness and enhancing ROXIM's
-    conversation with consumers by developing, launching and managing various marketing
-    initiatives.\n•        Leveraging and modification of corporate programs/literatures
-    to meet the needs of oversea market.\n•        Assist domestic customer services
-    and marketing programs.\n•        Ability and willingness to travel on a frequent
-    basis.\n•        Ineternational trading knowdledges is required\n \n \nMinimum
-    qualifications: \n• Strong written and oral communication skills in English and
-    Mandarin.\n• Customer-facing presentation skills, with professional communication
-    skills.\n• Proactive, independent, creative self-starter with a strong commitment
-    to quality of execution.\n• Work to deadlines and under pressure with ability
-    to focus on multiple projects simultaneously.\n• Strong planning, organizing,
-    internet business development skills.\n• Willing to work in a startup environment,
-    and take multiple responsibilities.\n• Bicycle industry experience is a plus.\n•
-    Prior international sales, international sales assistance, or channel marketing
-    responsibility is a plus.\n• Familiar to online/new-media marketing such as web
-    site and social-network development, interactive content development is a plus.\n•
-    At least 3 years working experience.\n• Requires travel."
-  JOB: 資深國外業務開發 Sr. International Business Development
-  LAT: '24.9339939'
-  LINK: www.roxim.net
-  LON: '121.375628'
-  NAME: 祐泰科技股份有限公司
+- ADDRESS: 大光街3號
+  ADDR_NO_DESCRIPT: 台中市南屯區
+  DESCRIPTION: |-
+    (1)資料庫架構概念；
+    (2)Internet程式設計；
+    (3)英文程度中等者，佳；
+  JOB: 軟體設計工程師
+  LAT: '24.1470018'
+  LINK: ''
+  LON: '120.6477479'
+  NAME: 英屬開曼群島商遠見國際有限公司台灣辦事處
+- ADDRESS: 市政路386號16樓之3
+  ADDR_NO_DESCRIPT: 台中市西屯區
+  DESCRIPTION: |-
+    1. Translate English Articles into Chinese Articles, and vice versa
+    2. Draft News Articles for Marketing Purpose
+    3. Internet Marketing
+    4. Website Content Management
+    5. Help with Administrative Tasks
+  JOB: "[台北內科]中英文翻譯新聞行銷員"
+  LAT: '25.0825526'
+  LINK: http://www.pacsoft.asia/
+  LON: '121.5665841'
+  NAME: 兆洋資訊股份有限公司
+- ADDRESS: 東區東光路192號6樓之1
+  ADDR_NO_DESCRIPT: 新竹市
+  DESCRIPTION: This position is responsible of managing a group  of RF/analog  circuit
+    designers and leading projects of wireless transceiver and SOC such as for Internet
+    Of Thing application in 2.4 GHz and Sub GHz frequencies.
+  JOB: RF IC Design Manager
+  LAT: '24.8064857'
+  LINK: http://www.ubec.com.tw
+  LON: '120.9862527'
+  NAME: 達盛電子股份有限公司
+- ADDRESS: 文化一路71號(近林口長庚)
+  ADDR_NO_DESCRIPT: 桃園市龜山區
+  DESCRIPTION: |-
+    1. .Net 程式開發設計
+    2. Internet 程式開發設計
+    3. 系統維護
+  JOB: 系統軟體工程師
+  LAT: '25.0520626'
+  LINK: www.choicelogistics.com.tw
+  LON: '121.3796998'
+  NAME: 秋雨物流股份有限公司
+- ADDRESS: 瑞光路468號
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "(1)Java 開發工程師 \n(2)具備 Internet OTT 服務 or 影音服務平台開發/運營經驗"
+  JOB: C3111 Java開發 資深工程師
+  LAT: '25.075439'
+  LINK: http://corporate.fetnet.net
+  LON: '121.5737649'
+  NAME: 遠傳電信股份有限公司
 - ADDRESS: 文心路一段186號7樓之3
   ADDR_NO_DESCRIPT: 台中市南屯區
   DESCRIPTION: |-
@@ -2716,7 +2562,7 @@ contents:
     *Windows and Microsoft Office Software
     *Internet
     *English language
-  JOB: 採購經理
+  JOB: 採購人員
   LAT: '24.141229'
   LINK: ''
   LON: '120.6469175'
@@ -2732,52 +2578,6 @@ contents:
   LINK: ''
   LON: '121.6141958'
   NAME: 美商雲達國際科技有限公司台灣分公司
-- ADDRESS: 南京東路三段311號11樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  DESCRIPTION: "Responsibilities \n\n1)  Install new / rebuild existing servers and
-    configure hardware, peripherals,  \n     services, settings, directories, storage,
-    etc. in accordance with standards and \n     project/operational requirements
-    - 管理與維護公司伺服器和資料庫，並進行檔\n     案維護及管理\n2)  Develop and maintain installation and
-    configuration procedures - 建立及維護\n     流程\n3)  Perform regular system and security
-    monitoring to identify any possible \n     intrusions - 公司資訊安全與維護\n4)  Perform
-    daily backup operations, ensuring all required file systems and syste\n     m
-    data are successfully backed up to the appropriate media, recovery tapes or     disks
-    are created, and media is recycled and sent off site as necessary-負責系\n     統檔案及資料備份,
-    確保各部門之資訊設備順暢運作\n5)  Perform regular file archival and purge as necessary- 依需求定期備份\n6)
-    \ Create, change, and delete user accounts per request - 依工單新增/修改/刪除\n     使用者權限\n7)
-    \ Investigate and troubleshoot issues - 維護資訊系統運作、異常狀況排除\n8)  Repair and recover
-    from hardware or software failures - 軟硬體維護及維修。\n9)  Maintain data center environmental
-    and monitoring equipment - 資料庫監控\n     及維護。\n10)Support LANs, WANs, network segments,
-    Internet systems. - 支援LANs, WAN\n      s, network segments, Internet系統\n11)Maintain
-    network and system security. - 網路管理與系統安全\n12)Monitor networks to ensure security
-    and availability to specific users - 監控網\n     路確保網路安全\n13)Maintain network facilities
-    in individual machines, such as drivers and settings      of personal computers
-    as well as printers. - 電話系統、印表機及其他系統周邊裝\n      置的安裝及維修\n15)Maintain network servers
-    such as file servers, VPN gateways, intrusion \n     detection systems. - 網路(防火牆與VPN)基礎設定及管理能力,如:file
-    servers, VPN     gateways, intrusion detection systems\n\nRequirements \n\n1)
-    Fluent Chinese and basic conversational English - 流利中文及基本英文對話能力\n2) 3+ years'
-    experience in System and Network Administration - 三年以上網路及\n   系統管理經驗\n3) Good
-    network knowledge - 良好網管知識\n4) Team spirit - 團隊合作精神\n\nBenefits \n\n1) Competitive
-    salary & benefits - 具競爭性的薪資與福利\n2) Located in the heart of Taipei  位於台北市中心捷運站旁，交通便利\n3)
-    3 weeks' annual vacation  - 每年十五天年假\n4) Healthy work/life balance - 健康的工作與生活均衡"
-  JOB: System Administrator
-  LAT: '25.0541591'
-  LINK: https://tarokosoftware.com/
-  LON: '121.5638621'
-  NAME: 泰樂科技軟體有限公司
-- ADDRESS: 瑞光路399號11樓
-  ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: |-
-    1. Software QA Skills; development experience is added advantage.
-    2. Prepare status reports based on test completion/ findings and communicate these to team leaders, including any impact on the overall project plan
-    3. Document test procedures to ensure reliability and compliance with the set standards.
-    4. Provide feedback and recommendations on software usability and functionality.
-    5. Good attitude, patience, detailed/thorough, & able to work under tremendous pressure
-  JOB: QA Engineer 測試工程師
-  LAT: '25.0775939'
-  LINK: http://www.xuenn.com
-  LON: '121.5725584'
-  NAME: 軒昂有限公司
 - ADDRESS: 瑞光路399號11樓
   ADDR_NO_DESCRIPT: 台北市內湖區
   DESCRIPTION: |-
@@ -2805,6 +2605,19 @@ contents:
     5. To demonstrate accountability and ownership for all the above mentioned activities, with pride in providing timely and high-quality deliverables
     6. To ensure and protect company intellectual property (e.g. source code, documentation, etc.)
   JOB: IT Consultant
+  LAT: '25.0775939'
+  LINK: http://www.xuenn.com
+  LON: '121.5725584'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    1. Software QA Skills; development experience is added advantage.
+    2. Prepare status reports based on test completion/ findings and communicate these to team leaders, including any impact on the overall project plan
+    3. Document test procedures to ensure reliability and compliance with the set standards.
+    4. Provide feedback and recommendations on software usability and functionality.
+    5. Good attitude, patience, detailed/thorough, & able to work under tremendous pressure
+  JOB: QA Engineer 測試工程師
   LAT: '25.0775939'
   LINK: http://www.xuenn.com
   LON: '121.5725584'
@@ -2885,11 +2698,178 @@ contents:
   NAME: 軒昂有限公司
 - ADDRESS: 瑞光路399號11樓
   ADDR_NO_DESCRIPT: 台北市內湖區
-  DESCRIPTION: "1. Experience in a combination of the following: \nI. Project Management\nII.
-    People Management\nIII. Product Management\n2. Experience in software industry
-    is important\n3. Experience in engaging external parties an advantage"
-  JOB: PM (Project, Product, People Manager)
+  DESCRIPTION: "1. 管控各專案進度，確保各專案符合時程規劃。(品質,時程,人員管控) \n2. 管理開發團隊成員\n3.熟悉軟體專案規劃建置流程，能帶動團隊執行專案者\n4.
+    具備獨立作業，主動積極並具良好溝通及協調能力\n1. Experience in a combination of the following: \nI.
+    Project Management\nII. People Management\nIII. Product Management\n2. Experience
+    in software industry is important\n3. Experience in engaging external parties
+    an advantage"
+  JOB: 軟體專案經理/PM (Project, Product, People Manager)
   LAT: '25.0780548'
   LINK: http://www.xuenn.com
   LON: '121.5726556'
   NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "外商軟體開發公司.  \n提供商務及娛樂解決方案，可同時運用在電腦及手持式平台，以最領先的技術，設計符合客戶的特定需求。\n2008年於台灣設立RD
+    team, 專案量大,穩定且持續擴編中.  \n為新興產業, 前景看漲!上班環境舒適、福利佳 \n1.熟悉.net(C#、VB) C#尤佳，及MS SQL,
+    Oracle\n2.熟悉Ajax、Java Script、CSS等相關網頁開發技術\n3.熟MVC開發架構佳 (非必要)"
+  JOB: 軟體工程師, ASP.net C#
+  LAT: '25.0780548'
+  LINK: http://www.xuenn.com
+  LON: '121.5726556'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "外商軟體開發公司. \n提供商務及娛樂解決方案，可同時運用在電腦及手持式平台，以最領先的技術，設計符合客戶的特定需求。\n2008年於台灣設立RD
+    team, 專案量大,穩定且持續擴編中. \n為新興產業, 前景看漲!上班環境舒適、福利佳 \n需具備以下技術:\nOOAD, JavaScript ES5/ES6,
+    TypeScript 2, Angular 2, Webpack, Node.JS"
+  JOB: 前端軟體工程師(OOAD、JavaScript)
+  LAT: '25.0780548'
+  LINK: http://www.xuenn.com
+  LON: '121.5726556'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "外商軟體開發公司. \n提供商務及娛樂解決方案，可同時運用在電腦及手持式平台，以最領先的技術，設計符合客戶的特定需求。\n2008年於台灣設立RD
+    team, 專案量大,穩定且持續擴編中. \n為新興產業, 前景看漲!上班環境舒適、福利佳 \n熟悉技術: \nNode.JS, Angular, OOAD,
+    ActionScript 3, Flex/MXML, RobotLegs ( or other MVC framework ), Starling/ FeathersUI"
+  JOB: 前端軟體工程師(Node.JS, Angular)
+  LAT: '25.0780548'
+  LINK: http://www.xuenn.com
+  LON: '121.5726556'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "1.具資訊系統開發維護或資料分析設計能力 。 \n2.對系統分析、Data model設計及相關BI 報表開發有興趣者。\n3.負責蒐集BI使用者需求與分析\n4.設計與開發Data
+    Warehouse / Data Mart/ Cube\n5.設計與開發資料處理 ETL\n6.負責設計與開發相關分析資料呈現\n \n3.具有良好的溝通能力"
+  JOB: BI 商業智慧工程師 (大數據)
+  LAT: '25.0780548'
+  LINK: http://www.xuenn.com
+  LON: '121.5726556'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: |-
+    1. 負責Android App軟體之分析、設計以及程式撰寫
+    2. 規劃執行軟體架構，並控管軟體設計進度
+    3. 進行軟體之測試與修改
+    4. 編寫開發期間技術文件
+    Responsible for developing applications for mobile devices powered by Androidoperating system.
+    . Experienced in Mobile App development
+    . Hands-on experience with iOS Mobile App development
+    . Design and build applications for platform
+    . Ensure the performance, quality, and responsiveness of applications
+  JOB: Android 工程師/ IT Consultant (Mobile/APP)
+  LAT: '25.0780548'
+  LINK: http://www.xuenn.com
+  LON: '121.5726556'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "尋找Full function HR\n具4~5年人資經驗，有教育訓練、員工發展計畫經驗為加分\n公司福利佳，歡迎有熱情、能力優的人才加入。\n\n-Responsible
+    for the Recruitment & Selection process, include screening CV, arranging and conducting
+    interviews. \n-Responsible for Monthly payroll generation, include annual tax
+    return, generates monthly cost, centre reports and payroll summary. \n-Responsible
+    for generating HR report and compiling data as and when requested by the management
+    for reviews and decision making. \n-Responsible for employee benefits administration
+    such staff leaves, insurance, government claims, etc. \n-Coordinate staff training
+    and development administration such as but not limited to registration, logistics
+    and payment, also assists in implementing policies and government claims work.
+    \n-Responsible for the daily HR& Admin operations (Attendance/Leave administration,
+    Data input and maintenance). \n-Handles documentation of employee movements such
+    as on-boarding, off-boarding and exit. \n-Carry out, arrange and follow up on
+    the induction programs for new starters.\n-Responsible for application of work
+    permit for foreign employee to ensure compliance and avoid problems in work pass
+    applications. \n-Organizes and conceptualizes activities to promote employee engagement.
+    \n-Act as the logistic co-coordinator for HR events ( i.e. training, recreational
+    activities, meetings). \n-Responsible for company domain management."
+  JOB: HR Executive 人資資深專員 (可年後上班)
+  LAT: '25.0780548'
+  LINK: http://www.xuenn.com
+  LON: '121.5726556'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "1. 一般會計事宜，包括費用處理，應付賬款和應收賬款\n2. 會計師事務所2年以上經驗\n3. 員工請款事宜處理\n4. 增值稅和預扣稅申報和對賬\n5.
+    公司資產管理\n6. 審核和維護會計記錄\n7. 協助月度和年終帳務相關事宜\n8. 主管交辦事項\n9. 具ACCPAC系統經驗、Excel專業能力尤佳\n［Responsibilities］\n▪
+    All Accounting functions including Expenses processing, Accounts payable & Accounts
+    receivable.\n▪ Employees' reimbursements payment processing \n▪ VAT and Withholding
+    Tax filing and reconciliation \n▪ Compliance with local laws & regulations as
+    well as with IFRS in the areas of corporate compliance, accounting standards,
+    taxes, statutory reporting /filing and corporate governance. \n▪ Fixed asset management
+    \n▪ Review and maintaining good accounting records\n▪ Assisting in Monthly and
+    Year End tasks \n▪ Assisting in special projects as required\n［Requirements］ \n▪
+    Familiar with Taiwan accounting and tax laws. \n▪ English capability is necessary.\n▪
+    Strong work ethic with a commitment to get things done\n▪ Good interpersonal skills
+    and are comfortable to interact with all levels of internal and external contacts.
+    \n▪ Experience with ACCPAC System and a good working knowledge of Excel will be
+    an added advantage. \n▪ CPA firm 2 year's experiences\n▪ Be Patient with correct
+    numbers and reconciliation"
+  JOB: 財會人員 Finance Executive (軒昂公司)
+  LAT: '25.0777304'
+  LINK: http://www.xuenn.com
+  LON: '121.5728163'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "［Responsibilities］ \n會計\n▪ 應付帳款、員工請款審核\n▪ 審核一般會計帳務，符合財會及稅務之規定\n▪ 編製財務報表，針對各項差異分析\n▪
+    營業稅申報及協助扣繳申報\n▪ 協助年度查帳及TP report等相關事宜\n\n預算\n▪ 編列年度預算\n▪ 每月追蹤進度及budget forecast\n▪
+    編製預算比較分析檢討報告\n\n［Requirements］ \n▪ 10年以上工作經驗\n▪ 熟悉稅法及會計法規 \n▪ 跨部門的協調溝通能力\n▪ 良好的英文能力\n▪
+    對數字有良好的敏感度及耐心\n▪ 熟悉Excel功能\n▪ 有會計師事務所經驗"
+  JOB: 資深財會人員 Finance Executive (軒昂公司)
+  LAT: '25.0777304'
+  LINK: http://www.xuenn.com
+  LON: '121.5728163'
+  NAME: 軒昂有限公司
+- ADDRESS: 瑞光路399號11樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  DESCRIPTION: "1.產品/功能Bug管理，定期召開產品改善會議，定期匯整改善報告 \n2. 產品更新版本之專案管理(品質,成本,時程管控) \n3.
+    管理QCC部門\n4.熟悉軟體專案規劃建置流程，能帶動團隊執行專案者。 \n5. 具備獨立作業，主動積極並具良好溝通及協調能力。"
+  JOB: QA Manager / QA測試主管
+  LAT: '25.0777304'
+  LINK: http://www.xuenn.com
+  LON: '121.5728163'
+  NAME: 軒昂有限公司
+- ADDRESS: 南京東路三段311號11樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  DESCRIPTION: "Responsibilities \n\n1)  Install new / rebuild existing servers and
+    configure hardware, peripherals,  \n     services, settings, directories, storage,
+    etc. in accordance with standards and \n     project/operational requirements
+    - 管理與維護公司伺服器和資料庫，並進行檔\n     案維護及管理\n2)  Develop and maintain installation and
+    configuration procedures - 建立及維護\n     流程\n3)  Perform regular system and security
+    monitoring to identify any possible \n     intrusions - 公司資訊安全與維護\n4)  Perform
+    daily backup operations, ensuring all required file systems and syste\n     m
+    data are successfully backed up to the appropriate media, recovery tapes or     disks
+    are created, and media is recycled and sent off site as necessary-負責系\n     統檔案及資料備份,
+    確保各部門之資訊設備順暢運作\n5)  Perform regular file archival and purge as necessary- 依需求定期備份\n6)
+    \ Create, change, and delete user accounts per request - 依工單新增/修改/刪除\n     使用者權限\n7)
+    \ Investigate and troubleshoot issues - 維護資訊系統運作、異常狀況排除\n8)  Repair and recover
+    from hardware or software failures - 軟硬體維護及維修。\n9)  Maintain data center environmental
+    and monitoring equipment - 資料庫監控\n     及維護。\n10)Support LANs, WANs, network segments,
+    Internet systems. - 支援LANs, WAN\n      s, network segments, Internet系統\n11)Maintain
+    network and system security. - 網路管理與系統安全\n12)Monitor networks to ensure security
+    and availability to specific users - 監控網\n     路確保網路安全\n13)Maintain network facilities
+    in individual machines, such as drivers and settings      of personal computers
+    as well as printers. - 電話系統、印表機及其他系統周邊裝\n      置的安裝及維修\n15)Maintain network servers
+    such as file servers, VPN gateways, intrusion \n     detection systems. - 網路(防火牆與VPN)基礎設定及管理能力,如:file
+    servers, VPN     gateways, intrusion detection systems\n\nRequirements \n\n1)
+    Fluent Chinese and basic conversational English - 流利中文及基本英文對話能力\n2) 3+ years'
+    experience in System and Network Administration - 三年以上網路及\n   系統管理經驗\n3) Good
+    network knowledge - 良好網管知識\n4) Team spirit - 團隊合作精神\n\nBenefits \n\n1) Competitive
+    salary & benefits - 具競爭性的薪資與福利\n2) Located in the heart of Taipei  位於台北市中心捷運站旁，交通便利\n3)
+    3 weeks' annual vacation  - 每年十五天年假\n4) Healthy work/life balance - 健康的工作與生活均衡"
+  JOB: System Administrator
+  LAT: '25.0541591'
+  LINK: https://tarokosoftware.com/
+  LON: '121.5638621'
+  NAME: 泰樂科技軟體有限公司
+- ADDRESS: 長安東路二段52號8樓之3
+  ADDR_NO_DESCRIPT: 台北市中山區
+  DESCRIPTION: |-
+    專案開發,
+    專案維護
+  JOB: 軟體設計工程師
+  LAT: '25.048352'
+  LINK: www.ots.com.tw
+  LON: '121.53253'
+  NAME: 僑興資訊股份有限公司

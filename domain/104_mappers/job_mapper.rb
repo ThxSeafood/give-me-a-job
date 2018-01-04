@@ -9,6 +9,10 @@ module ThxSeafood
         @gateway = gateway
       end
 
+      def get_total_page_num(keywords)
+        total_page_num = @gateway.get_total_page_num(keywords) 
+      end
+
       def load_several(keywords)
         jobs_data = @gateway.jobs_data(keywords)
         jobs_data.map do |job_data|
