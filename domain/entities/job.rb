@@ -14,7 +14,7 @@ module ThxSeafood
       attribute :lat, Types::Strict::String
       attribute :address, Types::Strict::String
       attribute :addr_no_descript, Types::Strict::String
-      attribute :description, Types::Strict::String
+      # attribute :description, Types::Strict::String
       attribute :user_query, Types::Strict::String
 
 
