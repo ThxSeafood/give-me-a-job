@@ -59,7 +59,7 @@ module ThxSeafood
             lat: entity.lat,
             address: entity.address,
             addr_no_descript: entity.addr_no_descript,
-            description: entity.description,  
+            # description: entity.description,  
             user_query: entity.user_query 
           )
           
@@ -79,7 +79,7 @@ module ThxSeafood
             lat: db_record.lat,
             address: db_record.address,
             addr_no_descript: db_record.addr_no_descript,
-            description: db_record.description,
+            # description: db_record.description,
             user_query: db_record.user_query 
           )
         end

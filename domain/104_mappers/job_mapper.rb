@@ -36,7 +36,7 @@ module ThxSeafood
             lat: lat,
             address: address,
             addr_no_descript: addr_no_descript,
-            description: description,    
+            # description: description,    
             user_query: query
           )
         end
@@ -71,9 +71,9 @@ module ThxSeafood
           @job['ADDR_NO_DESCRIPT']
         end
 
-        def description
-          @job['DESCRIPTION']
-        end
+        # def description
+        #   @job['DESCRIPTION']
+        # end
 
         def query
           @user_query
