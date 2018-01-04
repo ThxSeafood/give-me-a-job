@@ -27,10 +27,10 @@ module ThxSeafood
 
       response['Content-Type'] = 'application/json'
 
-      response['Access-Control-Allow-Origin'] = 'http://localhost:4000'
+      response['Access-Control-Allow-Origin'] = 'http://localhost:9292'
       response['Access-Control-Allow-Credentials'] = 'true'
       response['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE'
-      
+
       app = Api
 
       # GET / request
