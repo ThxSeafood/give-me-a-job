@@ -56,11 +56,11 @@ module ThxSeafood
         end
 
         def lng
-          @job['LON']
+          @job['LON'].to_f
         end
         
         def lat
-          @job['LAT']
+          @job['LAT'].to_f
         end
 
         def address

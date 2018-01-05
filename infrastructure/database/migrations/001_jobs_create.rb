@@ -10,8 +10,8 @@ Sequel.migration do
       String      :name
       String      :link
       String      :company
-      String      :lng
-      String      :lat
+      Float       :lng
+      Float       :lat
       String      :address
       String      :addr_no_descript
       # String      :description
