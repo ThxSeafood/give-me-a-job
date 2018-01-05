@@ -55,11 +55,11 @@ module ThxSeafood
             name: entity.name,
             link: entity.link,
             company: entity.company,
-            lon: entity.lon,
+            lng: entity.lng,
             lat: entity.lat,
             address: entity.address,
             addr_no_descript: entity.addr_no_descript,
-            description: entity.description,  
+            # description: entity.description,  
             user_query: entity.user_query 
           )
           
@@ -75,11 +75,11 @@ module ThxSeafood
             name: db_record.name,
             link: db_record.link,
             company: db_record.company,
-            lon: db_record.lon,
+            lng: db_record.lng,
             lat: db_record.lat,
             address: db_record.address,
             addr_no_descript: db_record.addr_no_descript,
-            description: db_record.description,
+            # description: db_record.description,
             user_query: db_record.user_query 
           )
         end

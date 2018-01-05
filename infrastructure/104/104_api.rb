@@ -49,11 +49,11 @@ module ThxSeafood
       end
 
       def self.get_total_record_num_path(keywords)
-        'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=2'+'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS%2CDESCRIPTION'
+        'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=2'+'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS'
       end
 
       def self.query_path(keywords, page)
-        'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=8'+'&page='+ page +'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS%2CDESCRIPTION'
+        'http://www.104.com.tw/i/apis/jobsearch.cfm?kws=' + keywords +'&order=1'+'&kwop=2'+'&fmt=8'+'&page='+ page +'&incs=2'+'&cols=JOB%2CNAME%2CLINK%2CLAT%2CLON%2CADDR_NO_DESCRIPT%2CADDRESS'
       end
 
       private

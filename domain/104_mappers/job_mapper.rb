@@ -36,11 +36,11 @@ module ThxSeafood
             name: name,
             link: link,
             company: company,
-            lon: lon,
+            lng: lng,
             lat: lat,
             address: address,
             addr_no_descript: addr_no_descript,
-            description: description,    
+            # description: description,    
             user_query: query
           )
         end
@@ -59,12 +59,12 @@ module ThxSeafood
           @job['NAME']
         end
 
-        def lon
-          @job['LON']
+        def lng
+          @job['LON'].to_f
         end
         
         def lat
-          @job['LAT']
+          @job['LAT'].to_f
         end
 
         def address
@@ -75,9 +75,9 @@ module ThxSeafood
           @job['ADDR_NO_DESCRIPT']
         end
 
-        def description
-          @job['DESCRIPTION']
-        end
+        # def description
+        #   @job['DESCRIPTION']
+        # end
 
         def query
           @user_query

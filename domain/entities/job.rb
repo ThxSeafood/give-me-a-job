@@ -10,11 +10,11 @@ module ThxSeafood
       attribute :name, Types::Strict::String
       attribute :link, Types::Strict::String
       attribute :company, Types::Strict::String
-      attribute :lon, Types::Strict::String
-      attribute :lat, Types::Strict::String
+      attribute :lng, Types::Strict::Float
+      attribute :lat, Types::Strict::Float
       attribute :address, Types::Strict::String
       attribute :addr_no_descript, Types::Strict::String
-      attribute :description, Types::Strict::String
+      # attribute :description, Types::Strict::String
       attribute :user_query, Types::Strict::String
 
 
