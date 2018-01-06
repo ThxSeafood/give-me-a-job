@@ -6,7 +6,7 @@ module ThxSeafood
   module Entity
     # Domain entity object for 104 job
     class Job < Dry::Struct
-      # attribute :id, Types::Int.optional
+      attribute :rank, Types::Int.optional
       attribute :name, Types::Strict::String
       attribute :link, Types::Strict::String
       attribute :company, Types::Strict::String

@@ -1,146 +1,146 @@
 ---
-RECORDCOUNT: 4839
-PAGECOUNT: 242
+RECORDCOUNT: 4588
+PAGECOUNT: 230
 size: '20'
 page: '1'
 contents:
-- ADDRESS: 復興北路50號4樓之1
-  ADDR_NO_DESCRIPT: 台北市中山區
-  JOB: Internet程式設計師
-  LAT: '25.049634'
-  LINK: www.top-sales.com.tw
-  LON: '121.543738'
-  NAME: 業務人資訊有限公司
-- ADDRESS: 重新路一段108號3樓
-  ADDR_NO_DESCRIPT: 新北市三重區
-  JOB: Internet程式設計師(新北市三重區)
-  LAT: '25.063048'
-  LINK: http://www.jiou-shin.com.tw
-  LON: '121.500932'
-  NAME: 久欣科技有限公司
-- ADDRESS: 南京東路4段56號6樓
-  ADDR_NO_DESCRIPT: 台北市松山區
-  JOB: Internet 軟體工程師
-  LAT: '25.0541591'
-  LINK: www.taaze.tw
-  LON: '121.5638621'
-  NAME: 學思行數位行銷股份有限公司
-- ADDRESS: 忠明南路787號21F-2
-  ADDR_NO_DESCRIPT: 台中市南區
-  JOB: Internet前端設計師
-  LAT: '24.1234339'
-  LINK: http://www.hstar.com.tw/
-  LON: '120.66093'
-  NAME: 鴻星數位科技股份有限公司
-- ADDRESS: 八德路一段23號14樓
-  ADDR_NO_DESCRIPT: 台北市中正區
-  JOB: Internet/App 網頁工程師
-  LAT: '25.0440978'
-  LINK: http://www.tvgame.com.tw
-  LON: '121.5311155'
-  NAME: 智焰有限公司
-- ADDRESS: 中科路6號2樓之3
-  ADDR_NO_DESCRIPT: 台中市大雅區
-  JOB: Internet軟體工程師
-  LAT: '24.2097656'
-  LINK: http://www.ils.com.tw
-  LON: '120.6185631'
-  NAME: 豐聯資訊股份有限公司
-- ADDRESS: 忠孝東路五段508號6樓
+- ADDRESS: 文化路一段266號10樓
+  ADDR_NO_DESCRIPT: 新北市板橋區
+  JOB: 程式設計師(實習)
+  LAT: '25.0207487'
+  LINK: http://www.cmoney.tw/jobs/
+  LON: '121.4671248'
+  NAME: 全曜財經資訊股份有限公司
+- ADDRESS: 東興路45號11樓(110)
   ADDR_NO_DESCRIPT: 台北市信義區
-  JOB: Internet程式設計師
-  LAT: '25.0410718'
-  LINK: http://www.magic-systech.com / http://www.mediayou.net
-  LON: '121.578681'
-  NAME: 魔奇科技股份有限公司
-- ADDRESS: 英才路501號6樓之2
-  ADDR_NO_DESCRIPT: 台中市西區
-  JOB: Internet 助理程式設計師
-  LAT: '24.1769764'
-  LINK: http://www.dongyu-net.com/zh-tw/index.html
-  LON: '120.6424333'
-  NAME: 東宇數位網路有限公司
-- ADDRESS: 裕誠路394號9樓
-  ADDR_NO_DESCRIPT: 高雄市左營區
-  JOB: Internet 軟體研發工程師
-  LAT: '22.6656706'
-  LINK: www.kingfor.com.tw
-  LON: '120.306342'
-  NAME: 奇豐資訊科技有限公司
-- ADDRESS: 建一路166號10樓之3
-  ADDR_NO_DESCRIPT: 新北市中和區
-  JOB: Internet程式設計師、網路程式設計師(年後上班)
-  LAT: '24.997817'
-  LINK: www.zyosoft.com
-  LON: '121.487857'
-  NAME: 日躍科技股份有限公司
-- ADDRESS: 大業路260號
-  ADDR_NO_DESCRIPT: 台北市北投區
-  JOB: IT Development Analyst (Internet程式設計)
-  LAT: '25.126384'
-  LINK: www.ul.com.tw
-  LON: '121.498596'
-  NAME: UL_優力國際安全認證有限公司
-- ADDRESS: 菸廠路88號12樓
-  ADDR_NO_DESCRIPT: 台北市信義區
-  JOB: I148 電子商務-Internet開發工程師
-  LAT: '25.0261583'
-  LINK: http://www.taiwanmobile.com/index.html
-  LON: '121.5427093'
-  NAME: 台灣大哥大股份有限公司
-- ADDRESS: 台灣大道二段633號11樓之3
-  ADDR_NO_DESCRIPT: 台中市西屯區
-  JOB: Internet程式設計師(資深Tech Lead)
-  LAT: '24.1581648'
-  LINK: gmdigi.com/
-  LON: '120.6569604'
-  NAME: 格明數位媒體有限公司
-- ADDRESS: 八德路二段306號10樓(八德路、復興北路口)
-  ADDR_NO_DESCRIPT: 台北市中山區
-  JOB: S-Internet程式設計師(資訊處)-證券(亞洲)
-  LAT: '25.0329636'
-  LINK: http://www.sinopac.com
-  LON: '121.5654268'
-  NAME: 永豐金融控股股份有限公司 (永豐銀行/永豐金證券/永豐客服科技/永豐金租賃)
-- ADDRESS: 寶橋路188號5樓
-  ADDR_NO_DESCRIPT: 新北市新店區
-  JOB: Internet程式設計師/軟體設計工程師
-  LAT: '24.97641'
-  LINK: www.newtype.com.tw
-  LON: '121.547621'
-  NAME: 新人類資訊科技股份有限公司
-- ADDRESS: 忠孝東路5段412號18樓之2
-  ADDR_NO_DESCRIPT: 台北市信義區
-  JOB: Backend Engineer Internet PHP HTML CSS  JAVASCRIPT 程式設計師 後端工程師
-  LAT: '25.040707'
-  LINK: http://www.ritocoinc.com
-  LON: '121.57517'
-  NAME: 力拓移動國際有限公司
-- ADDRESS: 中山北路二段46號7樓-1
-  ADDR_NO_DESCRIPT: 台北市中山區
-  JOB: "(Senior) Internet Engineer"
-  LAT: '25.0554839'
-  LINK: http://www.futuredial.com/
-  LON: '121.522477'
-  NAME: 美商世紀新訊股份有限公司台灣分公司
-- ADDRESS: 信義路三段149號8樓
-  ADDR_NO_DESCRIPT: 台北市大安區
-  JOB: Internet 工程師
-  LAT: '25.033669'
-  LINK: www.habook.com.tw
-  LON: '121.542075'
-  NAME: 網奕資訊科技股份有限公司
-- ADDRESS: 新湖一路128巷15號6樓
+  JOB: 軟體工程師(無經驗可)【具完整教育訓練】
+  LAT: '25.0481469'
+  LINK: www.telexpress.com
+  LON: '121.5660421'
+  NAME: 網訊電通股份有限公司
+- ADDRESS: 三重路19-3號一樓
+  ADDR_NO_DESCRIPT: 台北市南港區
+  JOB: "[KKBOX] 實習軟體工程師- 物聯網應用 (台北/高雄)"
+  LAT: '25.0565476'
+  LINK: ''
+  LON: '121.6132482'
+  NAME: 願境網訊股份有限公司_KKBOX
+- ADDRESS: 堤頂大道二段489號8樓
   ADDR_NO_DESCRIPT: 台北市內湖區
-  JOB: Internet 工程師
-  LAT: '25.0598628'
-  LINK: www.newsoft.com.tw
-  LON: '121.5772745'
-  NAME: 力新國際科技股份有限公司
-- ADDRESS: 衡陽路7號13樓
-  ADDR_NO_DESCRIPT: 台北市中正區
-  JOB: Internet 工程師
-  LAT: '25.0424189'
-  LINK: http://www.smarttaxi.com.tw
-  LON: '121.513862'
-  NAME: 叫車通資訊股份有限公司
+  JOB: 軟體開發工程師-Java專長/內部各類平台及APP
+  LAT: '25.08266'
+  LINK: www.wpgholdings.com
+  LON: '121.561981'
+  NAME: 大聯大投資控股股份有限公司
+- ADDRESS: 忠孝東路四段212號10樓
+  ADDR_NO_DESCRIPT: 台北市大安區
+  JOB: "[鴻海科技集團 富盈數據] 電商儲備幹部"
+  LAT: '25.0413093'
+  LINK: www.breaktime.com.tw
+  LON: '121.5526933'
+  NAME: 富盈數據股份有限公司
+- ADDRESS: 北新路三段213號10樓
+  ADDR_NO_DESCRIPT: 新北市新店區
+  JOB: 軟體工程師-學生實習
+  LAT: '24.985365'
+  LINK: www.ggit2u.com
+  LON: '121.5401946'
+  NAME: 恩智信息科技有限公司
+- ADDRESS: 松江路266號9樓
+  ADDR_NO_DESCRIPT: 台北市中山區
+  JOB: Internet程式設計師(週五提早下午4點下班/需專精ASP.net並具備網站架設經驗)
+  LAT: '25.0593953'
+  LINK: funday.asia
+  LON: '121.532819'
+  NAME: 智擎數位科技股份有限公司
+- ADDRESS: 松仁路7號2樓
+  ADDR_NO_DESCRIPT: 台北市信義區
+  JOB: "【資訊】程式開發工程師"
+  LAT: '25.0689422'
+  LINK: http://www.cathaybk.com.tw
+  LON: '121.5909027'
+  NAME: 國泰世華商業銀行股份有限公司_人力資源部
+- ADDRESS: 市府路59號
+  ADDR_NO_DESCRIPT: 台中市中區
+  JOB: 軟體設計工程師 (待優★作息正常)
+  LAT: '24.1573171'
+  LINK: www.cotabank.com.tw
+  LON: '120.6832556'
+  NAME: 三信商業銀行股份有限公司
+- ADDRESS: 重新路四段63號16樓
+  ADDR_NO_DESCRIPT: 新北市三重區
+  JOB: Java初階工程師
+  LAT: '25.0573002'
+  LINK: http://www.yesee.com.tw
+  LON: '121.4873891'
+  NAME: 越世實業股份有限公司
+- ADDRESS: 瑞源路123巷24號2樓
+  ADDR_NO_DESCRIPT: 高雄市前金區
+  JOB: 網站美編、介面設計師
+  LAT: '22.632324'
+  LINK: ''
+  LON: '120.29641'
+  NAME: 左手設計有限公司
+- ADDRESS: 南京東路二段150號10樓
+  ADDR_NO_DESCRIPT: 台北市中山區
+  JOB: 軟體工程 - 兼職/工讀/實習
+  LAT: '25.051879'
+  LINK: https://www.levarion.com/zh/
+  LON: '121.5343164'
+  NAME: 利快安科技有限公司
+- ADDRESS: 信義路五段7號15樓B室
+  ADDR_NO_DESCRIPT: 台北市信義區
+  JOB: T12 - 遊戲測試專員
+  LAT: '25.0339226'
+  LINK: ''
+  LON: '121.5646368'
+  NAME: 天旭國際科技有限公司
+- ADDRESS: 敦化北路122號5樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  JOB: JAVA程式設計師(無經驗可)
+  LAT: '25.054286'
+  LINK: HTTP://www.chinalife.com.tw
+  LON: '121.548594'
+  NAME: 中國人壽保險股份有限公司(總公司)
+- ADDRESS: 松仁路7號2樓
+  ADDR_NO_DESCRIPT: 台北市信義區
+  JOB: "【資訊】系統分析工程師"
+  LAT: '25.0689422'
+  LINK: http://www.cathaybk.com.tw
+  LON: '121.5909027'
+  NAME: 國泰世華商業銀行股份有限公司_人力資源部
+- ADDRESS: 中正路872號15樓之6(國華大樓)
+  ADDR_NO_DESCRIPT: 新北市中和區
+  JOB: 長期學生實習－網路資訊助理
+  LAT: '25.006331'
+  LINK: www.unidyna.com
+  LON: '121.484085'
+  NAME: 威納科技股份有限公司
+- ADDRESS: 民生東路3段138號14樓
+  ADDR_NO_DESCRIPT: 台北市松山區
+  JOB: 助理工程師
+  LAT: '25.057434'
+  LINK: www.clickforce.com.tw
+  LON: '121.547124'
+  NAME: 域動行銷股份有限公司
+- ADDRESS: 文心路二段201號20樓之1
+  ADDR_NO_DESCRIPT: 台中市西屯區
+  JOB: 助理工程師
+  LAT: '24.1597314'
+  LINK: http://www.shang-yu.com.tw
+  LON: '120.647302'
+  NAME: 尚峪資訊科技有限公司
+- ADDRESS: 中山北路三段47號3樓304室
+  ADDR_NO_DESCRIPT: 台北市中山區
+  JOB: 助理工程師
+  LAT: '25.0652878'
+  LINK: www.hodomobile.com
+  LON: '121.5225067'
+  NAME: 禾多移動多媒體股份有限公司
+- ADDRESS: 瑞光路76巷18號5樓
+  ADDR_NO_DESCRIPT: 台北市內湖區
+  JOB: 軟體工程師
+  LAT: '25.070915'
+  LINK: http://www.youngmen.com.tw
+  LON: '121.58116'
+  NAME: 陽明資訊股份有限公司

@@ -96,4 +96,46 @@ http_interactions:
         工程師","LAT":"25.0424189","LINK":"http://www.smarttaxi.com.tw","LON":"121.513862","NAME":"叫車通資訊股份有限公司"}]}'
     http_version: 
   recorded_at: Sat, 06 Jan 2018 05:39:34 GMT
+- request:
+    method: get
+    uri: http://www.104.com.tw/i/apis/jobsearch.cfm?cat=2007001006&cols=JOB,NAME,LINK,LAT,LON,ADDR_NO_DESCRIPT,ADDRESS&fmt=8&incs=2&kwop=2&order=7&page=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.104.com.tw
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 06 Jan 2018 16:27:58 GMT
+      Content-Type:
+      - text/html;charset=UTF-8
+      Content-Length:
+      - '4811'
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding,User-Agent
+      Server:
+      - '104'
+      Front-End-Https:
+      - 'on'
+    body:
+      encoding: UTF-8
+      string: '{"RECORDCOUNT":"4573","PAGECOUNT":"20","PAGE":"1","TOTALPAGE":"229","data":[{"ADDRESS":"文化路一段266號10樓","ADDR_NO_DESCRIPT":"新北市板橋區","JOB":"程式設計師(實習)","LAT":"25.0207487","LINK":"http://www.cmoney.tw/jobs/","LON":"121.4671248","NAME":"全曜財經資訊股份有限公司"},{"ADDRESS":"東興路45號11樓(110)","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"軟體工程師(無經驗可)【具完整教育訓練】","LAT":"25.0481469","LINK":"www.telexpress.com","LON":"121.5660421","NAME":"網訊電通股份有限公司"},{"ADDRESS":"三重路19-3號一樓","ADDR_NO_DESCRIPT":"台北市南港區","JOB":"[KKBOX]
+        實習軟體工程師- 物聯網應用 (台北/高雄)","LAT":"25.0565476","LINK":"","LON":"121.6132482","NAME":"願境網訊股份有限公司_KKBOX"},{"ADDRESS":"堤頂大道二段489號8樓","ADDR_NO_DESCRIPT":"台北市內湖區","JOB":"軟體開發工程師-Java專長/內部各類平台及APP","LAT":"25.08266","LINK":"www.wpgholdings.com","LON":"121.561981","NAME":"大聯大投資控股股份有限公司"},{"ADDRESS":"忠孝東路四段212號10樓","ADDR_NO_DESCRIPT":"台北市大安區","JOB":"[鴻海科技集團
+        富盈數據] 電商儲備幹部","LAT":"25.0413093","LINK":"www.breaktime.com.tw","LON":"121.5526933","NAME":"富盈數據股份有限公司"},{"ADDRESS":"北新路三段213號10樓","ADDR_NO_DESCRIPT":"新北市新店區","JOB":"軟體工程師-學生實習","LAT":"24.985365","LINK":"www.ggit2u.com","LON":"121.5401946","NAME":"恩智信息科技有限公司"},{"ADDRESS":"松江路266號9樓","ADDR_NO_DESCRIPT":"台北市中山區","JOB":"Internet程式設計師(週五提早下午4點下班/需專精ASP.net並具備網站架設經驗)","LAT":"25.0593953","LINK":"funday.asia","LON":"121.532819","NAME":"智擎數位科技股份有限公司"},{"ADDRESS":"松仁路7號2樓","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"【資訊】程式開發工程師","LAT":"25.0689422","LINK":"http://www.cathaybk.com.tw","LON":"121.5909027","NAME":"國泰世華商業銀行股份有限公司_人力資源部"},{"ADDRESS":"市府路59號","ADDR_NO_DESCRIPT":"台中市中區","JOB":"軟體設計工程師
+        (待優★作息正常)","LAT":"24.1573171","LINK":"www.cotabank.com.tw","LON":"120.6832556","NAME":"三信商業銀行股份有限公司"},{"ADDRESS":"重新路四段63號16樓","ADDR_NO_DESCRIPT":"新北市三重區","JOB":"Java初階工程師","LAT":"25.0573002","LINK":"http://www.yesee.com.tw","LON":"121.4873891","NAME":"越世實業股份有限公司"},{"ADDRESS":"瑞源路123巷24號2樓","ADDR_NO_DESCRIPT":"高雄市前金區","JOB":"網站美編、介面設計師","LAT":"22.632324","LINK":"","LON":"120.29641","NAME":"左手設計有限公司"},{"ADDRESS":"南京東路二段150號10樓","ADDR_NO_DESCRIPT":"台北市中山區","JOB":"軟體工程
+        - 兼職/工讀/實習","LAT":"25.051879","LINK":"https://www.levarion.com/zh/","LON":"121.5343164","NAME":"利快安科技有限公司"},{"ADDRESS":"信義路五段7號15樓B室","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"T12
+        - 遊戲測試專員","LAT":"25.0339226","LINK":"","LON":"121.5646368","NAME":"天旭國際科技有限公司"},{"ADDRESS":"敦化北路122號5樓","ADDR_NO_DESCRIPT":"台北市松山區","JOB":"JAVA程式設計師(無經驗可)","LAT":"25.054286","LINK":"HTTP://www.chinalife.com.tw","LON":"121.548594","NAME":"中國人壽保險股份有限公司(總公司)"},{"ADDRESS":"松仁路7號2樓","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"【資訊】系統分析工程師","LAT":"25.0689422","LINK":"http://www.cathaybk.com.tw","LON":"121.5909027","NAME":"國泰世華商業銀行股份有限公司_人力資源部"},{"ADDRESS":"中正路872號15樓之6(國華大樓)","ADDR_NO_DESCRIPT":"新北市中和區","JOB":"長期學生實習－網路資訊助理","LAT":"25.006331","LINK":"www.unidyna.com","LON":"121.484085","NAME":"威納科技股份有限公司"},{"ADDRESS":"民生東路3段138號14樓","ADDR_NO_DESCRIPT":"台北市松山區","JOB":"助理工程師","LAT":"25.057434","LINK":"www.clickforce.com.tw","LON":"121.547124","NAME":"域動行銷股份有限公司"},{"ADDRESS":"文心路二段201號20樓之1","ADDR_NO_DESCRIPT":"台中市西屯區","JOB":"助理工程師","LAT":"24.1597314","LINK":"http://www.shang-yu.com.tw","LON":"120.647302","NAME":"尚峪資訊科技有限公司"},{"ADDRESS":"中山北路三段47號3樓304室","ADDR_NO_DESCRIPT":"台北市中山區","JOB":"助理工程師","LAT":"25.0652878","LINK":"www.hodomobile.com","LON":"121.5225067","NAME":"禾多移動多媒體股份有限公司"},{"ADDRESS":"瑞光路76巷18號5樓","ADDR_NO_DESCRIPT":"台北市內湖區","JOB":"軟體工程師","LAT":"25.070915","LINK":"http://www.youngmen.com.tw","LON":"121.58116","NAME":"陽明資訊股份有限公司"}]}'
+    http_version: 
+  recorded_at: Sat, 06 Jan 2018 16:27:58 GMT
 recorded_with: VCR 3.0.3

@@ -8,6 +8,7 @@ module ThxSeafood
   class JobRepresenter < Roar::Decorator
     include Roar::JSON
 
+    property :rank
     property :name
     property :link
     property :company

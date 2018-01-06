@@ -38,6 +38,7 @@ module ThxSeafood
 
         def build_entity
           Entity::Job.new(
+            rank: nil,
             name: name,
             link: link,
             company: company,

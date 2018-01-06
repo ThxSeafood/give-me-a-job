@@ -71,7 +71,7 @@ module ThxSeafood
           return nil unless db_record
   
           Entity::Job.new(
-            # id: db_record.id,
+            rank: db_record.id,
             name: db_record.name,
             link: db_record.link,
             company: db_record.company,
