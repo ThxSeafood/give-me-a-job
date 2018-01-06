@@ -10,11 +10,16 @@ module ThxSeafood
       end
 
       def get_total_page_num(keywords)
-        total_page_num = @gateway.get_total_page_num(keywords) 
+        total_record_num = @gateway.get_total_record_num(keywords)
+        total_page_num = (total_record_num + 19) / 20
       end
 
-      def load_several(keywords)
-        jobs_data = @gateway.jobs_data(keywords)
+      def get_total_record_num(keywords)
+        total_record_num = @gateway.get_total_record_num(keywords) 
+      end
+
+      def load_several(keywords, page)
+        jobs_data = @gateway.jobs_data(keywords, page)
         jobs_data.map do |job_data|
           JobMapper.build_entity(job_data, keywords)
         end

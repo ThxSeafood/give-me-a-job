@@ -45,9 +45,9 @@ module ThxSeafood
           rebuild_entity(db_record)
         end
   
-        def self.find_or_create(entity)
-          find_jobname(entity.name) || create(entity)
-        end
+        # def self.find_or_create(entity)
+        #   find_jobname(entity.name) || create(entity)
+        # end
   
         def self.create(entity)
           # 這邊的create動作會真的把資料存進DB裡面

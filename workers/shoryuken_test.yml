@@ -1,0 +1,2 @@
+queues:
+  - https://sqs.us-east-1.amazonaws.com/072103796788/thxseafood-clone_test.fifo

@@ -2,51 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.104.com.tw/i/apis/jobsearch.cfm?cols=JOB,NAME,LINK,LAT,LON,ADDR_NO_DESCRIPT,ADDRESS&fmt=8&incs=2&kwop=2&kws=Internet&order=1&page=2
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - www.104.com.tw
-      User-Agent:
-      - http.rb/3.0.0
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 06 Jan 2018 05:38:10 GMT
-      Content-Type:
-      - text/html;charset=UTF-8
-      Content-Length:
-      - '4725'
-      Connection:
-      - close
-      Vary:
-      - Accept-Encoding,User-Agent
-      Server:
-      - '104'
-      Front-End-Https:
-      - 'on'
-    body:
-      encoding: UTF-8
-      string: '{"RECORDCOUNT":"4839","PAGECOUNT":"20","PAGE":"2","TOTALPAGE":"242","data":[{"ADDRESS":"信義路五段7號73樓","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"Software
-        Engineer, Embedded Systems","LAT":"25.0339639","LINK":"www.google.com","LON":"121.5644722","NAME":"Google_美商科高國際有限公司"},{"ADDRESS":"林森南路4之2號7樓","ADDR_NO_DESCRIPT":"台北市中正區","JOB":"Java
-        Internet工程師","LAT":"25.093597","LINK":"http://www.frog-jump.com/","LON":"121.594077","NAME":"德義資訊股份有限公司"},{"ADDRESS":"敦化南路二段71號9樓","ADDR_NO_DESCRIPT":"台北市大安區","JOB":"<Internet>
-        Sr. Product Manager (995)","LAT":"24.978282","LINK":"http://www.mgr.com.tw/EN/AboutMGR1.aspx","LON":"121.5394822","NAME":"經緯智庫股份有限公司
-        (MGR Consulting Co., Ltd.)"},{"ADDRESS":"六家五路一段168號2樓","ADDR_NO_DESCRIPT":"新竹縣竹北市","JOB":"軟體工程師","LAT":"24.8088756","LINK":"www.coordiwise.com","LON":"121.026075","NAME":"圓揚科技股份有限公司"},{"ADDRESS":"中山北路3段47號4樓","ADDR_NO_DESCRIPT":"台北市中山區","JOB":"大專院校市場業務代表","LAT":"25.066614","LINK":"http://www.loremaster.com.tw/","LON":"121.5227165","NAME":"育學雲端股份有限公司"},{"ADDRESS":"松江路266號9樓","ADDR_NO_DESCRIPT":"台北市中山區","JOB":"Internet程式設計師(週五提早下午4點下班/需專精ASP.net並具備網站架設經驗)","LAT":"25.0593953","LINK":"funday.asia","LON":"121.532819","NAME":"智擎數位科技股份有限公司"},{"ADDRESS":"中正路1071號11樓之5","ADDR_NO_DESCRIPT":"桃園市桃園區","JOB":"Internet程式設計師","LAT":"25.0155558","LINK":"www.digimagic.com.tw","LON":"121.2987039","NAME":"魔數電腦多媒體股份有限公司"},{"ADDRESS":"東興路45號9樓","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"Internet程式工程師","LAT":"25.047832","LINK":"http://blog.iprefer.com.tw","LON":"121.5662139","NAME":"奇禾互動行銷有限公司"},{"ADDRESS":"八德路4段760號10F-1","ADDR_NO_DESCRIPT":"台北市松山區","JOB":"Internet程式設計師","LAT":"25.0501013","LINK":"http://www.u-car.com.tw","LON":"121.5793154","NAME":"旭傳媒科技股份有限公司"},{"ADDRESS":"文化路一段266號10樓","ADDR_NO_DESCRIPT":"新北市板橋區","JOB":"Internet程式設計師","LAT":"25.0207487","LINK":"http://www.cmoney.tw/jobs/","LON":"121.4671248","NAME":"全曜財經資訊股份有限公司"},{"ADDRESS":"三重路19之11號3樓","ADDR_NO_DESCRIPT":"台北市南港區","JOB":"Internet前端工程師","LAT":"25.05786","LINK":"http://www.arplanet.com.tw","LON":"121.613999","NAME":"宇萌數位科技股份有限公司"},{"ADDRESS":"市政北二路236號35樓之1","ADDR_NO_DESCRIPT":"台中市西屯區","JOB":"Internet程式設計師(A組)","LAT":"24.1643244","LINK":"http://www.chungyo.net/","LON":"120.6357482","NAME":"凡谷興業有限公司"},{"ADDRESS":"林森南路4之2號7樓","ADDR_NO_DESCRIPT":"台北市中正區","JOB":"Sr.
-        Java Internet工程師","LAT":"25.083416","LINK":"http://www.frog-jump.com/","LON":"121.590373","NAME":"德義資訊股份有限公司"},{"ADDRESS":"林森南路4之2號7樓","ADDR_NO_DESCRIPT":"台北市中正區","JOB":"Sr.
-        Asp.Net Internet工程師","LAT":"25.043978","LINK":"http://www.frog-jump.com/","LON":"121.522949","NAME":"德義資訊股份有限公司"},{"ADDRESS":"林森南路4之2號7樓","ADDR_NO_DESCRIPT":"台北市中正區","JOB":"Asp.Net
-        Internet工程師","LAT":"25.043978","LINK":"http://www.frog-jump.com/","LON":"121.522949","NAME":"德義資訊股份有限公司"},{"ADDRESS":"林森南路4之2號7樓","ADDR_NO_DESCRIPT":"台北市中正區","JOB":"(Taipei)
-        Asp.Net Internet工程師","LAT":"25.043978","LINK":"http://www.frog-jump.com/","LON":"121.522949","NAME":"德義資訊股份有限公司"},{"ADDRESS":"基隆路一段143號3樓之1","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"Internet程式設計師","LAT":"25.0428946","LINK":"www.ready-market.com","LON":"121.5657582","NAME":"環球暢貨行銷股份有限公司"},{"ADDRESS":"忠孝東路五段508號21樓之3","ADDR_NO_DESCRIPT":"台北市信義區","JOB":"Internet程式設計師","LAT":"25.0409919","LINK":"","LON":"121.5786444","NAME":"台灣旅圖資訊股份有限公司"},{"ADDRESS":"民權東路三段170號2樓","ADDR_NO_DESCRIPT":"台北市松山區","JOB":"Internet網路工程師","LAT":"25.061534","LINK":"www.yam.com","LON":"121.548913","NAME":"天空傳媒股份有限公司"},{"ADDRESS":"民生東路四段54號4樓","ADDR_NO_DESCRIPT":"台北市松山區","JOB":"Internet程式設計師","LAT":"25.060064","LINK":"http://www.entrust.com.tw/","LON":"121.559306","NAME":"華南永昌綜合證券股份有限公司"}]}'
-    http_version: 
-  recorded_at: Sat, 06 Jan 2018 05:38:10 GMT
-- request:
-    method: get
     uri: http://www.104.com.tw/i/apis/jobsearch.cfm?cols=JOB,NAME,LINK,LAT,LON,ADDR_NO_DESCRIPT,ADDRESS&fmt=8&incs=2&kwop=2&kws=Internet&order=1&page=1
     body:
       encoding: UTF-8
@@ -64,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 06 Jan 2018 05:39:34 GMT
+      - Sat, 06 Jan 2018 05:39:43 GMT
       Content-Type:
       - text/html;charset=UTF-8
       Content-Length:
@@ -95,5 +50,5 @@ http_interactions:
         工程師","LAT":"25.0598628","LINK":"www.newsoft.com.tw","LON":"121.5772745","NAME":"力新國際科技股份有限公司"},{"ADDRESS":"衡陽路7號13樓","ADDR_NO_DESCRIPT":"台北市中正區","JOB":"Internet
         工程師","LAT":"25.0424189","LINK":"http://www.smarttaxi.com.tw","LON":"121.513862","NAME":"叫車通資訊股份有限公司"}]}'
     http_version: 
-  recorded_at: Sat, 06 Jan 2018 05:39:34 GMT
+  recorded_at: Sat, 06 Jan 2018 05:39:43 GMT
 recorded_with: VCR 3.0.3

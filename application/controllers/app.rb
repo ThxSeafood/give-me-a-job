@@ -19,10 +19,13 @@ require 'roda'
 module ThxSeafood
   # Web API
   class Api < Roda
-    plugin :halt
+    # plugin :halt
     plugin :all_verbs
-    # plugin :multi_route
+    plugin :multi_route
     
+    require_relative 'jobs'
+    require_relative 'shoryuken'
+
     route do |routing|
 
       response['Content-Type'] = 'application/json'
@@ -31,11 +34,11 @@ module ThxSeafood
       response['Access-Control-Allow-Credentials'] = 'true'
       response['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE'
 
-      app = Api
 
       # GET / request
       routing.root do
-        { 'message' => "ThxSeafood API v0.1 up in #{app.environment}" }.to_s
+        message = "ThxSeafood API v0.1 up in #{Api.environment} mode"
+        HttpResponseRepresenter.new(Result.new(:ok, message)).to_json
       end
 
       # Talk to Facebook
@@ -46,83 +49,11 @@ module ThxSeafood
       end
 
       routing.on 'api' do
-        # /api branch
-
-        routing.is do
-          {api: "api"}.to_s
-        end
-
-        routing.on 'v0.1' do
-          
-          # /api/v0.1 branch
-          routing.is do
-            {version: "v0.1"}.to_s
-          end
-
-          # /api/v0.1/job branch
-          routing.on 'jobs' do            
-            routing.is do
-
-              # GET /api/v0.1/jobs request
-              routing.get do
-                all_result = FindDatabaseAllJobs.call
-                
-                http_response = HttpResponseRepresenter.new(all_result.value)
-                response.status = http_response.http_code
-                if all_result.success?
-                  JobsRepresenter.new(JobsResult.new(all_result.value.message)).to_json
-                else
-                  http_response.to_json
-                end
-              end
-
-              # DELETE /api/v0.1/jobs request
-              Api.configure :development, :test do
-                routing.delete do
-                  %i[jobs].each do |table|
-                    Api.DB[table].delete
-                  end
-                  http_response = HttpResponseRepresenter
-                                  .new(Result.new(:ok, 'deleted tables'))
-                  response.status = http_response.http_code
-                  http_response.to_json
-                end
-              end
-
-            end
-
-            # GET /api/v0.1/jobs/:jobname request
-            routing.get String do |jobname|
-              find_result = FindDatabaseJobs.call(
-                jobname: jobname
-              )
-  
-              http_response = HttpResponseRepresenter.new(find_result.value)
-              response.status = http_response.http_code
-              if find_result.success?
-                JobsRepresenter.new(JobsResult.new(find_result.value.message)).to_json
-              else
-                http_response.to_json
-              end
-            end
-
-            # POST /api/v0.1/jobs/:jobname
-            routing.post String do |jobname|
-              service_result = LoadFrom104.new.call(
-                jobname: jobname
-              )
-
-              http_response = HttpResponseRepresenter.new(service_result.value)
-              response.status = http_response.http_code
-              if service_result.success?
-                response['Location'] = "/api/v0.1/jobs/#{jobname}"
-                JobsRepresenter.new(JobsResult.new(service_result.value.message)).to_json
-              else
-                http_response.to_json
-              end
-            end
-          end
-        end
+        # /api/v0.1 branch
+        routing.on 'v0.1' do          
+          @api_root = '/api/v0.1'
+          routing.multi_route        
+        end        
       end
     end
   end

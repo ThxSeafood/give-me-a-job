@@ -23,9 +23,10 @@ describe 'Tests Praise library' do
 
     describe 'Job information' do
         before do
+            @page = 1
             api = ThxSeafood::A104::Api.new
             job_mapper = ThxSeafood::A104::JobMapper.new(api)
-            @jobs = job_mapper.load_several(KEYWORDS)
+            @jobs = job_mapper.load_several(KEYWORDS, @page)
         end
 
         it 'HAPPY: size should match' do
@@ -33,9 +34,13 @@ describe 'Tests Praise library' do
             _(@jobs.count).must_equal CORRECT['contents'].count
         end
 
+        it 'HAPPY: page should match' do
+            _(@page.to_s).must_equal CORRECT['page']
+        end
+
         it 'HAPPY: user query should match' do
             _(@jobs.first.user_query).must_equal KEYWORDS
-        end        
+        end
 
         # 這邊會錯的原因是因為responese儲存成Entity Object後，順序不見得會跟原本的response相同，所以第一個不見得一樣
         # it 'HAPPY: contents should match' do

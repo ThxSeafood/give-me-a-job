@@ -12,7 +12,7 @@ module ThxSeafood
     step :store_jobs_in_repository
 
     def get_jobs_from_104(input)
-      jobs = A104::JobMapper.new(A104::Api.new).load_several(input[:jobname])
+      jobs = A104::JobMapper.new(A104::Api.new).load_several(input[:jobname], 1)
       Right(jobs: jobs)
     rescue StandardError
       Left(Result.new(:bad_request, 'Jobs not found'))
@@ -27,7 +27,8 @@ module ThxSeafood
     # end
 
     def store_jobs_in_repository(input)
-      stored_jobs = input[:jobs].map{ |job| Repository::For[job.class].find_or_create(job) }
+      # stored_jobs = input[:jobs].map{ |job| Repository::For[job.class].find_or_create(job) }
+      stored_jobs = input[:jobs].map{ |job| Repository::For[job.class].create(job) }
       Right(Result.new(:created, stored_jobs))
     rescue StandardError => e
       puts e.to_s
