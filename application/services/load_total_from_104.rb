@@ -55,7 +55,7 @@ module ThxSeafood
         # # 這裡先load前20頁就好，不然worker跑超久，而且可能產生DatabaseBusyError，以及突破SQS收訊限制(之前明明將近48xx多筆資料，卻只有儲存38xx多筆到DB裡面，少掉了一千多筆左右的資料)
         (1..input[:page_num]).each{ |page|
           Concurrent::Promise.execute{
-            load_data_request = LoadDataRequest.new(page, input[:jobname], intput[:page_num])
+            load_data_request = LoadDataRequest.new(page, input[:jobname], input[:page_num])
             load_data_request_json = LoadDataRequestRepresenter.new(load_data_request).to_json
             LoadPageDataWorker.perform_async(load_data_request_json)
           }
