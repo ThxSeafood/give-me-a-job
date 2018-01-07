@@ -26,7 +26,7 @@ module ThxSeafood
 
 
       def self.find_hot_jobs_by_city_using_regexp(topnum, city)
-        db_records = Database::JobOrm.where(addr_no_descript: /.*#{city}.*/)[0..topnum-1]
+        db_records = Database::JobOrm.where(addr_no_descript: /.*#{city}.*/).all[0..topnum-1]
         db_records.map{ |db_record| rebuild_entity(db_record) }
       end
 
