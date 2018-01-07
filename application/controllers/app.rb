@@ -25,6 +25,7 @@ module ThxSeafood
     
     require_relative 'jobs'
     require_relative 'shoryuken'
+    require_relative 'hot'
 
     route do |routing|
 

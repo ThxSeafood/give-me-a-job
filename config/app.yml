@@ -1,6 +1,15 @@
 ---
 development:
+  API_URL: 'http://localhost:3030'
   DB_FILENAME: infrastructure/database/dev.db
 
 test:
+  API_URL: 'http://localhost:3000'
   DB_FILENAME: infrastructure/database/test.db
+
+app_test:
+  API_URL: 'http://localhost:3000'
+  DB_FILENAME: infrastructure/database/test.db
+
+production:
+  API_URL: 'https://thx-seafood.herokuapp.com'

@@ -48,6 +48,13 @@ namespace :api do
       puts 'REMEMBER: need to run `rake run:test:worker` in another process'
       sh "rerun -c 'RACK_ENV=test rackup -p 3000' --ignore 'coverage/*'"
     end
+
+    desc 'Run the API server to test the client app'
+    task :app_test do
+      puts 'REMEMBER: need to run `rake worker:run:app_test` in another process'
+      sh "rerun -c 'RACK_ENV=test rackup -p 3000'"
+    end
+
   end
 end
 
@@ -55,17 +62,22 @@ namespace :worker do
   namespace :run do
     desc 'Run the background cloning worker in development mode'
     task :development => :config do
-      sh 'RACK_ENV=development bundle exec shoryuken -r ./workers/load_page_data_worker.rb -C ./workers/shoryuken_dev.yml'
+      sh 'RACK_ENV=development bundle exec shoryuken -r ./workers/find_hot_jobs_worker.rb -C ./workers/shoryuken_dev.yml'
     end
 
     desc 'Run the background cloning worker in testing mode'
     task :test => :config do
-      sh 'RACK_ENV=test bundle exec shoryuken -r ./workers/load_page_data_worker.rb -C ./workers/shoryuken_test.yml'
+      sh 'RACK_ENV=test bundle exec shoryuken -r ./workers/find_hot_jobs_worker.rb -C ./workers/shoryuken_test.yml'
+    end
+
+    desc 'Run the background cloning worker in testing mode'
+    task :app_test => :config do
+      sh 'RACK_ENV=app_test bundle exec shoryuken -r ./workers/find_hot_jobs_worker.rb -C ./workers/shoryuken_test.yml'
     end
 
     desc 'Run the background cloning worker in production mode'
     task :production => :config do
-      sh 'RACK_ENV=production bundle exec shoryuken -r ./workers/load_page_data_worker.rb -C ./workers/shoryuken.yml'
+      sh 'RACK_ENV=production bundle exec shoryuken -r ./workers/find_hot_jobs_worker.rb -C ./workers/shoryuken.yml'
     end
   end
 end
@@ -163,6 +175,7 @@ namespace :db do
     require_relative 'config/environment.rb'
     # drop according to dependencies
     app.DB.drop_table :jobs
+    app.DB.drop_table :hots
     app.DB.drop_table :schema_info
   end
 

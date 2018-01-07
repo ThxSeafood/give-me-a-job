@@ -9,6 +9,7 @@ gem 'concurrent-ruby'
 
 # Worker gems
 gem 'aws-sdk-sqs', '~> 1'
+gem 'faye', '~> 1'
 gem 'shoryuken', '~> 3'
 
 # Web app related
