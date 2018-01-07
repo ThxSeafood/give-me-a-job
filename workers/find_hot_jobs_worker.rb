@@ -41,8 +41,8 @@ class FindHotJobsWorker
     citys.each{ |city|
       
       puts "processing: #{city}\n"
-      # hot_jobs = ThxSeafood::Repository::For[ThxSeafood::Entity::Job].find_hot_jobs_by_city_using_regexp(topnum, city)
-      hot_jobs = ThxSeafood::Repository::For[ThxSeafood::Entity::Job].all[0..topnum-1]
+      hot_jobs = ThxSeafood::Repository::For[ThxSeafood::Entity::Job].find_hot_jobs_by_city_using_regexp(topnum, city)
+      # hot_jobs = ThxSeafood::Repository::For[ThxSeafood::Entity::Job].all[0..topnum-1]
       
       hot_jobs.each{ |job|
         ThxSeafood::Repository::For[ThxSeafood::Entity::Hot].create(job, city)
